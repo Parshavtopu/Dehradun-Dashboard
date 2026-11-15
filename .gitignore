@@ -30,3 +30,21 @@
 *.exe
 *.out
 *.app
+
+# Raw Desktop GIS binaries (processed into GeoJSON / PNG web assets)
+*.shp
+*.shx
+*.dbf
+*.sbn
+*.sbx
+*.cpg
+*.prj
+*.tif
+*.tfw
+*.aux.xml
+*.tif.xml
+*.shp.xml
+*intermediate*
+*flood_risk_manifest.json
+*flow_direction_manifest.json
+

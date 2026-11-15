@@ -164,49 +164,128 @@ document.addEventListener('DOMContentLoaded', function () {
     // 2. Initialize Vector Layers
     function initVectorLayers(vectors) {
         const vulnContainer = document.getElementById('list-vulnerability-layers');
+        const hydroContainer = document.getElementById('list-hydro-layers');
         const adminContainer = document.getElementById('list-admin-layers');
+        const urbanContainer = document.getElementById('list-urban-layers');
+
+        let countVuln = 0, countHydro = 0, countAdmin = 0, countUrban = 0;
 
         vectors.forEach(v => {
-            fetch(v.url)
-                .then(res => res.json())
-                .then(geojsonData => {
-                    let layerObj = null;
+            const isDefaultActive = v.activeDefault || false;
 
-                    if (v.isChoropleth) {
-                        layerObj = createChoroplethLayer(v, geojsonData);
-                    } else if (v.id === 'vec_slum_locations') {
-                        layerObj = createSlumLayer(v, geojsonData);
-                    } else {
-                        layerObj = createVectorLayer(v, geojsonData);
-                    }
+            // Register in App.layers immediately
+            App.layers[v.id] = {
+                layerObj: null,
+                meta: v,
+                type: 'vector',
+                active: false,
+                bounds: null,
+                isLoading: false
+            };
 
-                    const isDefaultActive = v.activeDefault || false;
+            // Append card to corresponding group
+            const card = createLayerCard(v.id, v.name, v.category, '', isDefaultActive, v.legend);
 
-                    App.layers[v.id] = {
-                        layerObj: layerObj,
-                        meta: v,
-                        type: 'vector',
-                        active: isDefaultActive,
-                        bounds: layerObj.getBounds()
-                    };
+            if (v.category.includes('Demographics') || v.category.includes('Vulnerability')) {
+                if (vulnContainer) vulnContainer.appendChild(card);
+                countVuln++;
+            } else if (v.category.includes('Hydrology') || v.category.includes('Drainage')) {
+                if (hydroContainer) hydroContainer.appendChild(card);
+                else if (adminContainer) adminContainer.appendChild(card);
+                countHydro++;
+            } else if (v.category.includes('Geology') || v.category.includes('Administrative') || v.category.includes('Boundaries')) {
+                if (adminContainer) adminContainer.appendChild(card);
+                countAdmin++;
+            } else {
+                if (urbanContainer) urbanContainer.appendChild(card);
+                else if (adminContainer) adminContainer.appendChild(card);
+                countUrban++;
+            }
 
-                    if (isDefaultActive) {
-                        layerObj.addTo(App.map);
-                    }
-
-                    // Append card to corresponding group
-                    const card = createLayerCard(v.id, v.name, v.category, '', isDefaultActive, v.legend);
-
-                    if (v.category.includes('Demographics') || v.category.includes('Vulnerability')) {
-                        if (vulnContainer) vulnContainer.appendChild(card);
-                    } else if (adminContainer) {
-                        adminContainer.appendChild(card);
-                    }
-
-                    updateLegendDock();
-                })
-                .catch(err => console.error(`Error loading vector layer ${v.id}:`, err));
+            // If active by default, load and display immediately
+            if (isDefaultActive) {
+                loadAndActivateVectorLayer(v.id);
+            }
         });
+
+        const badgeVuln = document.getElementById('count-vuln-layers');
+        if (badgeVuln) badgeVuln.textContent = countVuln;
+        const badgeHydro = document.getElementById('count-hydro-layers');
+        if (badgeHydro) badgeHydro.textContent = countHydro;
+        const badgeAdmin = document.getElementById('count-admin-layers');
+        if (badgeAdmin) badgeAdmin.textContent = countAdmin;
+        const badgeUrban = document.getElementById('count-urban-layers');
+        if (badgeUrban) badgeUrban.textContent = countUrban;
+    }
+
+    function loadAndActivateVectorLayer(id, callback) {
+        const item = App.layers[id];
+        if (!item) return;
+
+        if (item.layerObj) {
+            if (!App.map.hasLayer(item.layerObj)) {
+                App.map.addLayer(item.layerObj);
+            }
+            item.active = true;
+            syncUIState(id, true);
+            updateLegendDock();
+            if (callback) callback();
+            return;
+        }
+
+        if (item.isLoading) return;
+        item.isLoading = true;
+
+        const btnToggle = document.getElementById(`btn-toggle-${id}`);
+        if (btnToggle) btnToggle.innerHTML = '<i class="fa fa-spinner fa-spin"></i>';
+
+        const chip = document.querySelector(`.quick-chip[data-layer-id="${id}"]`);
+        if (chip) {
+            const badge = chip.querySelector('.badge-status');
+            if (badge) {
+                badge.className = 'badge-status';
+                badge.textContent = '...';
+            }
+        }
+
+        const v = item.meta;
+        fetch(v.url)
+            .then(res => res.json())
+            .then(geojsonData => {
+                let layerObj = null;
+
+                if (v.isChoropleth) {
+                    layerObj = createChoroplethLayer(v, geojsonData);
+                } else if (v.id === 'vec_slum_locations') {
+                    layerObj = createSlumLayer(v, geojsonData);
+                } else {
+                    layerObj = createVectorLayer(v, geojsonData);
+                }
+
+                item.layerObj = layerObj;
+                item.bounds = layerObj.getBounds();
+                item.isLoading = false;
+                item.active = true;
+
+                App.map.addLayer(layerObj);
+                syncUIState(id, true);
+                updateLegendDock();
+                if (callback) callback();
+            })
+            .catch(err => {
+                console.error(`Error loading vector layer ${id}:`, err);
+                item.isLoading = false;
+                syncUIState(id, false);
+            });
+    }
+
+    function deactivateVectorLayer(id) {
+        const item = App.layers[id];
+        if (!item || !item.layerObj) return;
+        App.map.removeLayer(item.layerObj);
+        item.active = false;
+        syncUIState(id, false);
+        updateLegendDock();
     }
 
     // Population Density Choropleth Color Scale
@@ -324,14 +403,22 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function createVectorLayer(config, data) {
+        // Use HTML5 Canvas renderer for smooth 60fps rendering of large datasets like 81,497 buildings
+        const canvasRenderer = L.canvas({ padding: 0.5 });
+
         return L.geoJSON(data, {
-            style: function () {
+            renderer: canvasRenderer,
+            style: function (feature) {
+                const geomType = (feature.geometry && feature.geometry.type) ? feature.geometry.type : '';
+                const isLine = geomType.includes('LineString');
+                const isPoly = geomType.includes('Polygon');
+
                 return {
                     color: config.color || '#3498db',
-                    weight: config.weight || 2,
+                    weight: config.weight || (isLine ? 2.5 : 1),
                     dashArray: config.dashArray || null,
                     fillColor: config.fillColor || config.color || '#3498db',
-                    fillOpacity: config.fillOpacity !== undefined ? config.fillOpacity : 0.2
+                    fillOpacity: isPoly ? (config.fillOpacity !== undefined ? config.fillOpacity : 0.4) : 0
                 };
             },
             pointToLayer: function (feature, latlng) {
@@ -346,10 +433,15 @@ document.addEventListener('DOMContentLoaded', function () {
             },
             onEachFeature: function (feature, layer) {
                 if (feature.properties) {
-                    let html = `<div class="p-1"><strong>${config.name}</strong><hr class="my-1"/>`;
+                    let html = `<div class="p-1" style="min-width:180px;">`;
+                    html += `<div class="fw-bold border-bottom pb-1 mb-1 text-primary"><i class="fa ${config.icon || 'fa-map-pin'}"></i> ${config.name}</div>`;
+                    let pCount = 0;
                     for (let k in feature.properties) {
-                        if (feature.properties[k]) {
-                            html += `<div class="small"><strong>${k}:</strong> ${feature.properties[k]}</div>`;
+                        const val = feature.properties[k];
+                        if (val !== undefined && val !== null && val !== '') {
+                            html += `<div class="small"><strong>${k}:</strong> ${val}</div>`;
+                            pCount++;
+                            if (pCount >= 8) break;
                         }
                     }
                     html += '</div>';
@@ -423,37 +515,12 @@ document.addEventListener('DOMContentLoaded', function () {
     // =========================================================================
     // One-Click Layer Toggling Function
     // =========================================================================
-    function toggleLayer(id) {
-        const item = App.layers[id];
-        if (!item) return;
-
+    function syncUIState(id, isActive) {
         const card = document.getElementById(`card-${id}`);
         const btnToggle = document.getElementById(`btn-toggle-${id}`);
         const chip = document.querySelector(`.quick-chip[data-layer-id="${id}"]`);
 
-        if (item.active) {
-            // Turn Layer OFF
-            App.map.removeLayer(item.layerObj);
-            item.active = false;
-
-            if (card) card.classList.remove('is-active');
-            if (btnToggle) {
-                btnToggle.classList.remove('active');
-                btnToggle.innerHTML = '<i class="fa fa-eye-slash"></i>';
-            }
-            if (chip) {
-                chip.classList.remove('active');
-                const badge = chip.querySelector('.badge-status');
-                if (badge) {
-                    badge.className = 'badge-status off';
-                    badge.textContent = 'OFF';
-                }
-            }
-        } else {
-            // Turn Layer ON
-            App.map.addLayer(item.layerObj);
-            item.active = true;
-
+        if (isActive) {
             if (card) card.classList.add('is-active');
             if (btnToggle) {
                 btnToggle.classList.add('active');
@@ -467,25 +534,68 @@ document.addEventListener('DOMContentLoaded', function () {
                     badge.textContent = 'ON';
                 }
             }
+        } else {
+            if (card) card.classList.remove('is-active');
+            if (btnToggle) {
+                btnToggle.classList.remove('active');
+                btnToggle.innerHTML = '<i class="fa fa-eye-slash"></i>';
+            }
+            if (chip) {
+                chip.classList.remove('active');
+                const badge = chip.querySelector('.badge-status');
+                if (badge) {
+                    badge.className = 'badge-status off';
+                    badge.textContent = 'OFF';
+                }
+            }
         }
+    }
 
-        updateLegendDock();
+    function toggleLayer(id) {
+        const item = App.layers[id];
+        if (!item) return;
+
+        if (item.type === 'raster') {
+            if (item.active) {
+                App.map.removeLayer(item.layerObj);
+                item.active = false;
+                syncUIState(id, false);
+            } else {
+                App.map.addLayer(item.layerObj);
+                item.active = true;
+                syncUIState(id, true);
+            }
+            updateLegendDock();
+        } else if (item.type === 'vector') {
+            if (item.active) {
+                deactivateVectorLayer(id);
+            } else {
+                loadAndActivateVectorLayer(id);
+            }
+        }
     }
 
     function zoomToLayer(id) {
         const item = App.layers[id];
-        if (!item || !item.bounds) return;
+        if (!item) return;
 
-        if (item.bounds.isValid && item.bounds.isValid()) {
-            App.map.fitBounds(item.bounds, { padding: [30, 30] });
-        } else if (Array.isArray(item.bounds)) {
-            App.map.fitBounds(item.bounds, { padding: [30, 30] });
+        if (!item.layerObj && item.type === 'vector') {
+            loadAndActivateVectorLayer(id, () => zoomToLayer(id));
+            return;
+        }
+
+        if (item.bounds) {
+            if (item.bounds.isValid && item.bounds.isValid()) {
+                App.map.fitBounds(item.bounds, { padding: [30, 30] });
+            } else if (Array.isArray(item.bounds)) {
+                App.map.fitBounds(item.bounds, { padding: [30, 30] });
+            }
         }
     }
 
     function setLayerOpacity(id, opacity) {
         const item = App.layers[id];
-        if (!item) return;
+        if (!item || !item.layerObj) return;
 
         if (item.layerObj.setOpacity) {
             item.layerObj.setOpacity(opacity);

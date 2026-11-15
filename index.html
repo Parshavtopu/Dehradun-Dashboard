@@ -125,29 +125,34 @@
                 <i class="fa fa-users"></i> Population Density <span class="badge-status off">OFF</span>
             </button>
 
+            <!-- Multi-Scenario Flood Risk Zones -->
+            <button class="quick-chip" data-layer-id="flood_risk_model" title="Toggle Multi-Scenario Flood Risk Zones">
+                <i class="fa fa-shield-alt"></i> Flood Risk Zones <span class="badge-status off">OFF</span>
+            </button>
+
+            <!-- Stream Drainage Network -->
+            <button class="quick-chip" data-layer-id="vec_streams" title="Toggle Stream Drainage Network">
+                <i class="fa fa-water"></i> Stream Network <span class="badge-status off">OFF</span>
+            </button>
+
+            <!-- Geological Lineaments -->
+            <button class="quick-chip" data-layer-id="vec_lineaments" title="Toggle Geological Fault Lineaments">
+                <i class="fa fa-project-diagram"></i> Fault Lineaments <span class="badge-status off">OFF</span>
+            </button>
+
+            <!-- Building Footprints -->
+            <button class="quick-chip" data-layer-id="vec_buildings" title="Toggle Building Footprints (81,497 Structures)">
+                <i class="fa fa-building"></i> Buildings (81k) <span class="badge-status off">OFF</span>
+            </button>
+
+            <!-- Flow Direction -->
+            <button class="quick-chip" data-layer-id="flow_direction" title="Toggle Hydrological Flow Direction (D8)">
+                <i class="fa fa-compass"></i> Flow Direction <span class="badge-status off">OFF</span>
+            </button>
+
             <!-- Flood Inundation -->
             <button class="quick-chip active" data-layer-id="flood_inundation" title="Toggle Flood Hazard">
                 <i class="fa fa-water"></i> Flood Hazard <span class="badge-status on">ON</span>
-            </button>
-
-            <!-- Slope -->
-            <button class="quick-chip" data-layer-id="slope_analysis" title="Toggle Slope Analysis">
-                <i class="fa fa-mountain"></i> Slope <span class="badge-status off">OFF</span>
-            </button>
-
-            <!-- Rainfall -->
-            <button class="quick-chip" data-layer-id="rainfall_aoi" title="Toggle Rainfall">
-                <i class="fa fa-cloud-showers-heavy"></i> Rainfall <span class="badge-status off">OFF</span>
-            </button>
-
-            <!-- Land Cover -->
-            <button class="quick-chip" data-layer-id="lulc_fr" title="Toggle Land Cover">
-                <i class="fa fa-tree"></i> Land Cover <span class="badge-status off">OFF</span>
-            </button>
-
-            <!-- TWI Wetness -->
-            <button class="quick-chip" data-layer-id="twi_wetness" title="Toggle Topographic Wetness">
-                <i class="fa fa-tint"></i> TWI Wetness <span class="badge-status off">OFF</span>
             </button>
 
             <!-- Municipal Boundary -->
@@ -155,9 +160,19 @@
                 <i class="fa fa-landmark"></i> City Boundary <span class="badge-status on">ON</span>
             </button>
 
+            <!-- Study AOI Boundary -->
+            <button class="quick-chip active" data-layer-id="vec_study_area_aoi" title="Toggle Study Area Extent (AOI)">
+                <i class="fa fa-vector-square"></i> Study AOI <span class="badge-status on">ON</span>
+            </button>
+
             <!-- Storm Drains -->
-            <button class="quick-chip" data-layer-id="vec_stw_drain" title="Toggle Drainage Network">
+            <button class="quick-chip" data-layer-id="vec_stw_drain" title="Toggle Storm Water Drainage Network">
                 <i class="fa fa-route"></i> Storm Drains <span class="badge-status off">OFF</span>
+            </button>
+
+            <!-- Slope -->
+            <button class="quick-chip" data-layer-id="slope_analysis" title="Toggle Topographic Slope">
+                <i class="fa fa-mountain"></i> Slope <span class="badge-status off">OFF</span>
             </button>
         </div>
 
@@ -195,7 +210,7 @@
                     <div class="layer-group">
                         <div class="group-header" data-bs-toggle="collapse" data-bs-target="#group-vulnerability">
                             <span class="group-title"><i class="fa fa-users text-danger"></i> Demographics & Vulnerability</span>
-                            <span class="group-count">2</span>
+                            <span class="group-count" id="count-vuln-layers">2</span>
                             <i class="fa fa-chevron-down group-arrow"></i>
                         </div>
                         <div class="collapse show" id="group-vulnerability">
@@ -209,7 +224,7 @@
                     <div class="layer-group">
                         <div class="group-header" data-bs-toggle="collapse" data-bs-target="#group-dss-rasters">
                             <span class="group-title"><i class="fa fa-satellite-dish text-primary"></i> Decision Support Rasters</span>
-                            <span class="group-count" id="count-dss-rasters">9</span>
+                            <span class="group-count" id="count-dss-rasters">11</span>
                             <i class="fa fa-chevron-down group-arrow"></i>
                         </div>
                         <div class="collapse show" id="group-dss-rasters">
@@ -219,21 +234,49 @@
                         </div>
                     </div>
 
-                    <!-- Section 3: Administrative & Infrastructure -->
+                    <!-- Section 3: Hydrology & Drainage Vectors -->
                     <div class="layer-group">
-                        <div class="group-header" data-bs-toggle="collapse" data-bs-target="#group-admin">
-                            <span class="group-title"><i class="fa fa-landmark text-secondary"></i> Administrative & Infrastructure</span>
-                            <span class="group-count">5</span>
+                        <div class="group-header" data-bs-toggle="collapse" data-bs-target="#group-hydro">
+                            <span class="group-title"><i class="fa fa-water text-info"></i> Hydrology & Drainage</span>
+                            <span class="group-count" id="count-hydro-layers">3</span>
                             <i class="fa fa-chevron-down group-arrow"></i>
                         </div>
-                        <div class="collapse" id="group-admin">
-                            <div class="group-layers-list" id="list-admin-layers">
-                                <!-- Populated dynamically -->
+                        <div class="collapse show" id="group-hydro">
+                            <div class="group-layers-list" id="list-hydro-layers">
+                                <!-- Populated dynamically (Streams, Waterbodies, Storm Drains) -->
                             </div>
                         </div>
                     </div>
 
-                    <!-- Section 4: User Uploaded Layers -->
+                    <!-- Section 4: Administrative & Geology -->
+                    <div class="layer-group">
+                        <div class="group-header" data-bs-toggle="collapse" data-bs-target="#group-admin">
+                            <span class="group-title"><i class="fa fa-landmark text-secondary"></i> Administrative & Geology</span>
+                            <span class="group-count" id="count-admin-layers">3</span>
+                            <i class="fa fa-chevron-down group-arrow"></i>
+                        </div>
+                        <div class="collapse show" id="group-admin">
+                            <div class="group-layers-list" id="list-admin-layers">
+                                <!-- Populated dynamically (Municipal Boundary, AOI, Lineaments) -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Section 5: Built Environment & Smart Utilities -->
+                    <div class="layer-group">
+                        <div class="group-header" data-bs-toggle="collapse" data-bs-target="#group-urban">
+                            <span class="group-title"><i class="fa fa-city text-warning"></i> Built Environment & Utilities</span>
+                            <span class="group-count" id="count-urban-layers">6</span>
+                            <i class="fa fa-chevron-down group-arrow"></i>
+                        </div>
+                        <div class="collapse" id="group-urban">
+                            <div class="group-layers-list" id="list-urban-layers">
+                                <!-- Populated dynamically (Buildings, Bus Stops, SCADA, Waste, Fire, Sensors) -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Section 6: User Uploaded Layers -->
                     <div class="layer-group">
                         <div class="group-header" data-bs-toggle="collapse" data-bs-target="#group-user-uploads">
                             <span class="group-title"><i class="fa fa-folder-open text-success"></i> User Uploaded Layers</span>
