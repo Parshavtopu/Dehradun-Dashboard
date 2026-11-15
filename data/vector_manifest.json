@@ -1,0 +1,90 @@
+[
+  {
+    "id": "vec_slum_locations",
+    "name": "Slum Locations (Malin Bastis)",
+    "category": "Demographics & Vulnerability",
+    "url": "data/vectors/slum_locations.geojson",
+    "pointColor": "#e74c3c",
+    "pointRadius": 7,
+    "icon": "fa-campground",
+    "description": "Recognized informal settlements (Malin Bastis) situated along high flood-risk riverbeds (Rispana & Bindal) and transport corridors.",
+    "activeDefault": true,
+    "legend": [
+      { "label": "Critical Flood Hazard Slum", "color": "#e74c3c" },
+      { "label": "High Vulnerability Slum", "color": "#f39c12" }
+    ]
+  },
+  {
+    "id": "vec_population_density",
+    "name": "Ward Population Density",
+    "category": "Demographics & Vulnerability",
+    "url": "data/vectors/ward_population.geojson",
+    "isChoropleth": true,
+    "densityProperty": "population_density",
+    "description": "Gross population density across all 100 municipal wards in persons per km².",
+    "activeDefault": false,
+    "legend": [
+      { "label": "< 5,000 / km² (Peripheral)", "color": "#ffffb2" },
+      { "label": "5,000 - 15,000 / km² (Moderate)", "color": "#fecc5c" },
+      { "label": "15,000 - 30,000 / km² (High)", "color": "#fd8d3c" },
+      { "label": "30,000 - 50,000 / km² (Very High)", "color": "#f03b20" },
+      { "label": "> 50,000 / km² (Core Urban)", "color": "#bd0026" }
+    ]
+  },
+  {
+    "id": "vec_municipal_boundary",
+    "name": "Dehradun Municipal Boundary",
+    "category": "Administrative",
+    "url": "data/vectors/boundary_municipal.geojson",
+    "color": "#2c3e50",
+    "weight": 2.5,
+    "dashArray": "5, 5",
+    "fillColor": "transparent",
+    "fillOpacity": 0,
+    "description": "Statutory municipal administrative boundary of Dehradun Nagar Nigam.",
+    "activeDefault": true
+  },
+  {
+    "id": "vec_stw_drain",
+    "name": "Storm Water Drainage Network",
+    "category": "Hydrology & Utilities",
+    "url": "data/vectors/stw_drain.geojson",
+    "color": "#0077b6",
+    "weight": 2.5,
+    "description": "Primary natural and masonry drainage nullahs across the city.",
+    "activeDefault": false
+  },
+  {
+    "id": "vec_fire_station",
+    "name": "Emergency Fire Stations",
+    "category": "Emergency & Safety",
+    "url": "data/vectors/fire_station.geojson",
+    "pointColor": "#c0392b",
+    "pointRadius": 6,
+    "icon": "fa-fire-extinguisher",
+    "description": "Emergency response fire brigade stations.",
+    "activeDefault": false
+  },
+  {
+    "id": "vec_scada_tubewell",
+    "name": "SCADA Water Tubewells",
+    "category": "Smart Utilities",
+    "url": "data/vectors/scada_tubewell.geojson",
+    "pointColor": "#00b4d8",
+    "pointRadius": 5,
+    "icon": "fa-tint",
+    "description": "Municipal automated telemetry water tubewells.",
+    "activeDefault": false
+  },
+  {
+    "id": "vec_environmental_sensor",
+    "name": "Environmental Sensors",
+    "category": "Smart Utilities",
+    "url": "data/vectors/environmental_sensor.geojson",
+    "pointColor": "#27ae60",
+    "pointRadius": 5,
+    "icon": "fa-leaf",
+    "description": "Ambient air and environmental monitoring stations.",
+    "activeDefault": false
+  }
+]

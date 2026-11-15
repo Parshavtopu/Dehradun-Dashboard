@@ -1,0 +1,1055 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.042212,
+          30.32483
+        ]
+      },
+      "properties": {
+        "junction_name": "Clock Tower 1",
+        "ward_name": "Ghanta Ghar",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_no": "3",
+        "ward_no": "19",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.016335,
+          30.341906
+        ]
+      },
+      "properties": {
+        "junction_name": "ONGC",
+        "ward_name": "Ballupur",
+        "zone_name": "Arcedeia",
+        "zone_no": "4",
+        "ward_no": "32",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.023017,
+          30.288437
+        ]
+      },
+      "properties": {
+        "junction_name": "Kargi Chowk 1",
+        "ward_name": "Banjarowala",
+        "zone_name": "Mothrowala",
+        "zone_no": "1",
+        "ward_no": "84",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.026585,
+          30.333493
+        ]
+      },
+      "properties": {
+        "junction_name": "Kishan Nagar Chowk",
+        "ward_name": "Sri Dev Suman Nagar",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_no": "3",
+        "ward_no": "35",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.054812,
+          30.335825
+        ]
+      },
+      "properties": {
+        "junction_name": "Dilaram Chowk",
+        "ward_name": "Bakralwala",
+        "zone_name": "Rajpur",
+        "zone_no": "5",
+        "ward_no": "16",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.045164,
+          30.288324
+        ]
+      },
+      "properties": {
+        "junction_name": "Rispana ROB 2",
+        "ward_name": "Kedarpur",
+        "zone_name": "Mothrowala",
+        "zone_no": "1",
+        "ward_no": "83",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.077425,
+          30.371688
+        ]
+      },
+      "properties": {
+        "junction_name": "Mussorie Road",
+        "ward_name": "Rajpur",
+        "zone_name": "Rajpur",
+        "zone_no": "5",
+        "ward_no": "4",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.083684,
+          30.376294
+        ]
+      },
+      "properties": {
+        "junction_name": "Balayogi Ashram",
+        "ward_name": "Rajpur",
+        "zone_name": "Rajpur",
+        "zone_no": "5",
+        "ward_no": "4",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.06314,
+          30.353128
+        ]
+      },
+      "properties": {
+        "junction_name": "NIEPVD",
+        "ward_name": "Doon Vihar",
+        "zone_name": "Rajpur",
+        "zone_no": "5",
+        "ward_no": "6",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.076881,
+          30.366227
+        ]
+      },
+      "properties": {
+        "junction_name": "Canal Road",
+        "ward_name": "Doon Vihar",
+        "zone_name": "Rajpur",
+        "zone_no": "5",
+        "ward_no": "6",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.070865,
+          30.36601
+        ]
+      },
+      "properties": {
+        "junction_name": "Pacific Mall",
+        "ward_name": "Doon Vihar",
+        "zone_name": "Rajpur",
+        "zone_no": "5",
+        "ward_no": "6",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.064219,
+          30.32382
+        ]
+      },
+      "properties": {
+        "junction_name": "Sahastradhara Crossing Chowk",
+        "ward_name": "Adhoiwala Uttar",
+        "zone_name": "Rajpur",
+        "zone_no": "5",
+        "ward_no": "46",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.065995,
+          30.356824
+        ]
+      },
+      "properties": {
+        "junction_name": "Presidents Bodyguard House",
+        "ward_name": "Jakhan",
+        "zone_name": "Rajpur",
+        "zone_no": "5",
+        "ward_no": "7",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.072051,
+          30.280388
+        ]
+      },
+      "properties": {
+        "junction_name": "Mohkampur Flyover Up",
+        "ward_name": "Mohkampur",
+        "zone_name": "Harrawala",
+        "zone_no": "2",
+        "ward_no": "67",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.079767,
+          30.2706
+        ]
+      },
+      "properties": {
+        "junction_name": "Mohkampur Flyover Down",
+        "ward_name": "Mohkampur",
+        "zone_name": "Harrawala",
+        "zone_no": "2",
+        "ward_no": "67",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.099405,
+          30.308231
+        ]
+      },
+      "properties": {
+        "junction_name": "Maharana Pratap Chowk",
+        "ward_name": "Ranjhawala",
+        "zone_name": "Harrawala",
+        "zone_no": "2",
+        "ward_no": "3",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.099277,
+          30.372959
+        ]
+      },
+      "properties": {
+        "junction_name": "Krishali Chowk",
+        "ward_name": "Gujrara Mansingh",
+        "zone_name": "Rajpur",
+        "zone_no": "5",
+        "ward_no": "59",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.997701,
+          30.332615
+        ]
+      },
+      "properties": {
+        "junction_name": "F.R.I Gate 2",
+        "ward_name": "Basant Vihar",
+        "zone_name": "Arcedeia",
+        "zone_no": "4",
+        "ward_no": "37",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.99768,
+          30.332703
+        ]
+      },
+      "properties": {
+        "junction_name": "F.R.I Gate 1",
+        "ward_name": "Basant Vihar",
+        "zone_name": "Arcedeia",
+        "zone_no": "4",
+        "ward_no": "37",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.079105,
+          30.402668
+        ]
+      },
+      "properties": {
+        "junction_name": "Village Bagryal",
+        "ward_name": "Malsi",
+        "zone_name": "Rajpur",
+        "zone_no": "5",
+        "ward_no": "1",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.048528,
+          30.307341
+        ]
+      },
+      "properties": {
+        "junction_name": "Araghar Chowk",
+        "ward_name": "Racecourse (North)",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_no": "3",
+        "ward_no": "20",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.07201,
+          30.321431
+        ]
+      },
+      "properties": {
+        "junction_name": "Gurdwara Nanaksar",
+        "ward_name": "Nanur Khera",
+        "zone_name": "Harrawala",
+        "zone_no": "2",
+        "ward_no": "62",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.997149,
+          30.294195
+        ]
+      },
+      "properties": {
+        "junction_name": "Saint Judes Chowk",
+        "ward_name": "Pithuwala",
+        "zone_name": "Arcedeia",
+        "zone_no": "4",
+        "ward_no": "87",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.015281,
+          30.333669
+        ]
+      },
+      "properties": {
+        "junction_name": "Ballupur Flyover",
+        "ward_name": "Vijay Park",
+        "zone_name": "Arcedeia",
+        "zone_no": "4",
+        "ward_no": "36",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.984796,
+          30.267032
+        ]
+      },
+      "properties": {
+        "junction_name": "Mohabbewala 1",
+        "ward_name": "Mohbewala",
+        "zone_name": "Mothrowala",
+        "zone_no": "1",
+        "ward_no": "90",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.989849,
+          30.277845
+        ]
+      },
+      "properties": {
+        "junction_name": "Mohabbewala 2",
+        "ward_name": "Mohbewala",
+        "zone_name": "Mothrowala",
+        "zone_no": "1",
+        "ward_no": "90",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.053751,
+          30.332309
+        ]
+      },
+      "properties": {
+        "junction_name": "Nany's Bakery",
+        "ward_name": "Bakralwala",
+        "zone_name": "Rajpur",
+        "zone_no": "5",
+        "ward_no": "16",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.045356,
+          30.321955
+        ]
+      },
+      "properties": {
+        "junction_name": "Buddha Park",
+        "ward_name": "M.K.P",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_no": "3",
+        "ward_no": "21",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.045309,
+          30.323789
+        ]
+      },
+      "properties": {
+        "junction_name": "Lencidon Chowk",
+        "ward_name": "M.K.P",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_no": "3",
+        "ward_no": "21",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.040999,
+          30.317795
+        ]
+      },
+      "properties": {
+        "junction_name": "SP Traffic office/Doon Hospital",
+        "ward_name": "M.K.P",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_no": "3",
+        "ward_no": "21",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.05154,
+          30.324347
+        ]
+      },
+      "properties": {
+        "junction_name": "Survey Chowk",
+        "ward_name": "M.K.P",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_no": "3",
+        "ward_no": "21",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.041298,
+          30.321003
+        ]
+      },
+      "properties": {
+        "junction_name": "Tehsil Chowk",
+        "ward_name": "M.K.P",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_no": "3",
+        "ward_no": "21",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.043369,
+          30.325798
+        ]
+      },
+      "properties": {
+        "junction_name": "Clock Tower 2",
+        "ward_name": "M.K.P",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_no": "3",
+        "ward_no": "21",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.02476,
+          30.288314
+        ]
+      },
+      "properties": {
+        "junction_name": "kargi chowk 2",
+        "ward_name": "Banjarowala",
+        "zone_name": "Mothrowala",
+        "zone_no": "1",
+        "ward_no": "84",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0726,
+          30.390349
+        ]
+      },
+      "properties": {
+        "junction_name": "Gyanindra Institute/ Near Zoo",
+        "ward_name": "Malsi",
+        "zone_name": "Rajpur",
+        "zone_no": "5",
+        "ward_no": "1",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0432,
+          30.309493
+        ]
+      },
+      "properties": {
+        "junction_name": "Race Course Chowk",
+        "ward_name": "Racecourse (North)",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_no": "3",
+        "ward_no": "20",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.052442,
+          30.292325
+        ]
+      },
+      "properties": {
+        "junction_name": "Rispana ROB 1",
+        "ward_name": "Vcsg Ajabpur",
+        "zone_name": "Mothrowala",
+        "zone_no": "1",
+        "ward_no": "54",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.060736,
+          30.291014
+        ]
+      },
+      "properties": {
+        "junction_name": "Shastrinagar",
+        "ward_name": "Shah Nagar",
+        "zone_name": "Mothrowala",
+        "zone_no": "1",
+        "ward_no": "55",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.057832,
+          30.29425
+        ]
+      },
+      "properties": {
+        "junction_name": "Vidhan Sabha",
+        "ward_name": "Shah Nagar",
+        "zone_name": "Mothrowala",
+        "zone_no": "1",
+        "ward_no": "55",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.056115,
+          30.301798
+        ]
+      },
+      "properties": {
+        "junction_name": "Nehru Colony",
+        "ward_name": "Nehru Colony",
+        "zone_name": "Mothrowala",
+        "zone_no": "1",
+        "ward_no": "57",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.011776,
+          30.30434
+        ]
+      },
+      "properties": {
+        "junction_name": "Niranjan Pur Mandi",
+        "ward_name": "Bhrampuri",
+        "zone_name": "Mothrowala",
+        "zone_no": "1",
+        "ward_no": "74",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.010755,
+          30.332877
+        ]
+      },
+      "properties": {
+        "junction_name": "Ballupur Chowk",
+        "ward_name": "Vijay Park",
+        "zone_name": "Arcedeia",
+        "zone_no": "4",
+        "ward_no": "36",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.981644,
+          30.262179
+        ]
+      },
+      "properties": {
+        "junction_name": "Aasha Rodi 1",
+        "ward_name": "Mohbewala",
+        "zone_name": "Mothrowala",
+        "zone_no": "1",
+        "ward_no": "90",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.981885,
+          30.262066
+        ]
+      },
+      "properties": {
+        "junction_name": "Aasha Rodi 2",
+        "ward_name": "Mohbewala",
+        "zone_name": "Mothrowala",
+        "zone_no": "1",
+        "ward_no": "90",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.992902,
+          30.282669
+        ]
+      },
+      "properties": {
+        "junction_name": "ISBT Chowk",
+        "ward_name": "Turner Road",
+        "zone_name": "Mothrowala",
+        "zone_no": "1",
+        "ward_no": "78",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.999294,
+          30.292013
+        ]
+      },
+      "properties": {
+        "junction_name": "Shimla Bypass Road",
+        "ward_name": "Turner Road",
+        "zone_name": "Mothrowala",
+        "zone_no": "1",
+        "ward_no": "78",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.011921,
+          30.346016
+        ]
+      },
+      "properties": {
+        "junction_name": "FRI back gate",
+        "ward_name": "Kaulagarh",
+        "zone_name": "Arcedeia",
+        "zone_no": "4",
+        "ward_no": "31",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.012524,
+          30.318205
+        ]
+      },
+      "properties": {
+        "junction_name": "Balliwala Chowk",
+        "ward_name": "Drona Puri",
+        "zone_name": "Arcedeia",
+        "zone_no": "4",
+        "ward_no": "43",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.017282,
+          30.307297
+        ]
+      },
+      "properties": {
+        "junction_name": "Laal Pul Chowk",
+        "ward_name": "Patel Nagar East",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_no": "3",
+        "ward_no": "71",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.02478,
+          30.314307
+        ]
+      },
+      "properties": {
+        "junction_name": "Lakhad Mandi Chowk",
+        "ward_name": "Patel Nagar East",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_no": "3",
+        "ward_no": "71",
+        "type_of_pole": "",
+        "product": "",
+        "board_fasing": "",
+        "sensor_id": ""
+      }
+    }
+  ]
+}

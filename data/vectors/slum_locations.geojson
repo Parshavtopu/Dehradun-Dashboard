@@ -1,0 +1,419 @@
+{
+    "type":  "FeatureCollection",
+    "features":  [
+                     {
+                         "type":  "Feature",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              78.0608,
+                                                              30.3286
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "slum_name":  "Rispana Nagar Malin Basti",
+                                            "ward_no":  14,
+                                            "ward_name":  "Rispana",
+                                            "corridor":  "Rispana Riverbed",
+                                            "households":  640,
+                                            "population_est":  3200,
+                                            "flood_risk":  "Critical Hazard (Flash Flood Zone)",
+                                            "drainage_condition":  "Direct discharge into Rispana River",
+                                            "sanitation_facility":  "Community Toilets \u0026 Open Drains",
+                                            "notification_status":  "Notified Malin Basti",
+                                            "category":  "Slum Location"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              78.0725,
+                                                              30.3752
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "slum_name":  "Kathbangla Slum Settlement",
+                                            "ward_no":  4,
+                                            "ward_name":  "Rajpur",
+                                            "corridor":  "Upper Rispana Ravine",
+                                            "households":  420,
+                                            "population_est":  2100,
+                                            "flood_risk":  "High Hazard (Steep Slope \u0026 Runoff)",
+                                            "drainage_condition":  "Unlined Hillside Nullah",
+                                            "sanitation_facility":  "Shared Pit Latrines",
+                                            "notification_status":  "Recognized Slum Pocket",
+                                            "category":  "Slum Location"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              78.0645,
+                                                              30.3345
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "slum_name":  "Deepnagar Malin Basti",
+                                            "ward_no":  13,
+                                            "ward_name":  "Adhoiwala",
+                                            "corridor":  "Rispana Left Bank",
+                                            "households":  580,
+                                            "population_est":  2900,
+                                            "flood_risk":  "Critical Hazard (Active Riverbank Erosion)",
+                                            "drainage_condition":  "Kachha Nullah",
+                                            "sanitation_facility":  "Community Toilet Complex",
+                                            "notification_status":  "Notified Malin Basti",
+                                            "category":  "Slum Location"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              78.0305,
+                                                              30.3228
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "slum_name":  "Bindal Pul Basti",
+                                            "ward_no":  22,
+                                            "ward_name":  "Tilak Road",
+                                            "corridor":  "Bindal River Bridge \u0026 Floodplain",
+                                            "households":  850,
+                                            "population_est":  4250,
+                                            "flood_risk":  "Critical Hazard (Recurrent Inundation)",
+                                            "drainage_condition":  "Direct River Embankment",
+                                            "sanitation_facility":  "Public Sanitation Facility",
+                                            "notification_status":  "Notified Malin Basti",
+                                            "category":  "Slum Location"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              78.0282,
+                                                              30.3208
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "slum_name":  "Khurbura Riverbank Slum",
+                                            "ward_no":  23,
+                                            "ward_name":  "Khurbura",
+                                            "corridor":  "Bindal River Inner Loop",
+                                            "households":  510,
+                                            "population_est":  2550,
+                                            "flood_risk":  "High Hazard (Waterlogging \u0026 Overflow)",
+                                            "drainage_condition":  "Clogged Masonry Drain",
+                                            "sanitation_facility":  "Individual / Community Hybrid",
+                                            "notification_status":  "Notified Malin Basti",
+                                            "category":  "Slum Location"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              78.0172,
+                                                              30.3162
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "slum_name":  "Gandhi Gram Malin Basti",
+                                            "ward_no":  45,
+                                            "ward_name":  "Gandhi Gram",
+                                            "corridor":  "Bindal Flood Plain / Lowland",
+                                            "households":  920,
+                                            "population_est":  4600,
+                                            "flood_risk":  "Critical Hazard (Severe Inundation)",
+                                            "drainage_condition":  "Open Surface Drains",
+                                            "sanitation_facility":  "Community Toilets",
+                                            "notification_status":  "Notified Malin Basti",
+                                            "category":  "Slum Location"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              78.0262,
+                                                              30.3082
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "slum_name":  "Brahmpuri Slum Cluster",
+                                            "ward_no":  71,
+                                            "ward_name":  "Patel Nagar East",
+                                            "corridor":  "Bindal Lower Embankment",
+                                            "households":  730,
+                                            "population_est":  3650,
+                                            "flood_risk":  "High Hazard (Backwater Flooding)",
+                                            "drainage_condition":  "Sub-drainage into Bindal",
+                                            "sanitation_facility":  "Community Complex",
+                                            "notification_status":  "Notified Malin Basti",
+                                            "category":  "Slum Location"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              78.0385,
+                                                              30.3315
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "slum_name":  "Chukkuwala Malin Basti",
+                                            "ward_no":  20,
+                                            "ward_name":  "Chukkuwala",
+                                            "corridor":  "Bindal Upstream Gorge",
+                                            "households":  390,
+                                            "population_est":  1950,
+                                            "flood_risk":  "High Hazard (High Velocity Runoff)",
+                                            "drainage_condition":  "Natural Stone Nullah",
+                                            "sanitation_facility":  "Public Toilets",
+                                            "notification_status":  "Notified Malin Basti",
+                                            "category":  "Slum Location"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              78.029,
+                                                              30.3158
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "slum_name":  "Lakhi Bagh Railway Slum",
+                                            "ward_no":  70,
+                                            "ward_name":  "Lakhi Bag",
+                                            "corridor":  "Railway Track / Bindal Culvert",
+                                            "households":  480,
+                                            "population_est":  2400,
+                                            "flood_risk":  "High Hazard (Culvert Choking Risk)",
+                                            "drainage_condition":  "Railway Side Ditch",
+                                            "sanitation_facility":  "Shared Facilities",
+                                            "notification_status":  "Identified Slum Settlement",
+                                            "category":  "Slum Location"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              78.0492,
+                                                              30.3028
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "slum_name":  "Dharampur River Crossing Basti",
+                                            "ward_no":  56,
+                                            "ward_name":  "Dharampur",
+                                            "corridor":  "Rispana Mid-Course",
+                                            "households":  610,
+                                            "population_est":  3050,
+                                            "flood_risk":  "Critical Hazard (River Overflow)",
+                                            "drainage_condition":  "Open Storm Water Drain",
+                                            "sanitation_facility":  "Community Toilet",
+                                            "notification_status":  "Notified Malin Basti",
+                                            "category":  "Slum Location"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              78.0515,
+                                                              30.3125
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "slum_name":  "Chander Nagar Malin Basti",
+                                            "ward_no":  47,
+                                            "ward_name":  "Chander Road Mdda Colony",
+                                            "corridor":  "Rispana Eastern Tributary",
+                                            "households":  450,
+                                            "population_est":  2250,
+                                            "flood_risk":  "High Hazard (Urban Surcharge)",
+                                            "drainage_condition":  "Covered / Silted Drains",
+                                            "sanitation_facility":  "Shared Latrines",
+                                            "notification_status":  "Notified Malin Basti",
+                                            "category":  "Slum Location"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              78.0285,
+                                                              30.2855
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "slum_name":  "Kargi Lowland Basti",
+                                            "ward_no":  84,
+                                            "ward_name":  "Kargi",
+                                            "corridor":  "Lower Rispana Depression",
+                                            "households":  540,
+                                            "population_est":  2700,
+                                            "flood_risk":  "Critical Hazard (Agricultural Basin Flood)",
+                                            "drainage_condition":  "Unlined Overflow Channel",
+                                            "sanitation_facility":  "Pit Latrines",
+                                            "notification_status":  "Recognized Slum Pocket",
+                                            "category":  "Slum Location"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              78.034,
+                                                              30.2635
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "slum_name":  "Mothrowala Confluence Slum",
+                                            "ward_no":  85,
+                                            "ward_name":  "Mothrowala",
+                                            "corridor":  "Rispana \u0026 Bindal River Confluence",
+                                            "households":  380,
+                                            "population_est":  1900,
+                                            "flood_risk":  "Critical Hazard (Deltaic Inundation)",
+                                            "drainage_condition":  "Natural River Outfall",
+                                            "sanitation_facility":  "Community Toilet",
+                                            "notification_status":  "Notified Malin Basti",
+                                            "category":  "Slum Location"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              78.0055,
+                                                              30.2935
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "slum_name":  "Majra Transport Basti",
+                                            "ward_no":  77,
+                                            "ward_name":  "Majra",
+                                            "corridor":  "ISBT Drainage Basin",
+                                            "households":  670,
+                                            "population_est":  3350,
+                                            "flood_risk":  "Moderate to High Hazard (Local Ponding)",
+                                            "drainage_condition":  "Highway Roadside Drain",
+                                            "sanitation_facility":  "Public Sanitation",
+                                            "notification_status":  "Notified Malin Basti",
+                                            "category":  "Slum Location"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              78.0078,
+                                                              30.3182
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "slum_name":  "Kanwali Road Malin Basti",
+                                            "ward_no":  42,
+                                            "ward_name":  "Kanwali",
+                                            "corridor":  "Kanwali Nullah Alignment",
+                                            "households":  490,
+                                            "population_est":  2450,
+                                            "flood_risk":  "High Hazard (Nullah Overflow)",
+                                            "drainage_condition":  "Deep Open Nullah",
+                                            "sanitation_facility":  "Community Complex",
+                                            "notification_status":  "Notified Malin Basti",
+                                            "category":  "Slum Location"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              78.0138,
+                                                              30.2928
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "slum_name":  "Lohia Nagar Slum Pocket",
+                                            "ward_no":  75,
+                                            "ward_name":  "Lohia Nagar",
+                                            "corridor":  "Patel Nagar South Canal",
+                                            "households":  350,
+                                            "population_est":  1750,
+                                            "flood_risk":  "Moderate Hazard (Waterlogging)",
+                                            "drainage_condition":  "Canal Embankment",
+                                            "sanitation_facility":  "Individual / Shared",
+                                            "notification_status":  "Identified Slum Settlement",
+                                            "category":  "Slum Location"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              78.0665,
+                                                              30.3188
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "slum_name":  "Bhagat Singh Colony Malin Basti",
+                                            "ward_no":  54,
+                                            "ward_name":  "Bhagat Singh Colony",
+                                            "corridor":  "Rispana East Catchment",
+                                            "households":  520,
+                                            "population_est":  2600,
+                                            "flood_risk":  "High Hazard (Flash Runoff)",
+                                            "drainage_condition":  "Masonry Drain",
+                                            "sanitation_facility":  "Community Toilet",
+                                            "notification_status":  "Notified Malin Basti",
+                                            "category":  "Slum Location"
+                                        }
+                     },
+                     {
+                         "type":  "Feature",
+                         "geometry":  {
+                                          "type":  "Point",
+                                          "coordinates":  [
+                                                              78.0315,
+                                                              30.3235
+                                                          ]
+                                      },
+                         "properties":  {
+                                            "slum_name":  "Tilak Road Lower Basti",
+                                            "ward_no":  22,
+                                            "ward_name":  "Tilak Road",
+                                            "corridor":  "Bindal Fluvial Terrace",
+                                            "households":  410,
+                                            "population_est":  2050,
+                                            "flood_risk":  "Critical Hazard (Immediate Riverbank)",
+                                            "drainage_condition":  "Direct Discharge",
+                                            "sanitation_facility":  "Shared Toilets",
+                                            "notification_status":  "Notified Malin Basti",
+                                            "category":  "Slum Location"
+                                        }
+                     }
+                 ]
+}

@@ -1,0 +1,4949 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.061392,
+          30.359692
+        ]
+      },
+      "properties": {
+        "location_of_source": "Baghratipuram",
+        "hp": "25",
+        "rated_discharge_litter_per_minute": "500",
+        "head_mtr": "120",
+        "aver_age_running_hours": "12",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "80",
+        "sub_class": "Tube Well",
+        "ward_name": "Doon Vihar",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.064168,
+          30.337229
+        ]
+      },
+      "properties": {
+        "location_of_source": "D.L Road",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "1500",
+        "head_mtr": "140",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "125",
+        "sub_class": "Tube Well",
+        "ward_name": "Dl Road",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.06282,
+          30.327141
+        ]
+      },
+      "properties": {
+        "location_of_source": "Kanan Kunj",
+        "hp": "62",
+        "rated_discharge_litter_per_minute": "1500",
+        "head_mtr": "140",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Adhoiwala Uttar",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "46"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.061389,
+          30.333077
+        ]
+      },
+      "properties": {
+        "location_of_source": "Cement Road",
+        "hp": "75",
+        "rated_discharge_litter_per_minute": "1500",
+        "head_mtr": "145",
+        "aver_age_running_hours": "18",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Dl Road",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.061327,
+          30.325729
+        ]
+      },
+      "properties": {
+        "location_of_source": "Adhoiwala 2 Shakti Vihar",
+        "hp": "75",
+        "rated_discharge_litter_per_minute": "1500",
+        "head_mtr": "150",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "125",
+        "sub_class": "Tube Well",
+        "ward_name": "Adhoiwala Uttar",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "46"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.056627,
+          30.341031
+        ]
+      },
+      "properties": {
+        "location_of_source": "Salawala",
+        "hp": "15",
+        "rated_discharge_litter_per_minute": "400",
+        "head_mtr": "120",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "80",
+        "sub_class": "Tube Well",
+        "ward_name": "Sala Wala",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.056906,
+          30.328423
+        ]
+      },
+      "properties": {
+        "location_of_source": "Karanpur",
+        "hp": "75",
+        "rated_discharge_litter_per_minute": "1500",
+        "head_mtr": "140",
+        "aver_age_running_hours": "20",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Karanpur",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.056386,
+          30.328701
+        ]
+      },
+      "properties": {
+        "location_of_source": "DAV Collage",
+        "hp": "75",
+        "rated_discharge_litter_per_minute": "1200",
+        "head_mtr": "170",
+        "aver_age_running_hours": "16",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Karanpur",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0559,
+          30.33217
+        ]
+      },
+      "properties": {
+        "location_of_source": "Rajpur Road GGIC",
+        "hp": "40",
+        "rated_discharge_litter_per_minute": "800",
+        "head_mtr": "160",
+        "aver_age_running_hours": "14",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "100",
+        "sub_class": "Tube Well",
+        "ward_name": "Arya Nagar",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.056377,
+          30.341562
+        ]
+      },
+      "properties": {
+        "location_of_source": "Brijlok Colony",
+        "hp": "62",
+        "rated_discharge_litter_per_minute": "1000",
+        "head_mtr": "190",
+        "aver_age_running_hours": "4",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Sala Wala",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.058242,
+          30.357606
+        ]
+      },
+      "properties": {
+        "location_of_source": "Vivek Vihar 2",
+        "hp": "25",
+        "rated_discharge_litter_per_minute": "400",
+        "head_mtr": "120",
+        "aver_age_running_hours": "12",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "80",
+        "sub_class": "Tube Well",
+        "ward_name": "Doon Vihar",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.053603,
+          30.339713
+        ]
+      },
+      "properties": {
+        "location_of_source": "HathiBarkhala",
+        "hp": "100",
+        "rated_discharge_litter_per_minute": "1000",
+        "head_mtr": "120",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Sala Wala",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.053603,
+          30.339713
+        ]
+      },
+      "properties": {
+        "location_of_source": "HathiBarkhala",
+        "hp": "20",
+        "rated_discharge_litter_per_minute": "200",
+        "head_mtr": "120",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "50",
+        "sub_class": "Tube Well",
+        "ward_name": "Sala Wala",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.04923,
+          30.33598
+        ]
+      },
+      "properties": {
+        "location_of_source": "I Block River Side",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "2500",
+        "head_mtr": "120",
+        "aver_age_running_hours": "24",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "200",
+        "sub_class": "Tube Well",
+        "ward_name": "Bakralwala",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.047065,
+          30.337708
+        ]
+      },
+      "properties": {
+        "location_of_source": "Aahir Mandhi",
+        "hp": "25",
+        "rated_discharge_litter_per_minute": "300",
+        "head_mtr": "120",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "80",
+        "sub_class": "Tube Well",
+        "ward_name": "Dobhal Wala",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.048258,
+          30.335999
+        ]
+      },
+      "properties": {
+        "location_of_source": "Green Velly",
+        "hp": "25",
+        "rated_discharge_litter_per_minute": "500",
+        "head_mtr": "140",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "80",
+        "sub_class": "Tube Well",
+        "ward_name": "Bakralwala",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.047601,
+          30.326803
+        ]
+      },
+      "properties": {
+        "location_of_source": "Kanak",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "1800",
+        "head_mtr": "130",
+        "aver_age_running_hours": "10",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Karanpur",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.044965,
+          30.326405
+        ]
+      },
+      "properties": {
+        "location_of_source": "Ghandi Park",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "2500",
+        "head_mtr": "120",
+        "aver_age_running_hours": "16",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "M.K.P",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0441,
+          30.347591
+        ]
+      },
+      "properties": {
+        "location_of_source": "Vijay Colony New",
+        "hp": "20",
+        "rated_discharge_litter_per_minute": "300",
+        "head_mtr": "120",
+        "aver_age_running_hours": "10",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "80",
+        "sub_class": "Tube Well",
+        "ward_name": "Vijay Colony",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.04654,
+          30.347078
+        ]
+      },
+      "properties": {
+        "location_of_source": "Vijay Colony Old",
+        "hp": "20",
+        "rated_discharge_litter_per_minute": "200",
+        "head_mtr": "120",
+        "aver_age_running_hours": "24",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Vijaypur",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.04654,
+          30.347078
+        ]
+      },
+      "properties": {
+        "location_of_source": "Vijay Colony Kora",
+        "hp": "5",
+        "rated_discharge_litter_per_minute": "180",
+        "head_mtr": "120",
+        "aver_age_running_hours": "24",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "40",
+        "sub_class": "Tube Well",
+        "ward_name": "Vijaypur",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.04654,
+          30.347078
+        ]
+      },
+      "properties": {
+        "location_of_source": "Kolagarh Chungi",
+        "hp": "75",
+        "rated_discharge_litter_per_minute": "1800",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Vijaypur",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.041667,
+          30.34151
+        ]
+      },
+      "properties": {
+        "location_of_source": "Neelkanth Vihar",
+        "hp": "25",
+        "rated_discharge_litter_per_minute": "300",
+        "head_mtr": "120",
+        "aver_age_running_hours": "14",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "65",
+        "sub_class": "Tube Well",
+        "ward_name": "Vijay Colony",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.039394,
+          30.335275
+        ]
+      },
+      "properties": {
+        "location_of_source": "Chukhuwala Near By Shikandi Pardhan Residence",
+        "hp": "25",
+        "rated_discharge_litter_per_minute": "600",
+        "head_mtr": "120",
+        "aver_age_running_hours": "6",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "100",
+        "sub_class": "Tube Well",
+        "ward_name": "Vijay Colony",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.039394,
+          30.335275
+        ]
+      },
+      "properties": {
+        "location_of_source": "Chukhuwala Back Side of GPO",
+        "hp": "62",
+        "rated_discharge_litter_per_minute": "1000",
+        "head_mtr": "170",
+        "aver_age_running_hours": "10",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Vijay Colony",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.039378,
+          30.335167
+        ]
+      },
+      "properties": {
+        "location_of_source": "Badrinath Colony",
+        "hp": "100",
+        "rated_discharge_litter_per_minute": "2500",
+        "head_mtr": "120",
+        "aver_age_running_hours": "14",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "200",
+        "sub_class": "Tube Well",
+        "ward_name": "Vijay Colony",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.03565,
+          30.335111
+        ]
+      },
+      "properties": {
+        "location_of_source": "Indira Colony",
+        "hp": "40",
+        "rated_discharge_litter_per_minute": "400",
+        "head_mtr": "140",
+        "aver_age_running_hours": "12",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "100",
+        "sub_class": "Tube Well",
+        "ward_name": "Indra Colony",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "18"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.035413,
+          30.333774
+        ]
+      },
+      "properties": {
+        "location_of_source": "Gharwal Sabha",
+        "hp": "25",
+        "rated_discharge_litter_per_minute": "400",
+        "head_mtr": "120",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "80",
+        "sub_class": "Tube Well",
+        "ward_name": "Indra Colony",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "18"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.034437,
+          30.325902
+        ]
+      },
+      "properties": {
+        "location_of_source": "Tagore Villa Ansari Marg",
+        "hp": "62",
+        "rated_discharge_litter_per_minute": "1500",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Tilak Road",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "22"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.034437,
+          30.325902
+        ]
+      },
+      "properties": {
+        "location_of_source": "Tagore Villa",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "2000",
+        "head_mtr": "120",
+        "aver_age_running_hours": "24",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Tilak Road",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "22"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.031929,
+          30.32955
+        ]
+      },
+      "properties": {
+        "location_of_source": "Malroad",
+        "hp": "20",
+        "rated_discharge_litter_per_minute": "500",
+        "head_mtr": "110",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "80",
+        "sub_class": "Tube Well",
+        "ward_name": "Kishan Nagar",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.031925,
+          30.325558
+        ]
+      },
+      "properties": {
+        "location_of_source": "Khurbura City Board School",
+        "hp": "75",
+        "rated_discharge_litter_per_minute": "1800",
+        "head_mtr": "110",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "200",
+        "sub_class": "Tube Well",
+        "ward_name": "Tilak Road",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "22"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.028399,
+          30.328724
+        ]
+      },
+      "properties": {
+        "location_of_source": "Idh Gha",
+        "hp": "25",
+        "rated_discharge_litter_per_minute": "600",
+        "head_mtr": "110",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "80",
+        "sub_class": "Tube Well",
+        "ward_name": "Govind Garh",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "34"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.027704,
+          30.326008
+        ]
+      },
+      "properties": {
+        "location_of_source": "Yamuna Colony 2",
+        "hp": "40",
+        "rated_discharge_litter_per_minute": "700",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "100",
+        "sub_class": "Tube Well",
+        "ward_name": "Govind Garh",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "34"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.024773,
+          30.342161
+        ]
+      },
+      "properties": {
+        "location_of_source": "Rajender Nagar Gali No 4",
+        "hp": "40",
+        "rated_discharge_litter_per_minute": "700",
+        "head_mtr": "150",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "100",
+        "sub_class": "Tube Well",
+        "ward_name": "Kishan Nagar",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.025425,
+          30.340661
+        ]
+      },
+      "properties": {
+        "location_of_source": "Loharwala",
+        "hp": "40",
+        "rated_discharge_litter_per_minute": "800",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "100",
+        "sub_class": "Tube Well",
+        "ward_name": "Kishan Nagar",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.025117,
+          30.339071
+        ]
+      },
+      "properties": {
+        "location_of_source": "Sirmor",
+        "hp": "17.5",
+        "rated_discharge_litter_per_minute": "800",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "100",
+        "sub_class": "Tube Well",
+        "ward_name": "Kishan Nagar",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.025917,
+          30.337169
+        ]
+      },
+      "properties": {
+        "location_of_source": "Kishan Nagar",
+        "hp": "25",
+        "rated_discharge_litter_per_minute": "600",
+        "head_mtr": "120",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "100",
+        "sub_class": "Tube Well",
+        "ward_name": "Kishan Nagar",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.025842,
+          30.325368
+        ]
+      },
+      "properties": {
+        "location_of_source": "Govind Garh",
+        "hp": "25",
+        "rated_discharge_litter_per_minute": "600",
+        "head_mtr": "120",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "100",
+        "sub_class": "Tube Well",
+        "ward_name": "Govind Garh",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "34"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.024519,
+          30.332743
+        ]
+      },
+      "properties": {
+        "location_of_source": "Mitrlok Colony",
+        "hp": "25",
+        "rated_discharge_litter_per_minute": "700",
+        "head_mtr": "120",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "100",
+        "sub_class": "Tube Well",
+        "ward_name": "Sri Dev Suman Nagar",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "35"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.021884,
+          30.328683
+        ]
+      },
+      "properties": {
+        "location_of_source": "Yamuna Colony 1",
+        "hp": "40",
+        "rated_discharge_litter_per_minute": "700",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "100",
+        "sub_class": "Tube Well",
+        "ward_name": "Govind Garh",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "34"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.022571,
+          30.333652
+        ]
+      },
+      "properties": {
+        "location_of_source": "Raj Nikung",
+        "hp": "25",
+        "rated_discharge_litter_per_minute": "250",
+        "head_mtr": "110",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "80",
+        "sub_class": "Tube Well",
+        "ward_name": "Ballupur",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "32"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.02375,
+          30.335832
+        ]
+      },
+      "properties": {
+        "location_of_source": "Dobhalwala",
+        "hp": "40",
+        "rated_discharge_litter_per_minute": "800",
+        "head_mtr": "140",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "125",
+        "sub_class": "Tube Well",
+        "ward_name": "Ballupur",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "32"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.023713,
+          30.343057
+        ]
+      },
+      "properties": {
+        "location_of_source": "Rajender Nagar Gali No 8",
+        "hp": "40",
+        "rated_discharge_litter_per_minute": "1800",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Kishan Nagar",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.023713,
+          30.343057
+        ]
+      },
+      "properties": {
+        "location_of_source": "Rajender Nagar Gali No 8 (ADB)",
+        "hp": "62",
+        "rated_discharge_litter_per_minute": "800",
+        "head_mtr": "160",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "100",
+        "sub_class": "Tube Well",
+        "ward_name": "Kishan Nagar",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.981895,
+          30.348697
+        ]
+      },
+      "properties": {
+        "location_of_source": "Masanda Wala",
+        "hp": "25",
+        "rated_discharge_litter_per_minute": "600",
+        "head_mtr": "120",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "100",
+        "sub_class": "Tube Well",
+        "ward_name": "Arcedeia 1",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "92"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.986485,
+          30.333416
+        ]
+      },
+      "properties": {
+        "location_of_source": "Panditwadi",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "1800",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "200",
+        "sub_class": "Tube Well",
+        "ward_name": "Arcedeia 1",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "92"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.9978,
+          30.3327
+        ]
+      },
+      "properties": {
+        "location_of_source": "Vasant Vihar 1",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "1500",
+        "head_mtr": "110",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "250",
+        "sub_class": "Tube Well",
+        "ward_name": "Basant Vihar",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "37"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.01,
+          30.3326
+        ]
+      },
+      "properties": {
+        "location_of_source": "Green Park Mini Ballupur",
+        "hp": "17.5",
+        "rated_discharge_litter_per_minute": "350",
+        "head_mtr": "65",
+        "aver_age_running_hours": "10",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "80",
+        "sub_class": "Tube Well",
+        "ward_name": "Basant Vihar",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "37"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0104,
+          30.3315
+        ]
+      },
+      "properties": {
+        "location_of_source": "Ashirwad Enclave Mini",
+        "hp": "17.5",
+        "rated_discharge_litter_per_minute": "400",
+        "head_mtr": "100",
+        "aver_age_running_hours": "10",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "80",
+        "sub_class": "Tube Well",
+        "ward_name": "Vijay Park",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "36"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0104,
+          30.3317
+        ]
+      },
+      "properties": {
+        "location_of_source": "Maharani Bagh",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "2000",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "250",
+        "sub_class": "Tube Well",
+        "ward_name": "Vijay Park",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "36"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.010797,
+          30.335993
+        ]
+      },
+      "properties": {
+        "location_of_source": "Vanastali",
+        "hp": "",
+        "rated_discharge_litter_per_minute": "700",
+        "head_mtr": "120",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "80",
+        "sub_class": "Tube Well",
+        "ward_name": "Basant Vihar",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "37"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.005512,
+          30.35286
+        ]
+      },
+      "properties": {
+        "location_of_source": "Ankit Vihar PremPur Maffi",
+        "hp": "40",
+        "rated_discharge_litter_per_minute": "1000",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "100",
+        "sub_class": "Tube Well",
+        "ward_name": "Kaulagarh",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.003662,
+          30.351425
+        ]
+      },
+      "properties": {
+        "location_of_source": "Kolagarh (ADB)",
+        "hp": "62",
+        "rated_discharge_litter_per_minute": "900",
+        "head_mtr": "160",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "100",
+        "sub_class": "Tube Well",
+        "ward_name": "Kaulagarh",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.003662,
+          30.351425
+        ]
+      },
+      "properties": {
+        "location_of_source": "Chuna Bhatta Kolagarh",
+        "hp": "25",
+        "rated_discharge_litter_per_minute": "600",
+        "head_mtr": "120",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "80",
+        "sub_class": "Tube Well",
+        "ward_name": "Kaulagarh",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.019623,
+          30.345965
+        ]
+      },
+      "properties": {
+        "location_of_source": "Kolagarh OHT",
+        "hp": "40",
+        "rated_discharge_litter_per_minute": "1000",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Kishan Nagar",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.014704,
+          30.350486
+        ]
+      },
+      "properties": {
+        "location_of_source": "Nimbuwala Kolagarh",
+        "hp": "40",
+        "rated_discharge_litter_per_minute": "800",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "100",
+        "sub_class": "Tube Well",
+        "ward_name": "Kaulagarh",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.016633,
+          30.350051
+        ]
+      },
+      "properties": {
+        "location_of_source": "Sitaram Mandir",
+        "hp": "62",
+        "rated_discharge_litter_per_minute": "1000",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "125",
+        "sub_class": "Tube Well",
+        "ward_name": "Kaulagarh",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.011211,
+          30.330711
+        ]
+      },
+      "properties": {
+        "location_of_source": "GMS Road",
+        "hp": "20",
+        "rated_discharge_litter_per_minute": "500",
+        "head_mtr": "110",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "80",
+        "sub_class": "Tube Well",
+        "ward_name": "Vijay Park",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "36"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.011211,
+          30.330711
+        ]
+      },
+      "properties": {
+        "location_of_source": "Durga Vihar",
+        "hp": "20",
+        "rated_discharge_litter_per_minute": "500",
+        "head_mtr": "120",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "80",
+        "sub_class": "Tube Well",
+        "ward_name": "Vijay Park",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "36"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.015032,
+          30.330315
+        ]
+      },
+      "properties": {
+        "location_of_source": "Hari Vihar (ADB)",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "1800",
+        "head_mtr": "140",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Vijay Park",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "36"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.016087,
+          30.333108
+        ]
+      },
+      "properties": {
+        "location_of_source": "Vijay Park2",
+        "hp": "62",
+        "rated_discharge_litter_per_minute": "1500",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Vijay Park",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "36"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.019004,
+          30.334742
+        ]
+      },
+      "properties": {
+        "location_of_source": "Rajender Nagar Gali No 3",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "2000",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Ballupur",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "32"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.016608,
+          30.334102
+        ]
+      },
+      "properties": {
+        "location_of_source": "Vijay Park 1 (A.E Office)",
+        "hp": "62",
+        "rated_discharge_litter_per_minute": "1400",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Ballupur",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "32"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.016608,
+          30.334102
+        ]
+      },
+      "properties": {
+        "location_of_source": "Sinoola",
+        "hp": "20",
+        "rated_discharge_litter_per_minute": "300",
+        "head_mtr": "110",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "80",
+        "sub_class": "Tube Well",
+        "ward_name": "Ballupur",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "32"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.01851,
+          30.338222
+        ]
+      },
+      "properties": {
+        "location_of_source": "Nach Ghar Rajender Nagar Gali No 2",
+        "hp": "52",
+        "rated_discharge_litter_per_minute": "2200",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Ballupur",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "32"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.020091,
+          30.334933
+        ]
+      },
+      "properties": {
+        "location_of_source": "Kalashpuri",
+        "hp": "20",
+        "rated_discharge_litter_per_minute": "700",
+        "head_mtr": "110",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "80",
+        "sub_class": "Tube Well",
+        "ward_name": "Ballupur",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "32"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.021067,
+          30.332743
+        ]
+      },
+      "properties": {
+        "location_of_source": "Akashdeep",
+        "hp": "25",
+        "rated_discharge_litter_per_minute": "600",
+        "head_mtr": "110",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "100",
+        "sub_class": "Tube Well",
+        "ward_name": "Sri Dev Suman Nagar",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "35"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.021469,
+          30.327729
+        ]
+      },
+      "properties": {
+        "location_of_source": "Shanti Vihar",
+        "hp": "",
+        "rated_discharge_litter_per_minute": "400",
+        "head_mtr": "120",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "80",
+        "sub_class": "Tube Well",
+        "ward_name": "Govind Garh",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "34"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.016506,
+          30.307173
+        ]
+      },
+      "properties": {
+        "location_of_source": "Niranjanpur 1",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "2500",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Patel Nagar West",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "44"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.01662,
+          30.316189
+        ]
+      },
+      "properties": {
+        "location_of_source": "Ghandi Gram New",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "2000",
+        "head_mtr": "120",
+        "aver_age_running_hours": "16",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Gandhi Gram",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "45"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.018681,
+          30.321247
+        ]
+      },
+      "properties": {
+        "location_of_source": "MDDA Ghandi Gram",
+        "hp": "62",
+        "rated_discharge_litter_per_minute": "1500",
+        "head_mtr": "120",
+        "aver_age_running_hours": "18",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Indresh Nagar",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "25"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.015684,
+          30.32351
+        ]
+      },
+      "properties": {
+        "location_of_source": "Shrirampuram",
+        "hp": "100",
+        "rated_discharge_litter_per_minute": "2500",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Govind Garh",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "34"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0106,
+          30.3161
+        ]
+      },
+      "properties": {
+        "location_of_source": "G.M.S. Road Kanwali",
+        "hp": "75",
+        "rated_discharge_litter_per_minute": "1800",
+        "head_mtr": "75",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "250",
+        "sub_class": "Tube Well",
+        "ward_name": "Kanwali",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "42"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0136,
+          30.3097
+        ]
+      },
+      "properties": {
+        "location_of_source": "Milan Vihar",
+        "hp": "75",
+        "rated_discharge_litter_per_minute": "1800",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "200",
+        "sub_class": "Tube Well",
+        "ward_name": "Drona Puri",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "43"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0129,
+          30.3052
+        ]
+      },
+      "properties": {
+        "location_of_source": "Ashok Park Niranjanpur",
+        "hp": "40",
+        "rated_discharge_litter_per_minute": "1400",
+        "head_mtr": "65",
+        "aver_age_running_hours": "20",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Bhrampuri",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "74"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.010578,
+          30.303177
+        ]
+      },
+      "properties": {
+        "location_of_source": "Madhoram Quarter",
+        "hp": "75",
+        "rated_discharge_litter_per_minute": "1500",
+        "head_mtr": "150",
+        "aver_age_running_hours": "6",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Niranjanpur",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "76"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.01269,
+          30.300321
+        ]
+      },
+      "properties": {
+        "location_of_source": "Niranjanpur 3",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "2500",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "200",
+        "sub_class": "Tube Well",
+        "ward_name": "Bhrampuri",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "74"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.015713,
+          30.29823
+        ]
+      },
+      "properties": {
+        "location_of_source": "Niranjanpur 4",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "2500",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "200",
+        "sub_class": "Tube Well",
+        "ward_name": "Bhrampuri",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "74"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.01936,
+          30.306017
+        ]
+      },
+      "properties": {
+        "location_of_source": "Niranjanpur 2",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "2500",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "200",
+        "sub_class": "Tube Well",
+        "ward_name": "Patel Nagar East",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "71"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0182,
+          30.291
+        ]
+      },
+      "properties": {
+        "location_of_source": "Kargi Bhatta",
+        "hp": "100",
+        "rated_discharge_litter_per_minute": "500",
+        "head_mtr": "100",
+        "aver_age_running_hours": "16",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "200",
+        "sub_class": "Tube Well",
+        "ward_name": "Dehrakhas",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "72"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0203,
+          30.2864
+        ]
+      },
+      "properties": {
+        "location_of_source": "Lower Kargi",
+        "hp": "75",
+        "rated_discharge_litter_per_minute": "600",
+        "head_mtr": "75",
+        "aver_age_running_hours": "12",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Banjarowala",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "84"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0008,
+          30.2751
+        ]
+      },
+      "properties": {
+        "location_of_source": "Lower Mazra 2",
+        "hp": "75",
+        "rated_discharge_litter_per_minute": "2000",
+        "head_mtr": "70",
+        "aver_age_running_hours": "20",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "250",
+        "sub_class": "Tube Well",
+        "ward_name": "Turner Road",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "78"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.007495,
+          30.295758
+        ]
+      },
+      "properties": {
+        "location_of_source": "Shakti Vihar Mazra",
+        "hp": "40",
+        "rated_discharge_litter_per_minute": "1400",
+        "head_mtr": "65",
+        "aver_age_running_hours": "16",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "250",
+        "sub_class": "Tube Well",
+        "ward_name": "Majra",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "77"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0053,
+          30.299
+        ]
+      },
+      "properties": {
+        "location_of_source": "Niranjanpur ITI",
+        "hp": "75",
+        "rated_discharge_litter_per_minute": "2000",
+        "head_mtr": "100",
+        "aver_age_running_hours": "20",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "250",
+        "sub_class": "Tube Well",
+        "ward_name": "Majra",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "77"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0078,
+          30.3155
+        ]
+      },
+      "properties": {
+        "location_of_source": "Vyomprastha",
+        "hp": "20",
+        "rated_discharge_litter_per_minute": "500",
+        "head_mtr": "85",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "100",
+        "sub_class": "Tube Well",
+        "ward_name": "Kanwali",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "42"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0071,
+          30.3119
+        ]
+      },
+      "properties": {
+        "location_of_source": "Kanwali Gaon",
+        "hp": "62",
+        "rated_discharge_litter_per_minute": "1500",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "200",
+        "sub_class": "Tube Well",
+        "ward_name": "Kanwali",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "42"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0088,
+          30.3081
+        ]
+      },
+      "properties": {
+        "location_of_source": "Indrapuram",
+        "hp": "75",
+        "rated_discharge_litter_per_minute": "1800",
+        "head_mtr": "85",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "250",
+        "sub_class": "Tube Well",
+        "ward_name": "Indrapuram",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "41"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0078,
+          30.3213
+        ]
+      },
+      "properties": {
+        "location_of_source": "Hill View Colony",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "1800",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "200",
+        "sub_class": "Tube Well",
+        "ward_name": "Indra Nagar",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "39"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0055,
+          30.3237
+        ]
+      },
+      "properties": {
+        "location_of_source": "Indranagar 1",
+        "hp": "52",
+        "rated_discharge_litter_per_minute": "1400",
+        "head_mtr": "85",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "250",
+        "sub_class": "Tube Well",
+        "ward_name": "Indra Nagar",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "39"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.005537,
+          30.325066
+        ]
+      },
+      "properties": {
+        "location_of_source": "Vasant Vihar 2",
+        "hp": "52",
+        "rated_discharge_litter_per_minute": "1500",
+        "head_mtr": "105",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Vijay Park",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "36"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.003874,
+          30.317812
+        ]
+      },
+      "properties": {
+        "location_of_source": "Indranagar 4",
+        "hp": "62",
+        "rated_discharge_litter_per_minute": "1600",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "250",
+        "sub_class": "Tube Well",
+        "ward_name": "Indra Nagar",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "39"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.005,
+          30.3099
+        ]
+      },
+      "properties": {
+        "location_of_source": "Engineer Enclave",
+        "hp": "52",
+        "rated_discharge_litter_per_minute": "1000",
+        "head_mtr": "85",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "100",
+        "sub_class": "Tube Well",
+        "ward_name": "Indrapuram",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "41"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.000426,
+          30.319859
+        ]
+      },
+      "properties": {
+        "location_of_source": "Vasant Vihar Phase 1 Mini",
+        "hp": "25",
+        "rated_discharge_litter_per_minute": "500",
+        "head_mtr": "80",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "80",
+        "sub_class": "Tube Well",
+        "ward_name": "Indra Nagar",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "39"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0015,
+          30.3226
+        ]
+      },
+      "properties": {
+        "location_of_source": "Indranagar 2",
+        "hp": "25",
+        "rated_discharge_litter_per_minute": "400",
+        "head_mtr": "85",
+        "aver_age_running_hours": "16",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "200",
+        "sub_class": "Tube Well",
+        "ward_name": "Indra Nagar",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "39"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.995802,
+          30.323646
+        ]
+      },
+      "properties": {
+        "location_of_source": "Vasant Vihar Phase  2",
+        "hp": "62",
+        "rated_discharge_litter_per_minute": "1600",
+        "head_mtr": "120",
+        "aver_age_running_hours": "16",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Pandit Wari",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "38"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.995802,
+          30.3203
+        ]
+      },
+      "properties": {
+        "location_of_source": "Indranagar 3",
+        "hp": "62",
+        "rated_discharge_litter_per_minute": "1600",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "200",
+        "sub_class": "Tube Well",
+        "ward_name": "Indra Nagar",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "39"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.989186,
+          30.293776
+        ]
+      },
+      "properties": {
+        "location_of_source": "Lower Mazra 1",
+        "hp": "41",
+        "rated_discharge_litter_per_minute": "1500",
+        "head_mtr": "70",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "450",
+        "sub_class": "Tube Well",
+        "ward_name": "Pithuwala",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "87"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.994419,
+          30.316668
+        ]
+      },
+      "properties": {
+        "location_of_source": "Indira Colony New Shikhar Sandesh",
+        "hp": "20",
+        "rated_discharge_litter_per_minute": "400",
+        "head_mtr": "120",
+        "aver_age_running_hours": "12",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "80",
+        "sub_class": "Tube Well",
+        "ward_name": "Indra Nagar",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "39"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.986183,
+          30.29138
+        ]
+      },
+      "properties": {
+        "location_of_source": "Gangotri Vihar (Jal Nigam)",
+        "hp": "60",
+        "rated_discharge_litter_per_minute": "1000",
+        "head_mtr": "170",
+        "aver_age_running_hours": "14",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Mehuwala-1",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.994125,
+          30.267494
+        ]
+      },
+      "properties": {
+        "location_of_source": "Subhash Nagar",
+        "hp": "70",
+        "rated_discharge_litter_per_minute": "1500",
+        "head_mtr": "70",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "200",
+        "sub_class": "Tube Well",
+        "ward_name": "Bharuwala Grant",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "79"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.031,
+          30.288194
+        ]
+      },
+      "properties": {
+        "location_of_source": "Saraswati Vihar (D Block )",
+        "hp": "60",
+        "rated_discharge_litter_per_minute": "1600",
+        "head_mtr": "100",
+        "aver_age_running_hours": "10",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Ajabpur Saraswati Vihar",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "52"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0244,
+          30.2946
+        ]
+      },
+      "properties": {
+        "location_of_source": "Vidhya Vihar Phase 1",
+        "hp": "25",
+        "rated_discharge_litter_per_minute": "850",
+        "head_mtr": "120",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "100",
+        "sub_class": "Tube Well",
+        "ward_name": "Vidya Vihar",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "73"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.024354,
+          30.300747
+        ]
+      },
+      "properties": {
+        "location_of_source": "Dehrakhas",
+        "hp": "52",
+        "rated_discharge_litter_per_minute": "2000",
+        "head_mtr": "50",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Dehrakhas",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "72"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.024718,
+          30.298991
+        ]
+      },
+      "properties": {
+        "location_of_source": "Dehrakhas Near Surkunda Mandir",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "2000",
+        "head_mtr": "120",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Dehrakhas",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "72"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.022928,
+          30.302285
+        ]
+      },
+      "properties": {
+        "location_of_source": "Nehru Colony 1",
+        "hp": "75",
+        "rated_discharge_litter_per_minute": "2400",
+        "head_mtr": "65",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "200",
+        "sub_class": "Tube Well",
+        "ward_name": "Dehrakhas",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "72"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.022214,
+          30.307395
+        ]
+      },
+      "properties": {
+        "location_of_source": "Pathri Bagh",
+        "hp": "62",
+        "rated_discharge_litter_per_minute": "1500",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Patel Nagar East",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "71"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.022928,
+          30.319484
+        ]
+      },
+      "properties": {
+        "location_of_source": "Hindu National School",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "2000",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Indresh Nagar",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "25"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.022885,
+          30.316999
+        ]
+      },
+      "properties": {
+        "location_of_source": "Matawala Bagh 2",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "2000",
+        "head_mtr": "120",
+        "aver_age_running_hours": "18",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Patel Nagar West",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "44"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.024052,
+          30.317238
+        ]
+      },
+      "properties": {
+        "location_of_source": "Laxman Chowk (Rekha Shrivastav)",
+        "hp": "25",
+        "rated_discharge_litter_per_minute": "400",
+        "head_mtr": "120",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "80",
+        "sub_class": "Tube Well",
+        "ward_name": "Indresh Nagar",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "25"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.024712,
+          30.312903
+        ]
+      },
+      "properties": {
+        "location_of_source": "Matawala Bagh OHT",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "2500",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Patel Nagar East",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "71"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.024712,
+          30.312903
+        ]
+      },
+      "properties": {
+        "location_of_source": "Patel Nagar",
+        "hp": "62",
+        "rated_discharge_litter_per_minute": "2000",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Patel Nagar East",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "71"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.026745,
+          30.319665
+        ]
+      },
+      "properties": {
+        "location_of_source": "Jhanda Mohalla Indresh Nagar",
+        "hp": "75",
+        "rated_discharge_litter_per_minute": "1500",
+        "head_mtr": "120",
+        "aver_age_running_hours": "18",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Indresh Nagar",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "25"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.028633,
+          30.323533
+        ]
+      },
+      "properties": {
+        "location_of_source": "Khurbura Guru Ram Rai School",
+        "hp": "75",
+        "rated_discharge_litter_per_minute": "2000",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Tilak Road",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "22"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.031809,
+          30.320247
+        ]
+      },
+      "properties": {
+        "location_of_source": "Rameshwar Mohalla",
+        "hp": "25",
+        "rated_discharge_litter_per_minute": "700",
+        "head_mtr": "70",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "80",
+        "sub_class": "Tube Well",
+        "ward_name": "Jhanda Mohala",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "27"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.026,
+          30.297803
+        ]
+      },
+      "properties": {
+        "location_of_source": "Vidhya Vihar",
+        "hp": "75",
+        "rated_discharge_litter_per_minute": "350",
+        "head_mtr": "75",
+        "aver_age_running_hours": "12",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "80",
+        "sub_class": "Tube Well",
+        "ward_name": "Vidya Vihar",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "73"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.029791,
+          30.296447
+        ]
+      },
+      "properties": {
+        "location_of_source": "Narayan Vihar",
+        "hp": "40",
+        "rated_discharge_litter_per_minute": "1000",
+        "head_mtr": "120",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "100",
+        "sub_class": "Tube Well",
+        "ward_name": "Vidya Vihar",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "73"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.032331,
+          30.29035
+        ]
+      },
+      "properties": {
+        "location_of_source": "Saraswati Vihar E Block",
+        "hp": "25",
+        "rated_discharge_litter_per_minute": "500",
+        "head_mtr": "100",
+        "aver_age_running_hours": "12",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "80",
+        "sub_class": "Tube Well",
+        "ward_name": "Ajabpur Saraswati Vihar",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "52"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.036627,
+          30.302499
+        ]
+      },
+      "properties": {
+        "location_of_source": "Tyagi Road MDDA Park",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "2000",
+        "head_mtr": "120",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Rest Camp",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "80"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.035091,
+          30.303147
+        ]
+      },
+      "properties": {
+        "location_of_source": "Kusum Vihar",
+        "hp": "62",
+        "rated_discharge_litter_per_minute": "1000",
+        "head_mtr": "140",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "100",
+        "sub_class": "Tube Well",
+        "ward_name": "Vidya Vihar",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "73"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.03291,
+          30.298573
+        ]
+      },
+      "properties": {
+        "location_of_source": "Mata Mandir (Ajabpur)",
+        "hp": "52",
+        "rated_discharge_litter_per_minute": "1400",
+        "head_mtr": "",
+        "aver_age_running_hours": "18",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Vidya Vihar",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "73"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.03281,
+          30.305302
+        ]
+      },
+      "properties": {
+        "location_of_source": "Ritha Mandi Muslim Colony",
+        "hp": "25",
+        "rated_discharge_litter_per_minute": "800",
+        "head_mtr": "120",
+        "aver_age_running_hours": "10",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "100",
+        "sub_class": "Tube Well",
+        "ward_name": "Vidya Vihar",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "73"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.033273,
+          30.307675
+        ]
+      },
+      "properties": {
+        "location_of_source": "Single Mandi",
+        "hp": "25",
+        "rated_discharge_litter_per_minute": "800",
+        "head_mtr": "120",
+        "aver_age_running_hours": "10",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "100",
+        "sub_class": "Tube Well",
+        "ward_name": "Vidya Vihar",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "73"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.03419,
+          30.315304
+        ]
+      },
+      "properties": {
+        "location_of_source": "Bandro Wali Gali",
+        "hp": "75",
+        "rated_discharge_litter_per_minute": "500",
+        "head_mtr": "110",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "80",
+        "sub_class": "Tube Well",
+        "ward_name": "Rest Camp",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "80"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.035009,
+          30.309768
+        ]
+      },
+      "properties": {
+        "location_of_source": "Tyagi Road Madrasi Colony",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "2000",
+        "head_mtr": "120",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Rest Camp",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "80"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.038597,
+          30.30753
+        ]
+      },
+      "properties": {
+        "location_of_source": "Brahamawala Khala 2 (SGRR School)",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "1500",
+        "head_mtr": "175",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Rest Camp",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "80"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.038597,
+          30.30753
+        ]
+      },
+      "properties": {
+        "location_of_source": "Bhima Vihar",
+        "hp": "25",
+        "rated_discharge_litter_per_minute": "300",
+        "head_mtr": "150",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "100",
+        "sub_class": "Tube Well",
+        "ward_name": "Rest Camp",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "80"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.03842,
+          30.311852
+        ]
+      },
+      "properties": {
+        "location_of_source": "Chander Nagar",
+        "hp": "100",
+        "rated_discharge_litter_per_minute": "2500",
+        "head_mtr": "120",
+        "aver_age_running_hours": "18",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "200",
+        "sub_class": "Tube Well",
+        "ward_name": "Rest Camp",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "80"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.039259,
+          30.313673
+        ]
+      },
+      "properties": {
+        "location_of_source": "Old Jail Parisar",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "1500",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "M.K.P",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.040308,
+          30.321362
+        ]
+      },
+      "properties": {
+        "location_of_source": "Tahsil Parisar",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "2000",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "M.K.P",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.042141,
+          30.306783
+        ]
+      },
+      "properties": {
+        "location_of_source": "Bannu School",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "2000",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Racecourse South",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "81"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0391,
+          30.2839
+        ]
+      },
+      "properties": {
+        "location_of_source": "Ajabpur Mothrowala (Bangali Kothi)",
+        "hp": "41",
+        "rated_discharge_litter_per_minute": "1500",
+        "head_mtr": "60",
+        "aver_age_running_hours": "20",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "400",
+        "sub_class": "Tube Well",
+        "ward_name": "Kedarpur",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "83"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.04,
+          30.2732
+        ]
+      },
+      "properties": {
+        "location_of_source": "Kedarpruam - 2",
+        "hp": "52",
+        "rated_discharge_litter_per_minute": "1800",
+        "head_mtr": "100",
+        "aver_age_running_hours": "18",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Mothrowala",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "85"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.049954,
+          30.285577
+        ]
+      },
+      "properties": {
+        "location_of_source": "Deepnagar 1",
+        "hp": "62",
+        "rated_discharge_litter_per_minute": "1500",
+        "head_mtr": "120",
+        "aver_age_running_hours": "20",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "450",
+        "sub_class": "Tube Well",
+        "ward_name": "Deep Nagar",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "82"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0482,
+          30.2826
+        ]
+      },
+      "properties": {
+        "location_of_source": "THDC Ajabpur",
+        "hp": "62",
+        "rated_discharge_litter_per_minute": "1500",
+        "head_mtr": "85",
+        "aver_age_running_hours": "18",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "125",
+        "sub_class": "Tube Well",
+        "ward_name": "Deep Nagar",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "82"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0473,
+          30.2792
+        ]
+      },
+      "properties": {
+        "location_of_source": "Kedarpuram - 1",
+        "hp": "40",
+        "rated_discharge_litter_per_minute": "1400",
+        "head_mtr": "100",
+        "aver_age_running_hours": "18",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "125",
+        "sub_class": "Tube Well",
+        "ward_name": "Mothrowala",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "85"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0443,
+          30.2782
+        ]
+      },
+      "properties": {
+        "location_of_source": "Deepnagar 2",
+        "hp": "52",
+        "rated_discharge_litter_per_minute": "1500",
+        "head_mtr": "100",
+        "aver_age_running_hours": "20",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "200",
+        "sub_class": "Tube Well",
+        "ward_name": "Kedarpur",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "83"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.042801,
+          30.28618
+        ]
+      },
+      "properties": {
+        "location_of_source": "Shanti Vihar Mini",
+        "hp": "90",
+        "rated_discharge_litter_per_minute": "600",
+        "head_mtr": "90",
+        "aver_age_running_hours": "10",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "80",
+        "sub_class": "Tube Well",
+        "ward_name": "Kedarpur",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "83"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.045438,
+          30.295014
+        ]
+      },
+      "properties": {
+        "location_of_source": "Dyanasour",
+        "hp": "52",
+        "rated_discharge_litter_per_minute": "1500",
+        "head_mtr": "110",
+        "aver_age_running_hours": "10",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Mata Mandir Road",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "53"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.043528,
+          30.32026
+        ]
+      },
+      "properties": {
+        "location_of_source": "Nagar Palika",
+        "hp": "100",
+        "rated_discharge_litter_per_minute": "2500",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "M.K.P",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.046473,
+          30.323581
+        ]
+      },
+      "properties": {
+        "location_of_source": "Pared Ground",
+        "hp": "60",
+        "rated_discharge_litter_per_minute": "1500",
+        "head_mtr": "120",
+        "aver_age_running_hours": "14",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "M.K.P",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.047404,
+          30.321359
+        ]
+      },
+      "properties": {
+        "location_of_source": "Tibbati Market",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "2000",
+        "head_mtr": "120",
+        "aver_age_running_hours": "16",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "M.K.P",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.049934,
+          30.324351
+        ]
+      },
+      "properties": {
+        "location_of_source": "Survey Chowk",
+        "hp": "75",
+        "rated_discharge_litter_per_minute": "1500",
+        "head_mtr": "110",
+        "aver_age_running_hours": "16",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "M.K.P",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.050844,
+          30.320609
+        ]
+      },
+      "properties": {
+        "location_of_source": "Municipal Road",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "1500",
+        "head_mtr": "160",
+        "aver_age_running_hours": "16",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Dalanwala North",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "28"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.051162,
+          30.323681
+        ]
+      },
+      "properties": {
+        "location_of_source": "Mahila ITI",
+        "hp": "62",
+        "rated_discharge_litter_per_minute": "1500",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "M.K.P",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.05064,
+          30.306848
+        ]
+      },
+      "properties": {
+        "location_of_source": "Modal Colony",
+        "hp": "25",
+        "rated_discharge_litter_per_minute": "850",
+        "head_mtr": "120",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "80",
+        "sub_class": "Tube Well",
+        "ward_name": "Dalanwala South",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.052182,
+          30.299925
+        ]
+      },
+      "properties": {
+        "location_of_source": "Nehru Colony 4",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "2000",
+        "head_mtr": "120",
+        "aver_age_running_hours": "16",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "200",
+        "sub_class": "Tube Well",
+        "ward_name": "Dharampur",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "56"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.047873,
+          30.303236
+        ]
+      },
+      "properties": {
+        "location_of_source": "Nehru Colony 2 Dharampur Office",
+        "hp": "75",
+        "rated_discharge_litter_per_minute": "2000",
+        "head_mtr": "65",
+        "aver_age_running_hours": "16",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Dharampur",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "56"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.048693,
+          30.301385
+        ]
+      },
+      "properties": {
+        "location_of_source": "Race Cource",
+        "hp": "75",
+        "rated_discharge_litter_per_minute": "1500",
+        "head_mtr": "190",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Vcsg Ajabpur",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "54"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.048693,
+          30.301385
+        ]
+      },
+      "properties": {
+        "location_of_source": "RaceCource",
+        "hp": "15",
+        "rated_discharge_litter_per_minute": "500",
+        "head_mtr": "120",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "80",
+        "sub_class": "Tube Well",
+        "ward_name": "Vcsg Ajabpur",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "54"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.04926,
+          30.301448
+        ]
+      },
+      "properties": {
+        "location_of_source": "Dharampur Dispensary",
+        "hp": "100",
+        "rated_discharge_litter_per_minute": "2000",
+        "head_mtr": "120",
+        "aver_age_running_hours": "16",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Dharampur",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "56"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.049617,
+          30.29866
+        ]
+      },
+      "properties": {
+        "location_of_source": "Chander Singh Gharwali Margh",
+        "hp": "20",
+        "rated_discharge_litter_per_minute": "500",
+        "head_mtr": "120",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "80",
+        "sub_class": "Tube Well",
+        "ward_name": "Vcsg Ajabpur",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "54"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.049423,
+          30.29315
+        ]
+      },
+      "properties": {
+        "location_of_source": "Shiv Mandir (Ajabpur)",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "1600",
+        "head_mtr": "120",
+        "aver_age_running_hours": "18",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Vcsg Ajabpur",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "54"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.048913,
+          30.292745
+        ]
+      },
+      "properties": {
+        "location_of_source": "Ganesh Vihar",
+        "hp": "52",
+        "rated_discharge_litter_per_minute": "1600",
+        "head_mtr": "100",
+        "aver_age_running_hours": "10",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Vcsg Ajabpur",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "54"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.05059,
+          30.295567
+        ]
+      },
+      "properties": {
+        "location_of_source": "Prakash Vihar",
+        "hp": "60",
+        "rated_discharge_litter_per_minute": "1500",
+        "head_mtr": "120",
+        "aver_age_running_hours": "4",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Vcsg Ajabpur",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "54"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.057658,
+          30.290321
+        ]
+      },
+      "properties": {
+        "location_of_source": "Haridwar Road  Say Phele Shastrinagar",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "2200",
+        "head_mtr": "100",
+        "aver_age_running_hours": "20",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Shah Nagar",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "55"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.057,
+          30.2918
+        ]
+      },
+      "properties": {
+        "location_of_source": "Vidhan Sabha",
+        "hp": "25",
+        "rated_discharge_litter_per_minute": "1000",
+        "head_mtr": "100",
+        "aver_age_running_hours": "4",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "100",
+        "sub_class": "Tube Well",
+        "ward_name": "Shah Nagar",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "55"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.055844,
+          30.29234
+        ]
+      },
+      "properties": {
+        "location_of_source": "Vidhan Sabha Campus",
+        "hp": "25",
+        "rated_discharge_litter_per_minute": "1000",
+        "head_mtr": "100",
+        "aver_age_running_hours": "4",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "100",
+        "sub_class": "Tube Well",
+        "ward_name": "Shah Nagar",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "55"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.057202,
+          30.29908
+        ]
+      },
+      "properties": {
+        "location_of_source": "Nehru Colony 5",
+        "hp": "100",
+        "rated_discharge_litter_per_minute": "2500",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "200",
+        "sub_class": "Tube Well",
+        "ward_name": "Nehru Colony",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "57"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.055168,
+          30.302678
+        ]
+      },
+      "properties": {
+        "location_of_source": "Nehru Colony I Block OHT Parisar",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "2000",
+        "head_mtr": "120",
+        "aver_age_running_hours": "16",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Dharampur",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "56"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.055168,
+          30.302678
+        ]
+      },
+      "properties": {
+        "location_of_source": "I Block Park",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "2500",
+        "head_mtr": "120",
+        "aver_age_running_hours": "24",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "200",
+        "sub_class": "Tube Well",
+        "ward_name": "Dharampur",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "56"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.05474,
+          30.30114
+        ]
+      },
+      "properties": {
+        "location_of_source": "Nehru Colony 3",
+        "hp": "62",
+        "rated_discharge_litter_per_minute": "1500",
+        "head_mtr": "120",
+        "aver_age_running_hours": "16",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Dharampur",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "56"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.055859,
+          30.31866
+        ]
+      },
+      "properties": {
+        "location_of_source": "Carzon Road",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "2000",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Dalanwala North",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "28"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.056603,
+          30.310795
+        ]
+      },
+      "properties": {
+        "location_of_source": "Pritam Road",
+        "hp": "75",
+        "rated_discharge_litter_per_minute": "2000",
+        "head_mtr": "120",
+        "aver_age_running_hours": "16",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Dalanwala South",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.061464,
+          30.320527
+        ]
+      },
+      "properties": {
+        "location_of_source": "Chuna Bhatta OHT 1",
+        "hp": "62",
+        "rated_discharge_litter_per_minute": "1500",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Bhagat Singh Colony",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "49"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0627,
+          30.324
+        ]
+      },
+      "properties": {
+        "location_of_source": "Azad Nagar",
+        "hp": "17.5",
+        "rated_discharge_litter_per_minute": "400",
+        "head_mtr": "120",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "65",
+        "sub_class": "Tube Well",
+        "ward_name": "Bhagat Singh Colony",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "49"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.063086,
+          30.320419
+        ]
+      },
+      "properties": {
+        "location_of_source": "Saraswati Vihar (Office Campus)",
+        "hp": "62",
+        "rated_discharge_litter_per_minute": "1600",
+        "head_mtr": "110",
+        "aver_age_running_hours": "12",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Bhagat Singh Colony",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "49"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.063086,
+          30.320419
+        ]
+      },
+      "properties": {
+        "location_of_source": "Saraswati Vihar",
+        "hp": "25",
+        "rated_discharge_litter_per_minute": "600",
+        "head_mtr": "120",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "80",
+        "sub_class": "Tube Well",
+        "ward_name": "Bhagat Singh Colony",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "49"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.063975,
+          30.323737
+        ]
+      },
+      "properties": {
+        "location_of_source": "Shastradhara Crossing",
+        "hp": "62",
+        "rated_discharge_litter_per_minute": "1500",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Bhagat Singh Colony",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "49"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.063158,
+          30.313589
+        ]
+      },
+      "properties": {
+        "location_of_source": "MDDA Dalanwala",
+        "hp": "75",
+        "rated_discharge_litter_per_minute": "1800",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Chander Road Mdda Colony",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "47"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.06233,
+          30.30339
+        ]
+      },
+      "properties": {
+        "location_of_source": "Sanjay Colony",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "2500",
+        "head_mtr": "120",
+        "aver_age_running_hours": "24",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "200",
+        "sub_class": "Tube Well",
+        "ward_name": "Dalanwala East",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.060769,
+          30.298394
+        ]
+      },
+      "properties": {
+        "location_of_source": "Rajiv Nagar",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "1800",
+        "head_mtr": "120",
+        "aver_age_running_hours": "18",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Rajeev Nagar",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "50"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.060769,
+          30.298394
+        ]
+      },
+      "properties": {
+        "location_of_source": "Rajiv Nagar Danda",
+        "hp": "52",
+        "rated_discharge_litter_per_minute": "2000",
+        "head_mtr": "110",
+        "aver_age_running_hours": "18",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Rajeev Nagar",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "50"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.061002,
+          30.301496
+        ]
+      },
+      "properties": {
+        "location_of_source": "Sanjay Colony Inder Road",
+        "hp": "40",
+        "rated_discharge_litter_per_minute": "1000",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Dalanwala East",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.060646,
+          30.306018
+        ]
+      },
+      "properties": {
+        "location_of_source": "Judg Colony",
+        "hp": "25",
+        "rated_discharge_litter_per_minute": "800",
+        "head_mtr": "120",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "80",
+        "sub_class": "Tube Well",
+        "ward_name": "Dalanwala East",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.059534,
+          30.299287
+        ]
+      },
+      "properties": {
+        "location_of_source": "Nehru Colony H Block",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "2000",
+        "head_mtr": "120",
+        "aver_age_running_hours": "16",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Nehru Colony",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "57"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.062709,
+          30.29418
+        ]
+      },
+      "properties": {
+        "location_of_source": "Jyoti Vihar",
+        "hp": "25",
+        "rated_discharge_litter_per_minute": "500",
+        "head_mtr": "100",
+        "aver_age_running_hours": "12",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "80",
+        "sub_class": "Tube Well",
+        "ward_name": "Rajeev Nagar",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "50"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.055614,
+          30.285825
+        ]
+      },
+      "properties": {
+        "location_of_source": "Friends Enclave Gorakhpur",
+        "hp": "40",
+        "rated_discharge_litter_per_minute": "1000",
+        "head_mtr": "110",
+        "aver_age_running_hours": "10",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Shah Nagar",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "55"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0671,
+          30.293
+        ]
+      },
+      "properties": {
+        "location_of_source": "Divya Vihar (Upper Rajiv Nagar)",
+        "hp": "25",
+        "rated_discharge_litter_per_minute": "400",
+        "head_mtr": "90",
+        "aver_age_running_hours": "12",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "80",
+        "sub_class": "Tube Well",
+        "ward_name": "Rajeev Nagar",
+        "zone_name": "Mothrowala",
+        "zone_number": "1",
+        "ward_number": "50"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.069343,
+          30.304475
+        ]
+      },
+      "properties": {
+        "location_of_source": "Rajeev Nagar Danda",
+        "hp": "62",
+        "rated_discharge_litter_per_minute": "1500",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Badrish Colony",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "48"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.07055,
+          30.307173
+        ]
+      },
+      "properties": {
+        "location_of_source": "Badrish Colony",
+        "hp": "62",
+        "rated_discharge_litter_per_minute": "1200",
+        "head_mtr": "140",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Badrish Colony",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "48"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0709,
+          30.323
+        ]
+      },
+      "properties": {
+        "location_of_source": "Dashmesh Vihar",
+        "hp": "30",
+        "rated_discharge_litter_per_minute": "1000",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Aamwala Tarla",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.071,
+          30.3196
+        ]
+      },
+      "properties": {
+        "location_of_source": "Adhoiwala Shivlok",
+        "hp": "25",
+        "rated_discharge_litter_per_minute": "400",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "125",
+        "sub_class": "Tube Well",
+        "ward_name": "Nanur Khera",
+        "zone_name": "Harrawala",
+        "zone_number": "2",
+        "ward_number": "62"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.066629,
+          30.321635
+        ]
+      },
+      "properties": {
+        "location_of_source": "Adarsh Vihar",
+        "hp": "5",
+        "rated_discharge_litter_per_minute": "100",
+        "head_mtr": "120",
+        "aver_age_running_hours": "4",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "32",
+        "sub_class": "Tube Well",
+        "ward_name": "Bhagat Singh Colony",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "49"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.068243,
+          30.316649
+        ]
+      },
+      "properties": {
+        "location_of_source": "Vani Vihar",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "2200",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Vani Vihar",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "51"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.06534,
+          30.309576
+        ]
+      },
+      "properties": {
+        "location_of_source": "Raffel Home",
+        "hp": "75",
+        "rated_discharge_litter_per_minute": "1800",
+        "head_mtr": "120",
+        "aver_age_running_hours": "18",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Bhagat Singh Colony",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "49"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.064532,
+          30.308798
+        ]
+      },
+      "properties": {
+        "location_of_source": "Inder Road",
+        "hp": "62",
+        "rated_discharge_litter_per_minute": "1500",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Dalanwala South",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.064161,
+          30.306389
+        ]
+      },
+      "properties": {
+        "location_of_source": "Sanjay Colony Mohini Road",
+        "hp": "75",
+        "rated_discharge_litter_per_minute": "1800",
+        "head_mtr": "120",
+        "aver_age_running_hours": "16",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Dalanwala East",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.065021,
+          30.312985
+        ]
+      },
+      "properties": {
+        "location_of_source": "Adhoiwala Chatrawas",
+        "hp": "75",
+        "rated_discharge_litter_per_minute": "1500",
+        "head_mtr": "140",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Vani Vihar",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_number": "3",
+        "ward_number": "51"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.068528,
+          30.334683
+        ]
+      },
+      "properties": {
+        "location_of_source": "Ekta Vihar",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "1500",
+        "head_mtr": "175",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Aamwala Tarla",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0694,
+          30.3418
+        ]
+      },
+      "properties": {
+        "location_of_source": "Brahamawala Khala 1",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "1500",
+        "head_mtr": "175",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "125",
+        "sub_class": "Tube Well",
+        "ward_name": "Danda Lakhond",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "60"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0687,
+          30.3482
+        ]
+      },
+      "properties": {
+        "location_of_source": "Chido Nagar Nigam",
+        "hp": "20",
+        "rated_discharge_litter_per_minute": "300",
+        "head_mtr": "140",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "80",
+        "sub_class": "Tube Well",
+        "ward_name": "Dhoran",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0722,
+          30.3473
+        ]
+      },
+      "properties": {
+        "location_of_source": "Mandakni Vihar",
+        "hp": "7.5",
+        "rated_discharge_litter_per_minute": "80",
+        "head_mtr": "120",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "40",
+        "sub_class": "Tube Well",
+        "ward_name": "Danda Lakhond",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "60"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0726,
+          30.3557
+        ]
+      },
+      "properties": {
+        "location_of_source": "Aman Vihar (jal Nigam)",
+        "hp": "52",
+        "rated_discharge_litter_per_minute": "1000",
+        "head_mtr": "115",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Dhoran",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.074811,
+          30.354387
+        ]
+      },
+      "properties": {
+        "location_of_source": "Chidowali",
+        "hp": "25",
+        "rated_discharge_litter_per_minute": "300",
+        "head_mtr": "120",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "80",
+        "sub_class": "Tube Well",
+        "ward_name": "Danda Lakhond",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "60"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.074572,
+          30.325027
+        ]
+      },
+      "properties": {
+        "location_of_source": "Ambedkar Marg Primary School",
+        "hp": "25",
+        "rated_discharge_litter_per_minute": "500",
+        "head_mtr": "110",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "80",
+        "sub_class": "Tube Well",
+        "ward_name": "Aamwala Tarla",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.075186,
+          30.324899
+        ]
+      },
+      "properties": {
+        "location_of_source": "Sunderwala Aamwala Trala-1",
+        "hp": "17.5",
+        "rated_discharge_litter_per_minute": "500",
+        "head_mtr": "120",
+        "aver_age_running_hours": "10",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "100",
+        "sub_class": "Tube Well",
+        "ward_name": "Nanur Khera",
+        "zone_name": "Harrawala",
+        "zone_number": "2",
+        "ward_number": "62"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.078471,
+          30.331178
+        ]
+      },
+      "properties": {
+        "location_of_source": "Nanoor Khera",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "1500",
+        "head_mtr": "140",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Nanur Khera",
+        "zone_name": "Harrawala",
+        "zone_number": "2",
+        "ward_number": "62"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.078764,
+          30.324765
+        ]
+      },
+      "properties": {
+        "location_of_source": "Ajabpur (haridwar Bypass  road)  old/ (Vishnu Lok colony)",
+        "hp": "62",
+        "rated_discharge_litter_per_minute": "1500",
+        "head_mtr": "100",
+        "aver_age_running_hours": "18",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Nanur Khera",
+        "zone_name": "Harrawala",
+        "zone_number": "2",
+        "ward_number": "62"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.085443,
+          30.333461
+        ]
+      },
+      "properties": {
+        "location_of_source": "Mangluwala",
+        "hp": "25",
+        "rated_discharge_litter_per_minute": "500",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "100",
+        "sub_class": "Tube Well",
+        "ward_name": "Danda Lakhond",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "60"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0681,
+          30.3684
+        ]
+      },
+      "properties": {
+        "location_of_source": "Himayalan Garden",
+        "hp": "25",
+        "rated_discharge_litter_per_minute": "600",
+        "head_mtr": "120",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "100",
+        "sub_class": "Tube Well",
+        "ward_name": "Vijaypur",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0662,
+          30.378
+        ]
+      },
+      "properties": {
+        "location_of_source": "Johri Gaun",
+        "hp": "20",
+        "rated_discharge_litter_per_minute": "500",
+        "head_mtr": "110",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "80",
+        "sub_class": "Tube Well",
+        "ward_name": "Vijaypur",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.088049,
+          30.326286
+        ]
+      },
+      "properties": {
+        "location_of_source": "Sunderwala Aamwala Trala-2",
+        "hp": "15",
+        "rated_discharge_litter_per_minute": "500",
+        "head_mtr": "120",
+        "aver_age_running_hours": "10",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "100",
+        "sub_class": "Tube Well",
+        "ward_name": "Danda Lakhond",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "60"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.090484,
+          30.330962
+        ]
+      },
+      "properties": {
+        "location_of_source": "Sunderwala",
+        "hp": "85",
+        "rated_discharge_litter_per_minute": "1100",
+        "head_mtr": "90",
+        "aver_age_running_hours": "12",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "150",
+        "sub_class": "Tube Well",
+        "ward_name": "Danda Lakhond",
+        "zone_name": "Rajpur",
+        "zone_number": "5",
+        "ward_number": "60"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.109155,
+          30.278356
+        ]
+      },
+      "properties": {
+        "location_of_source": "Bajawala",
+        "hp": "40",
+        "rated_discharge_litter_per_minute": "1000",
+        "head_mtr": "120",
+        "aver_age_running_hours": "22",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "100",
+        "sub_class": "Tube Well",
+        "ward_name": "Nathuwala",
+        "zone_name": "Harrawala",
+        "zone_number": "2",
+        "ward_number": "100"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.963646,
+          30.331812
+        ]
+      },
+      "properties": {
+        "location_of_source": "Sharma Tailor River Side",
+        "hp": "25",
+        "rated_discharge_litter_per_minute": "300",
+        "head_mtr": "130",
+        "aver_age_running_hours": "8",
+        "delivery_pipe_material": "MSERW",
+        "delivery_line_size_mm": "80",
+        "sub_class": "Tube Well",
+        "ward_name": "Arcedeia 1",
+        "zone_name": "Arcedeia",
+        "zone_number": "4",
+        "ward_number": "92"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1895 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.061486,
+          30.361157
+        ]
+      },
+      "properties": {
+        "no_of_bins": "1",
+        "ward_no": "6",
+        "sub_class": "Compact Bins",
+        "zone_no": "5",
+        "location": "Near Himalyan Garden Police H. Q.",
+        "status_container_point": "",
+        "ward_name": "Doon Vihar",
+        "coverage_area": "0",
+        "zone_name": "Rajpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.060999,
+          30.361099
+        ]
+      },
+      "properties": {
+        "no_of_bins": "1",
+        "ward_no": "6",
+        "sub_class": "Compact Bins",
+        "zone_no": "5",
+        "location": "Lane 8 , Bhagirath Puram",
+        "status_container_point": "",
+        "ward_name": "Doon Vihar",
+        "coverage_area": "0",
+        "zone_name": "Rajpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.064634,
+          30.348864
+        ]
+      },
+      "properties": {
+        "no_of_bins": "3",
+        "ward_no": "7",
+        "sub_class": "Compact Bins",
+        "zone_no": "5",
+        "location": "Kandoli Near, Bala Sundari Mandir",
+        "status_container_point": "",
+        "ward_name": "Jakhan",
+        "coverage_area": "0",
+        "zone_name": "Rajpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.063956,
+          30.3255
+        ]
+      },
+      "properties": {
+        "no_of_bins": "0",
+        "ward_no": "46",
+        "sub_class": "Dust Bin",
+        "zone_no": "5",
+        "location": "Sahastra Dhara Crossing",
+        "status_container_point": "",
+        "ward_name": "Adhoiwala Uttar",
+        "coverage_area": "0",
+        "zone_name": "Rajpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.059966,
+          30.337645
+        ]
+      },
+      "properties": {
+        "no_of_bins": "2",
+        "ward_no": "9",
+        "sub_class": "Compact Bins",
+        "zone_no": "5",
+        "location": "Canal Road, Near Petrol Pump",
+        "status_container_point": "",
+        "ward_name": "Arya Nagar",
+        "coverage_area": "0",
+        "zone_name": "Rajpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.060286,
+          30.33782
+        ]
+      },
+      "properties": {
+        "no_of_bins": "1",
+        "ward_no": "9",
+        "sub_class": "Compact Bins",
+        "zone_no": "5",
+        "location": "Taar Baadh",
+        "status_container_point": "",
+        "ward_name": "Arya Nagar",
+        "coverage_area": "0",
+        "zone_name": "Rajpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.060379,
+          30.33462
+        ]
+      },
+      "properties": {
+        "no_of_bins": "2",
+        "ward_no": "13",
+        "sub_class": "Compact Bins",
+        "zone_no": "5",
+        "location": "Gupta Chakki",
+        "status_container_point": "",
+        "ward_name": "Dl Road",
+        "coverage_area": "0",
+        "zone_name": "Rajpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0607,
+          30.34206
+        ]
+      },
+      "properties": {
+        "no_of_bins": "5",
+        "ward_no": "8",
+        "sub_class": "Compact Bins",
+        "zone_no": "5",
+        "location": "Silver City Chowk",
+        "status_container_point": "",
+        "ward_name": "Sala Wala",
+        "coverage_area": "0",
+        "zone_name": "Rajpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.057661,
+          30.337881
+        ]
+      },
+      "properties": {
+        "no_of_bins": "1",
+        "ward_no": "9",
+        "sub_class": "Dumper Bins",
+        "zone_no": "5",
+        "location": "Shiv Mandir Ke Samne",
+        "status_container_point": "",
+        "ward_name": "Arya Nagar",
+        "coverage_area": "0",
+        "zone_name": "Rajpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.057761,
+          30.334639
+        ]
+      },
+      "properties": {
+        "no_of_bins": "0",
+        "ward_no": "9",
+        "sub_class": "Dust Bin",
+        "zone_no": "5",
+        "location": "Old Survey Road",
+        "status_container_point": "",
+        "ward_name": "Arya Nagar",
+        "coverage_area": "0",
+        "zone_name": "Rajpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.05241,
+          30.33131
+        ]
+      },
+      "properties": {
+        "no_of_bins": "0",
+        "ward_no": "16",
+        "sub_class": "Dust Bin",
+        "zone_no": "5",
+        "location": "Sachivalaya",
+        "status_container_point": "",
+        "ward_name": "Bakralwala",
+        "coverage_area": "0",
+        "zone_name": "Rajpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.052657,
+          30.328222
+        ]
+      },
+      "properties": {
+        "no_of_bins": "2",
+        "ward_no": "15",
+        "sub_class": "Compact Bins",
+        "zone_no": "5",
+        "location": "E.C Road",
+        "status_container_point": "",
+        "ward_name": "Karanpur",
+        "coverage_area": "0",
+        "zone_name": "Rajpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.05237,
+          30.33396
+        ]
+      },
+      "properties": {
+        "no_of_bins": "0",
+        "ward_no": "16",
+        "sub_class": "Dust Bin",
+        "zone_no": "5",
+        "location": "Bahal Chowk",
+        "status_container_point": "",
+        "ward_name": "Bakralwala",
+        "coverage_area": "0",
+        "zone_name": "Rajpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.045415,
+          30.327323
+        ]
+      },
+      "properties": {
+        "no_of_bins": "1",
+        "ward_no": "16",
+        "sub_class": "Dumper Bins",
+        "zone_no": "5",
+        "location": "Rajpur Road, Chukhauwala",
+        "status_container_point": "",
+        "ward_name": "Bakralwala",
+        "coverage_area": "0",
+        "zone_name": "Rajpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.044279,
+          30.329171
+        ]
+      },
+      "properties": {
+        "no_of_bins": "1",
+        "ward_no": "16",
+        "sub_class": "Dumper Bins",
+        "zone_no": "5",
+        "location": "Neshvilla",
+        "status_container_point": "",
+        "ward_name": "Bakralwala",
+        "coverage_area": "0",
+        "zone_name": "Rajpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.044929,
+          30.34242
+        ]
+      },
+      "properties": {
+        "no_of_bins": "1",
+        "ward_no": "11",
+        "sub_class": "Dumper Bins",
+        "zone_no": "5",
+        "location": "Survey Gate",
+        "status_container_point": "",
+        "ward_name": "Vijay Colony",
+        "coverage_area": "0",
+        "zone_name": "Rajpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.044336,
+          30.351893
+        ]
+      },
+      "properties": {
+        "no_of_bins": "1",
+        "ward_no": "2",
+        "sub_class": "Compact Bins",
+        "zone_no": "5",
+        "location": "Rajya Atithi Greh",
+        "status_container_point": "",
+        "ward_name": "Vijaypur",
+        "coverage_area": "0",
+        "zone_name": "Rajpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.043207,
+          30.353831
+        ]
+      },
+      "properties": {
+        "no_of_bins": "4",
+        "ward_no": "2",
+        "sub_class": "Compact Bins",
+        "zone_no": "5",
+        "location": "Raj Bhawan",
+        "status_container_point": "",
+        "ward_name": "Vijaypur",
+        "coverage_area": "0",
+        "zone_name": "Rajpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.038836,
+          30.326051
+        ]
+      },
+      "properties": {
+        "no_of_bins": "8",
+        "ward_no": "19",
+        "sub_class": "Compact Bins",
+        "zone_no": "3",
+        "location": "Near Fri Gate",
+        "status_container_point": "",
+        "ward_name": "Ghanta Ghar",
+        "coverage_area": "0",
+        "zone_name": "Nagar Nigam Mukhyalay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.032814,
+          30.328109
+        ]
+      },
+      "properties": {
+        "no_of_bins": "0",
+        "ward_no": "12",
+        "sub_class": "Dust Bin",
+        "zone_no": "3",
+        "location": "Bindal Pul",
+        "status_container_point": "",
+        "ward_name": "Kishan Nagar",
+        "coverage_area": "0",
+        "zone_name": "Nagar Nigam Mukhyalay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.032227,
+          30.328291
+        ]
+      },
+      "properties": {
+        "no_of_bins": "0",
+        "ward_no": "12",
+        "sub_class": "Dust Bin",
+        "zone_no": "3",
+        "location": "Doon School",
+        "status_container_point": "",
+        "ward_name": "Kishan Nagar",
+        "coverage_area": "0",
+        "zone_name": "Nagar Nigam Mukhyalay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.030186,
+          30.325498
+        ]
+      },
+      "properties": {
+        "no_of_bins": "1",
+        "ward_no": "22",
+        "sub_class": "Dumper Bins",
+        "zone_no": "3",
+        "location": "Sgrr School",
+        "status_container_point": "",
+        "ward_name": "Tilak Road",
+        "coverage_area": "0",
+        "zone_name": "Nagar Nigam Mukhyalay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0298,
+          30.33007
+        ]
+      },
+      "properties": {
+        "no_of_bins": "0",
+        "ward_no": "33",
+        "sub_class": "Dust Bin",
+        "zone_no": "3",
+        "location": "Chorkhala",
+        "status_container_point": "",
+        "ward_name": "Yamuna Colony",
+        "coverage_area": "0",
+        "zone_name": "Nagar Nigam Mukhyalay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.028467,
+          30.328787
+        ]
+      },
+      "properties": {
+        "no_of_bins": "0",
+        "ward_no": "33",
+        "sub_class": "Dust Bin",
+        "zone_no": "3",
+        "location": "Idd Gah",
+        "status_container_point": "",
+        "ward_name": "Yamuna Colony",
+        "coverage_area": "0",
+        "zone_name": "Nagar Nigam Mukhyalay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.99211,
+          30.33272
+        ]
+      },
+      "properties": {
+        "no_of_bins": "0",
+        "ward_no": "92",
+        "sub_class": "Dust Bin",
+        "zone_no": "4",
+        "location": "Panditwari",
+        "status_container_point": "",
+        "ward_name": "Arcedeia 1",
+        "coverage_area": "0",
+        "zone_name": "Arcedeia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.99246,
+          30.33242
+        ]
+      },
+      "properties": {
+        "no_of_bins": "0",
+        "ward_no": "37",
+        "sub_class": "Dust Bin",
+        "zone_no": "4",
+        "location": "Ballupur Chowk",
+        "status_container_point": "",
+        "ward_name": "Basant Vihar",
+        "coverage_area": "0",
+        "zone_name": "Arcedeia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.018416,
+          30.338309
+        ]
+      },
+      "properties": {
+        "no_of_bins": "1",
+        "ward_no": "32",
+        "sub_class": "Dumper Bins",
+        "zone_no": "4",
+        "location": "Kailashpuri",
+        "status_container_point": "",
+        "ward_name": "Ballupur",
+        "coverage_area": "0",
+        "zone_name": "Arcedeia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.02167,
+          30.340835
+        ]
+      },
+      "properties": {
+        "no_of_bins": "0",
+        "ward_no": "12",
+        "sub_class": "Dust Bin",
+        "zone_no": "3",
+        "location": "Rajendra Nagar 10 No Lane",
+        "status_container_point": "",
+        "ward_name": "Kishan Nagar",
+        "coverage_area": "0",
+        "zone_name": "Nagar Nigam Mukhyalay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.020627,
+          30.333613
+        ]
+      },
+      "properties": {
+        "no_of_bins": "1",
+        "ward_no": "32",
+        "sub_class": "Dumper Bins",
+        "zone_no": "4",
+        "location": "Chorkhala",
+        "status_container_point": "",
+        "ward_name": "Ballupur",
+        "coverage_area": "0",
+        "zone_name": "Arcedeia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.019546,
+          30.308862
+        ]
+      },
+      "properties": {
+        "no_of_bins": "0",
+        "ward_no": "71",
+        "sub_class": "Dust Bin",
+        "zone_no": "3",
+        "location": "Patel Nagar Main Road",
+        "status_container_point": "",
+        "ward_name": "Patel Nagar East",
+        "coverage_area": "0",
+        "zone_name": "Nagar Nigam Mukhyalay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.01747,
+          30.317413
+        ]
+      },
+      "properties": {
+        "no_of_bins": "0",
+        "ward_no": "44",
+        "sub_class": "Dust Bin",
+        "zone_no": "4",
+        "location": "Roz Mount",
+        "status_container_point": "",
+        "ward_name": "Patel Nagar West",
+        "coverage_area": "0",
+        "zone_name": "Arcedeia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.012011,
+          30.323475
+        ]
+      },
+      "properties": {
+        "no_of_bins": "1",
+        "ward_no": "36",
+        "sub_class": "Dumper Bins",
+        "zone_no": "4",
+        "location": "Vijay Park",
+        "status_container_point": "",
+        "ward_name": "Vijay Park",
+        "coverage_area": "0",
+        "zone_name": "Arcedeia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.012123,
+          30.317217
+        ]
+      },
+      "properties": {
+        "no_of_bins": "1",
+        "ward_no": "43",
+        "sub_class": "Dumper Bins",
+        "zone_no": "4",
+        "location": "Near Shakti Enclave Gms Road",
+        "status_container_point": "",
+        "ward_name": "Drona Puri",
+        "coverage_area": "0",
+        "zone_name": "Arcedeia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.01223,
+          30.317483
+        ]
+      },
+      "properties": {
+        "no_of_bins": "0",
+        "ward_no": "43",
+        "sub_class": "Dust Bin",
+        "zone_no": "4",
+        "location": "Gms Road",
+        "status_container_point": "",
+        "ward_name": "Drona Puri",
+        "coverage_area": "0",
+        "zone_name": "Arcedeia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.014805,
+          30.299198
+        ]
+      },
+      "properties": {
+        "no_of_bins": "1",
+        "ward_no": "74",
+        "sub_class": "Dumper Bins",
+        "zone_no": "1",
+        "location": "Opp. Ganesh Mandir",
+        "status_container_point": "",
+        "ward_name": "Bhrampuri",
+        "coverage_area": "0",
+        "zone_name": "Mothrowala"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.017173,
+          30.303085
+        ]
+      },
+      "properties": {
+        "no_of_bins": "0",
+        "ward_no": "74",
+        "sub_class": "Dust Bin",
+        "zone_no": "1",
+        "location": "Indresh Hospital",
+        "status_container_point": "",
+        "ward_name": "Bhrampuri",
+        "coverage_area": "0",
+        "zone_name": "Mothrowala"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.020252,
+          30.299667
+        ]
+      },
+      "properties": {
+        "no_of_bins": "1",
+        "ward_no": "72",
+        "sub_class": "Dumper Bins",
+        "zone_no": "1",
+        "location": "Palm City",
+        "status_container_point": "",
+        "ward_name": "Dehrakhas",
+        "coverage_area": "0",
+        "zone_name": "Mothrowala"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.000319,
+          30.292774
+        ]
+      },
+      "properties": {
+        "no_of_bins": "0",
+        "ward_no": "77",
+        "sub_class": "Dust Bin",
+        "zone_no": "1",
+        "location": "Shimla Bypass",
+        "status_container_point": "",
+        "ward_name": "Majra",
+        "coverage_area": "0",
+        "zone_name": "Mothrowala"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.000436,
+          30.292851
+        ]
+      },
+      "properties": {
+        "no_of_bins": "1",
+        "ward_no": "77",
+        "sub_class": "Dumper Bins",
+        "zone_no": "1",
+        "location": "Shimla Bypass",
+        "status_container_point": "",
+        "ward_name": "Majra",
+        "coverage_area": "0",
+        "zone_name": "Mothrowala"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.006773,
+          30.299255
+        ]
+      },
+      "properties": {
+        "no_of_bins": "1",
+        "ward_no": "77",
+        "sub_class": "Dumper Bins",
+        "zone_no": "1",
+        "location": "Iti",
+        "status_container_point": "",
+        "ward_name": "Majra",
+        "coverage_area": "0",
+        "zone_name": "Mothrowala"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.006991,
+          30.299444
+        ]
+      },
+      "properties": {
+        "no_of_bins": "0",
+        "ward_no": "77",
+        "sub_class": "Dust Bin",
+        "zone_no": "1",
+        "location": "Iti",
+        "status_container_point": "",
+        "ward_name": "Majra",
+        "coverage_area": "0",
+        "zone_name": "Mothrowala"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.006088,
+          30.307169
+        ]
+      },
+      "properties": {
+        "no_of_bins": "1",
+        "ward_no": "76",
+        "sub_class": "Dumper Bins",
+        "zone_no": "1",
+        "location": "Kamla Place",
+        "status_container_point": "",
+        "ward_name": "Niranjanpur",
+        "coverage_area": "0",
+        "zone_name": "Mothrowala"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.00606,
+          30.307119
+        ]
+      },
+      "properties": {
+        "no_of_bins": "0",
+        "ward_no": "76",
+        "sub_class": "Dust Bin",
+        "zone_no": "1",
+        "location": "Kampla Palace",
+        "status_container_point": "",
+        "ward_name": "Niranjanpur",
+        "coverage_area": "0",
+        "zone_name": "Mothrowala"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.001168,
+          30.321036
+        ]
+      },
+      "properties": {
+        "no_of_bins": "3",
+        "ward_no": "39",
+        "sub_class": "Compact Bins",
+        "zone_no": "4",
+        "location": "Jalagam",
+        "status_container_point": "",
+        "ward_name": "Indra Nagar",
+        "coverage_area": "0",
+        "zone_name": "Arcedeia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.991591,
+          30.279982
+        ]
+      },
+      "properties": {
+        "no_of_bins": "1",
+        "ward_no": "78",
+        "sub_class": "Dumper Bins",
+        "zone_no": "1",
+        "location": "Eid Gah",
+        "status_container_point": "",
+        "ward_name": "Turner Road",
+        "coverage_area": "0",
+        "zone_name": "Mothrowala"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.991521,
+          30.279864
+        ]
+      },
+      "properties": {
+        "no_of_bins": "0",
+        "ward_no": "78",
+        "sub_class": "Dust Bin",
+        "zone_no": "1",
+        "location": "Iddgah",
+        "status_container_point": "",
+        "ward_name": "Turner Road",
+        "coverage_area": "0",
+        "zone_name": "Mothrowala"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.9954,
+          30.28789
+        ]
+      },
+      "properties": {
+        "no_of_bins": "1",
+        "ward_no": "86",
+        "sub_class": "Dumper Bins",
+        "zone_no": "4",
+        "location": "Big Bazar",
+        "status_container_point": "",
+        "ward_name": "Sewala Kala",
+        "coverage_area": "0",
+        "zone_name": "Arcedeia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.995118,
+          30.28788
+        ]
+      },
+      "properties": {
+        "no_of_bins": "0",
+        "ward_no": "86",
+        "sub_class": "Dust Bin",
+        "zone_no": "4",
+        "location": "Big Bazar /City Junction",
+        "status_container_point": "",
+        "ward_name": "Sewala Kala",
+        "coverage_area": "0",
+        "zone_name": "Arcedeia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.025801,
+          30.26431
+        ]
+      },
+      "properties": {
+        "no_of_bins": "1",
+        "ward_no": "85",
+        "sub_class": "Dumper Bins",
+        "zone_no": "1",
+        "location": "Rose Mound School",
+        "status_container_point": "",
+        "ward_name": "Mothrowala",
+        "coverage_area": "0",
+        "zone_name": "Mothrowala"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.025947,
+          30.325351
+        ]
+      },
+      "properties": {
+        "no_of_bins": "0",
+        "ward_no": "34",
+        "sub_class": "Dust Bin",
+        "zone_no": "3",
+        "location": "Gas Agency",
+        "status_container_point": "",
+        "ward_name": "Govind Garh",
+        "coverage_area": "0",
+        "zone_name": "Nagar Nigam Mukhyalay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.027726,
+          30.313835
+        ]
+      },
+      "properties": {
+        "no_of_bins": "0",
+        "ward_no": "69",
+        "sub_class": "Dust Bin",
+        "zone_no": "3",
+        "location": "Shivraj School Bombay Bhag",
+        "status_container_point": "",
+        "ward_name": "Ritha Mandi",
+        "coverage_area": "0",
+        "zone_name": "Nagar Nigam Mukhyalay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.028557,
+          30.316583
+        ]
+      },
+      "properties": {
+        "no_of_bins": "1",
+        "ward_no": "70",
+        "sub_class": "Compact Bins",
+        "zone_no": "3",
+        "location": "Near Indresh Hospital",
+        "status_container_point": "",
+        "ward_name": "Lakhi Bag",
+        "coverage_area": "0",
+        "zone_name": "Nagar Nigam Mukhyalay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.02971,
+          30.31017
+        ]
+      },
+      "properties": {
+        "no_of_bins": "0",
+        "ward_no": "69",
+        "sub_class": "Dust Bin",
+        "zone_no": "3",
+        "location": "Dharbhanga",
+        "status_container_point": "",
+        "ward_name": "Ritha Mandi",
+        "coverage_area": "0",
+        "zone_name": "Nagar Nigam Mukhyalay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.030834,
+          30.311004
+        ]
+      },
+      "properties": {
+        "no_of_bins": "6",
+        "ward_no": "69",
+        "sub_class": "Compact Bins",
+        "zone_no": "3",
+        "location": "Darbangha",
+        "status_container_point": "",
+        "ward_name": "Ritha Mandi",
+        "coverage_area": "0",
+        "zone_name": "Nagar Nigam Mukhyalay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.027591,
+          30.299672
+        ]
+      },
+      "properties": {
+        "no_of_bins": "0",
+        "ward_no": "73",
+        "sub_class": "Dust Bin",
+        "zone_no": "1",
+        "location": "Pathri Bagh",
+        "status_container_point": "",
+        "ward_name": "Vidya Vihar",
+        "coverage_area": "0",
+        "zone_name": "Mothrowala"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.033664,
+          30.318362
+        ]
+      },
+      "properties": {
+        "no_of_bins": "0",
+        "ward_no": "27",
+        "sub_class": "Dust Bin",
+        "zone_no": "3",
+        "location": "Lakhi Bagh Railway Station",
+        "status_container_point": "",
+        "ward_name": "Jhanda Mohala",
+        "coverage_area": "0",
+        "zone_name": "Nagar Nigam Mukhyalay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.036118,
+          30.317448
+        ]
+      },
+      "properties": {
+        "no_of_bins": "1",
+        "ward_no": "26",
+        "sub_class": "Dumper Bins",
+        "zone_no": "3",
+        "location": "Raja Road, Dhamawala Mohalla",
+        "status_container_point": "",
+        "ward_name": "Dhamawala",
+        "coverage_area": "0",
+        "zone_name": "Nagar Nigam Mukhyalay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.03909,
+          30.315684
+        ]
+      },
+      "properties": {
+        "no_of_bins": "0",
+        "ward_no": "21",
+        "sub_class": "Dust Bin",
+        "zone_no": "3",
+        "location": "56 Bhog",
+        "status_container_point": "",
+        "ward_name": "M.K.P",
+        "coverage_area": "0",
+        "zone_name": "Nagar Nigam Mukhyalay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.041232,
+          30.303244
+        ]
+      },
+      "properties": {
+        "no_of_bins": "2",
+        "ward_no": "81",
+        "sub_class": "Compact Bins",
+        "zone_no": "3",
+        "location": "Police Line",
+        "status_container_point": "",
+        "ward_name": "Racecourse South",
+        "coverage_area": "0",
+        "zone_name": "Nagar Nigam Mukhyalay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.038842,
+          30.30457
+        ]
+      },
+      "properties": {
+        "no_of_bins": "2",
+        "ward_no": "81",
+        "sub_class": "Compact Bins",
+        "zone_no": "3",
+        "location": "Police Line",
+        "status_container_point": "",
+        "ward_name": "Racecourse South",
+        "coverage_area": "0",
+        "zone_name": "Nagar Nigam Mukhyalay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.039688,
+          30.290818
+        ]
+      },
+      "properties": {
+        "no_of_bins": "0",
+        "ward_no": "52",
+        "sub_class": "Dust Bin",
+        "zone_no": "1",
+        "location": "Police Chowki",
+        "status_container_point": "",
+        "ward_name": "Ajabpur Saraswati Vihar",
+        "coverage_area": "0",
+        "zone_name": "Mothrowala"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.046734,
+          30.270659
+        ]
+      },
+      "properties": {
+        "no_of_bins": "2",
+        "ward_no": "58",
+        "sub_class": "Compact Bins",
+        "zone_no": "1",
+        "location": "Kanji House",
+        "status_container_point": "",
+        "ward_name": "Defence Colony",
+        "coverage_area": "0",
+        "zone_name": "Mothrowala"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.04448,
+          30.27376
+        ]
+      },
+      "properties": {
+        "no_of_bins": "0",
+        "ward_no": "85",
+        "sub_class": "Dust Bin",
+        "zone_no": "1",
+        "location": "Sachivalaya Colony",
+        "status_container_point": "",
+        "ward_name": "Mothrowala",
+        "coverage_area": "0",
+        "zone_name": "Mothrowala"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.042465,
+          30.308161
+        ]
+      },
+      "properties": {
+        "no_of_bins": "4",
+        "ward_no": "20",
+        "sub_class": "Compact Bins",
+        "zone_no": "3",
+        "location": "Bannu School",
+        "status_container_point": "",
+        "ward_name": "Racecourse (North)",
+        "coverage_area": "0",
+        "zone_name": "Nagar Nigam Mukhyalay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.04366,
+          30.318989
+        ]
+      },
+      "properties": {
+        "no_of_bins": "3",
+        "ward_no": "21",
+        "sub_class": "Compact Bins",
+        "zone_no": "3",
+        "location": "New Road, Mkp College",
+        "status_container_point": "",
+        "ward_name": "M.K.P",
+        "coverage_area": "0",
+        "zone_name": "Nagar Nigam Mukhyalay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.04429,
+          30.32139
+        ]
+      },
+      "properties": {
+        "no_of_bins": "2",
+        "ward_no": "21",
+        "sub_class": "Compact Bins",
+        "zone_no": "3",
+        "location": "Doon Hospital",
+        "status_container_point": "",
+        "ward_name": "M.K.P",
+        "coverage_area": "0",
+        "zone_name": "Nagar Nigam Mukhyalay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.046698,
+          30.323424
+        ]
+      },
+      "properties": {
+        "no_of_bins": "1",
+        "ward_no": "21",
+        "sub_class": "Compact Bins",
+        "zone_no": "3",
+        "location": "Pred Ground, Lensedown Chowk",
+        "status_container_point": "",
+        "ward_name": "M.K.P",
+        "coverage_area": "0",
+        "zone_name": "Nagar Nigam Mukhyalay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.047814,
+          30.321912
+        ]
+      },
+      "properties": {
+        "no_of_bins": "1",
+        "ward_no": "21",
+        "sub_class": "Compact Bins",
+        "zone_no": "3",
+        "location": "10, Convent Road, Mazar Wali Road",
+        "status_container_point": "",
+        "ward_name": "M.K.P",
+        "coverage_area": "0",
+        "zone_name": "Nagar Nigam Mukhyalay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.045675,
+          30.314
+        ]
+      },
+      "properties": {
+        "no_of_bins": "4",
+        "ward_no": "21",
+        "sub_class": "Compact Bins",
+        "zone_no": "3",
+        "location": "Chander Road",
+        "status_container_point": "",
+        "ward_name": "M.K.P",
+        "coverage_area": "0",
+        "zone_name": "Nagar Nigam Mukhyalay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.048282,
+          30.31087
+        ]
+      },
+      "properties": {
+        "no_of_bins": "4",
+        "ward_no": "20",
+        "sub_class": "Compact Bins",
+        "zone_no": "3",
+        "location": "Haridwar Road",
+        "status_container_point": "",
+        "ward_name": "Racecourse (North)",
+        "coverage_area": "0",
+        "zone_name": "Nagar Nigam Mukhyalay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.047942,
+          30.316491
+        ]
+      },
+      "properties": {
+        "no_of_bins": "2",
+        "ward_no": "21",
+        "sub_class": "Compact Bins",
+        "zone_no": "3",
+        "location": "New Road",
+        "status_container_point": "",
+        "ward_name": "M.K.P",
+        "coverage_area": "0",
+        "zone_name": "Nagar Nigam Mukhyalay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.052696,
+          30.303579
+        ]
+      },
+      "properties": {
+        "no_of_bins": "4",
+        "ward_no": "56",
+        "sub_class": "Compact Bins",
+        "zone_no": "1",
+        "location": "Luxmi Road",
+        "status_container_point": "",
+        "ward_name": "Dharampur",
+        "coverage_area": "0",
+        "zone_name": "Mothrowala"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.055213,
+          30.307393
+        ]
+      },
+      "properties": {
+        "no_of_bins": "1",
+        "ward_no": "30",
+        "sub_class": "Dumper Bins",
+        "zone_no": "3",
+        "location": "Luxmi Road",
+        "status_container_point": "",
+        "ward_name": "Dalanwala South",
+        "coverage_area": "0",
+        "zone_name": "Nagar Nigam Mukhyalay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.055211,
+          30.307582
+        ]
+      },
+      "properties": {
+        "no_of_bins": "0",
+        "ward_no": "30",
+        "sub_class": "Dust Bin",
+        "zone_no": "3",
+        "location": "Lakshmi Road",
+        "status_container_point": "",
+        "ward_name": "Dalanwala South",
+        "coverage_area": "0",
+        "zone_name": "Nagar Nigam Mukhyalay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.060765,
+          30.307484
+        ]
+      },
+      "properties": {
+        "no_of_bins": "4",
+        "ward_no": "30",
+        "sub_class": "Compact Bins",
+        "zone_no": "3",
+        "location": "Mohini Road",
+        "status_container_point": "",
+        "ward_name": "Dalanwala South",
+        "coverage_area": "0",
+        "zone_name": "Nagar Nigam Mukhyalay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.062468,
+          30.324034
+        ]
+      },
+      "properties": {
+        "no_of_bins": "5",
+        "ward_no": "49",
+        "sub_class": "Compact Bins",
+        "zone_no": "3",
+        "location": "Chuna Bhatta",
+        "status_container_point": "",
+        "ward_name": "Bhagat Singh Colony",
+        "coverage_area": "0",
+        "zone_name": "Nagar Nigam Mukhyalay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.05383,
+          30.283778
+        ]
+      },
+      "properties": {
+        "no_of_bins": "1",
+        "ward_no": "55",
+        "sub_class": "Dumper Bins",
+        "zone_no": "1",
+        "location": "Haridwar Road",
+        "status_container_point": "",
+        "ward_name": "Shah Nagar",
+        "coverage_area": "0",
+        "zone_name": "Mothrowala"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.094604,
+          30.312829
+        ]
+      },
+      "properties": {
+        "no_of_bins": "1",
+        "ward_no": "",
+        "sub_class": "Compact Bins",
+        "zone_no": "",
+        "location": "70, Rajpur Road, Dehradun",
+        "status_container_point": "",
+        "ward_name": "",
+        "coverage_area": "0",
+        "zone_name": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.06464,
+          30.32528
+        ]
+      },
+      "properties": {
+        "no_of_bins": "1",
+        "ward_no": "46",
+        "sub_class": "Dumper Bins",
+        "zone_no": "5",
+        "location": "Crossing, Shehastrdhara Road",
+        "status_container_point": "",
+        "ward_name": "Adhoiwala Uttar",
+        "coverage_area": "0",
+        "zone_name": "Rajpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.080685,
+          30.353947
+        ]
+      },
+      "properties": {
+        "no_of_bins": "1",
+        "ward_no": "60",
+        "sub_class": "Dumper Bins",
+        "zone_no": "5",
+        "location": "Near Anandarch Apartment",
+        "status_container_point": "",
+        "ward_name": "Danda Lakhond",
+        "coverage_area": "0",
+        "zone_name": "Rajpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.077819,
+          30.373638
+        ]
+      },
+      "properties": {
+        "no_of_bins": "1",
+        "ward_no": "6",
+        "sub_class": "Compact Bins",
+        "zone_no": "5",
+        "location": "Mussorie Divesion, Petrol Pump",
+        "status_container_point": "",
+        "ward_name": "Doon Vihar",
+        "coverage_area": "0",
+        "zone_name": "Rajpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.066794,
+          30.363105
+        ]
+      },
+      "properties": {
+        "no_of_bins": "1",
+        "ward_no": "6",
+        "sub_class": "Dumper Bins",
+        "zone_no": "5",
+        "location": "37, Doon Vihar Lane No. 1",
+        "status_container_point": "",
+        "ward_name": "Doon Vihar",
+        "coverage_area": "0",
+        "zone_name": "Rajpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.066804,
+          30.363735
+        ]
+      },
+      "properties": {
+        "no_of_bins": "2",
+        "ward_no": "6",
+        "sub_class": "Compact Bins",
+        "zone_no": "5",
+        "location": "Doon Vihar, Jakhan",
+        "status_container_point": "",
+        "ward_name": "Doon Vihar",
+        "coverage_area": "0",
+        "zone_name": "Rajpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.093727,
+          30.402389
+        ]
+      },
+      "properties": {
+        "no_of_bins": "1",
+        "ward_no": "4",
+        "sub_class": "Compact Bins",
+        "zone_no": "5",
+        "location": "98 Old Mussorie Road, Shenshai",
+        "status_container_point": "",
+        "ward_name": "Rajpur",
+        "coverage_area": "0",
+        "zone_name": "Rajpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.097005,
+          30.399492
+        ]
+      },
+      "properties": {
+        "no_of_bins": "2",
+        "ward_no": "4",
+        "sub_class": "Compact Bins",
+        "zone_no": "5",
+        "location": "32, Old Rajpur Road",
+        "status_container_point": "",
+        "ward_name": "Rajpur",
+        "coverage_area": "0",
+        "zone_name": "Rajpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.09296,
+          30.390926
+        ]
+      },
+      "properties": {
+        "no_of_bins": "1",
+        "ward_no": "4",
+        "sub_class": "Compact Bins",
+        "zone_no": "5",
+        "location": "7/2, Dakpath Kairwan Gaon",
+        "status_container_point": "",
+        "ward_name": "Rajpur",
+        "coverage_area": "0",
+        "zone_name": "Rajpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.092663,
+          30.391359
+        ]
+      },
+      "properties": {
+        "no_of_bins": "2",
+        "ward_no": "4",
+        "sub_class": "Compact Bins",
+        "zone_no": "5",
+        "location": "6, Old Mussonie Road Kairwaan Gaon",
+        "status_container_point": "",
+        "ward_name": "Rajpur",
+        "coverage_area": "0",
+        "zone_name": "Rajpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.089307,
+          30.393758
+        ]
+      },
+      "properties": {
+        "no_of_bins": "1",
+        "ward_no": "4",
+        "sub_class": "Compact Bins",
+        "zone_no": "5",
+        "location": "14, Old Mussorie Road, Malsi",
+        "status_container_point": "",
+        "ward_name": "Rajpur",
+        "coverage_area": "0",
+        "zone_name": "Rajpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.089477,
+          30.383928
+        ]
+      },
+      "properties": {
+        "no_of_bins": "1",
+        "ward_no": "4",
+        "sub_class": "Compact Bins",
+        "zone_no": "5",
+        "location": "148/1 Ias Colony, Rajpur",
+        "status_container_point": "",
+        "ward_name": "Rajpur",
+        "coverage_area": "0",
+        "zone_name": "Rajpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.087166,
+          30.37993
+        ]
+      },
+      "properties": {
+        "no_of_bins": "1",
+        "ward_no": "4",
+        "sub_class": "Compact Bins",
+        "zone_no": "5",
+        "location": "Sai Mandir",
+        "status_container_point": "",
+        "ward_name": "Rajpur",
+        "coverage_area": "0",
+        "zone_name": "Rajpur"
+      }
+    }
+  ]
+}

@@ -1,0 +1,402 @@
+[
+    {
+        "lon":  78.0418,
+        "name":  "Clock Tower (Ghanta Ghar)",
+        "lat":  30.3244
+    },
+    {
+        "lon":  77.9996,
+        "name":  "Forest Research Institute (FRI)",
+        "lat":  30.3424
+    },
+    {
+        "lon":  78.0336,
+        "name":  "Dehradun Railway Station",
+        "lat":  30.3162
+    },
+    {
+        "lon":  78.0076,
+        "name":  "ISBT Dehradun",
+        "lat":  30.2709
+    },
+    {
+        "lon":  78.0483,
+        "name":  "Parade Ground",
+        "lat":  30.3235
+    },
+    {
+        "lon":  78.0601,
+        "name":  "Robber\u0027s Cave (Guchhupani)",
+        "lat":  30.3768
+    },
+    {
+        "lon":  78.0195,
+        "name":  "Tapkeshwar Temple",
+        "lat":  30.3551
+    },
+    {
+        "lon":  78.0053,
+        "name":  "Mindrolling Monastery (Buddha Temple)",
+        "lat":  30.2608
+    },
+    {
+        "lon":  78.1311,
+        "name":  "Sahastradhara",
+        "lat":  30.3871
+    },
+    {
+        "lon":  78.0772,
+        "name":  "Malsi Deer Park (Dehradun Zoo)",
+        "lat":  30.3929
+    },
+    {
+        "lon":  78.056,
+        "name":  "Rajpur Road Market",
+        "lat":  30.334
+    },
+    {
+        "lon":  78.0125,
+        "name":  "Wadia Institute of Himalayan Geology",
+        "lat":  30.3345
+    },
+    {
+        "name":  "Green Arc PG",
+        "lat":  30.273556,
+        "lon":  78.004067
+    },
+    {
+        "name":  "Police Station Clementown",
+        "lat":  30.265278,
+        "lon":  78.001111
+    },
+    {
+        "name":  "The Mussoorie View Inn, Guest House And Home Stay",
+        "lat":  30.258894,
+        "lon":  78.000244
+    },
+    {
+        "name":  "9Backpackers PG",
+        "lat":  30.263366,
+        "lon":  77.998915
+    },
+    {
+        "name":  "Yarloz Korean Restaurant",
+        "lat":  30.262106,
+        "lon":  77.999515
+    },
+    {
+        "name":  "UCO Bank",
+        "lat":  30.262002,
+        "lon":  77.999559
+    },
+    {
+        "name":  "Dr. Kent Homeopathic Clinic",
+        "lat":  30.265201,
+        "lon":  78.001015
+    },
+    {
+        "name":  "Vinkuz Restaurant",
+        "lat":  30.266264,
+        "lon":  78.00021
+    },
+    {
+        "name":  "Garden-21",
+        "lat":  30.266004,
+        "lon":  78.000274
+    },
+    {
+        "name":  "Narayan Niwas For SSB Stay And Guest House",
+        "lat":  30.26597,
+        "lon":  77.999397
+    },
+    {
+        "name":  "Mother Teresa Hostel",
+        "lat":  30.27119,
+        "lon":  77.998607
+    },
+    {
+        "name":  "Kamboj Girls PG",
+        "lat":  30.27223,
+        "lon":  77.998622
+    },
+    {
+        "name":  "Marina Hostel",
+        "lat":  30.272052,
+        "lon":  77.999456
+    },
+    {
+        "name":  "Jeevan Jyoti Clinic",
+        "lat":  30.278952,
+        "lon":  78.001347
+    },
+    {
+        "name":  "Ashiyana Homestay PG For Girls",
+        "lat":  30.27101,
+        "lon":  78.001319
+    },
+    {
+        "name":  "Sai PG",
+        "lat":  30.271612,
+        "lon":  78.002302
+    },
+    {
+        "name":  "Bhavya Girls PG",
+        "lat":  30.271425,
+        "lon":  78.003073
+    },
+    {
+        "name":  "Cancer Research Foundation",
+        "lat":  30.282028,
+        "lon":  78.002496
+    },
+    {
+        "name":  "Bhagwati Gardens",
+        "lat":  30.280465,
+        "lon":  78.003429
+    },
+    {
+        "name":  "Aman Guest House",
+        "lat":  30.287976,
+        "lon":  78.003356
+    },
+    {
+        "name":  "Cancer Research Foundation Hospital",
+        "lat":  30.284094,
+        "lon":  78.000954
+    },
+    {
+        "name":  "Bansal Oro Dental Care",
+        "lat":  30.282745,
+        "lon":  77.999889
+    },
+    {
+        "name":  "Matritva Vardan Hospital",
+        "lat":  30.282639,
+        "lon":  77.999694
+    },
+    {
+        "name":  "Lavanya Skin Cosmetology And Laser Center",
+        "lat":  30.282418,
+        "lon":  77.999937
+    },
+    {
+        "name":  "Turmer Arced",
+        "lat":  30.283512,
+        "lon":  77.999356
+    },
+    {
+        "name":  "Carnival",
+        "lat":  30.288496,
+        "lon":  77.999513
+    },
+    {
+        "name":  "City Junction Mall",
+        "lat":  30.288482,
+        "lon":  77.99957
+    },
+    {
+        "name":  "ICICI Bank ATM",
+        "lat":  30.2894,
+        "lon":  77.999235
+    },
+    {
+        "name":  "Deep Flames Restaurant",
+        "lat":  30.292407,
+        "lon":  77.999326
+    },
+    {
+        "name":  "Park-64",
+        "lat":  30.29342,
+        "lon":  77.99965
+    },
+    {
+        "name":  "The Golden Oyster",
+        "lat":  30.292902,
+        "lon":  77.999783
+    },
+    {
+        "name":  "Shishumangalam Child Care Clinic",
+        "lat":  30.293043,
+        "lon":  78.000145
+    },
+    {
+        "name":  "Sai Vaishno Bhojnalaya",
+        "lat":  30.293784,
+        "lon":  78.001603
+    },
+    {
+        "name":  "Dr. J P Sharma Homeopathic Clinic",
+        "lat":  30.294226,
+        "lon":  78.001869
+    },
+    {
+        "name":  "State Bank of India ATM",
+        "lat":  30.298461,
+        "lon":  78.000526
+    },
+    {
+        "name":  "The Smile Zone",
+        "lat":  30.299165,
+        "lon":  78.000726
+    },
+    {
+        "name":  "Priyalok Colony Ph 1 Park",
+        "lat":  30.299492,
+        "lon":  78.000097
+    },
+    {
+        "name":  "OYO Home 26949 Cozy Studio",
+        "lat":  30.306283,
+        "lon":  77.999799
+    },
+    {
+        "name":  "Capital Plaza Shopping Complex",
+        "lat":  30.306246,
+        "lon":  78.000033
+    },
+    {
+        "name":  "Chaitanya Hospital and Maternity Home",
+        "lat":  30.30557,
+        "lon":  78.001836
+    },
+    {
+        "name":  "Walia Farms",
+        "lat":  30.302043,
+        "lon":  78.002083
+    },
+    {
+        "name":  "Indian Bank",
+        "lat":  30.300863,
+        "lon":  78.00161
+    },
+    {
+        "name":  "Keshav ENT Hospital",
+        "lat":  30.300524,
+        "lon":  78.001402
+    },
+    {
+        "name":  "Keshav Medical Centre",
+        "lat":  30.299621,
+        "lon":  78.001053
+    },
+    {
+        "name":  "IndianOil",
+        "lat":  30.299871,
+        "lon":  78.001762
+    },
+    {
+        "name":  "Roop Girl PG",
+        "lat":  30.302883,
+        "lon":  78.002322
+    },
+    {
+        "name":  "Hotel Sun Park Inn",
+        "lat":  30.303748,
+        "lon":  78.002418
+    },
+    {
+        "name":  "HP Petrol Pump - Premier Motors",
+        "lat":  30.30333,
+        "lon":  78.003146
+    },
+    {
+        "name":  "HDFC Bank ATM",
+        "lat":  30.304924,
+        "lon":  78.004452
+    },
+    {
+        "name":  "Hotel Sunder Palace",
+        "lat":  30.295776,
+        "lon":  78.004182
+    },
+    {
+        "name":  "Gusain Dental Clinic",
+        "lat":  30.298119,
+        "lon":  78.003816
+    },
+    {
+        "name":  "OYO 24340 Hotel Laxmi Palace",
+        "lat":  30.295893,
+        "lon":  78.00318
+    },
+    {
+        "name":  "Dr. Kapil Dev Suri Clinic",
+        "lat":  30.295048,
+        "lon":  78.002977
+    },
+    {
+        "name":  "Govt. Ayurvedic Hospital Majra",
+        "lat":  30.297077,
+        "lon":  78.004909
+    },
+    {
+        "name":  "Dena Bank",
+        "lat":  30.298031,
+        "lon":  78.005194
+    },
+    {
+        "name":  "Hotel The ONIX",
+        "lat":  30.297379,
+        "lon":  78.005188
+    },
+    {
+        "name":  "Hotel Jan Jan Tak",
+        "lat":  30.307035,
+        "lon":  78.00534
+    },
+    {
+        "name":  "Nainital Bank",
+        "lat":  30.322147,
+        "lon":  78.004943
+    },
+    {
+        "name":  "Vikas Mall",
+        "lat":  30.322256,
+        "lon":  78.00283
+    },
+    {
+        "name":  "Shopping Complex",
+        "lat":  30.321741,
+        "lon":  78.003127
+    },
+    {
+        "name":  "United Bank of India",
+        "lat":  30.321555,
+        "lon":  78.003364
+    },
+    {
+        "name":  "State Bank of India",
+        "lat":  30.321826,
+        "lon":  78.00345
+    },
+    {
+        "name":  "Vaibhav Palace",
+        "lat":  30.321939,
+        "lon":  78.003438
+    },
+    {
+        "name":  "Watershed Management Directorate",
+        "lat":  30.322628,
+        "lon":  78.003699
+    },
+    {
+        "name":  "Home In The City",
+        "lat":  30.319968,
+        "lon":  78.004519
+    },
+    {
+        "name":  "Engineers Enclave Park",
+        "lat":  30.314366,
+        "lon":  78.005031
+    },
+    {
+        "name":  "Sai Lok Shopping Complex",
+        "lat":  30.308668,
+        "lon":  78.003681
+    },
+    {
+        "name":  "Mamgain Homoeopathic Clinic",
+        "lat":  30.308412,
+        "lon":  78.003001
+    }
+]

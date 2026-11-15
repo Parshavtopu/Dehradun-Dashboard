@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Dehradun GIS - Decision Support System (DSS)</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rajdhani:wght@600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Leaflet 1.9.4 -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    
+    <!-- Custom Portal Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Simplified Top Header (No GIS Limited branding) -->
+    <header class="portal-header">
+        <div class="brand-section">
+            <div class="logo-wrapper">
+                <svg class="portal-emblem" viewBox="0 0 100 100" width="36" height="36">
+                    <circle cx="50" cy="50" r="46" fill="#0f172a" stroke="#0284c7" stroke-width="3"/>
+                    <path d="M50 14 L84 76 L16 76 Z" fill="none" stroke="#38bdf8" stroke-width="3"/>
+                    <circle cx="50" cy="50" r="12" fill="#0284c7"/>
+                    <path d="M50 38 L50 62 M38 50 L62 50" stroke="#ffffff" stroke-width="2.5"/>
+                </svg>
+            </div>
+            <div class="brand-text">
+                <div class="portal-main-title">DEHRADUN GIS PORTAL</div>
+                <div class="portal-sub-title">Decision Support System (DSS) • Urban Vulnerability & Flood Analysis</div>
+            </div>
+        </div>
+
+        <!-- Clean Header Navigation -->
+        <div class="header-tools-nav">
+            <ul class="nav-tools-list">
+                <!-- Basemap Switcher -->
+                <li class="dropdown">
+                    <button class="tool-btn dropdown-toggle" data-bs-toggle="dropdown">
+                        <i class="fa fa-map"></i> Basemap
+                    </button>
+                    <ul class="dropdown-menu shadow" id="basemap-dropdown">
+                        <li><a class="dropdown-item active" href="#" data-basemap="osm"><i class="fa fa-map text-success"></i> OpenStreetMap (Default)</a></li>
+                        <li><a class="dropdown-item" href="#" data-basemap="satellite"><i class="fa fa-satellite text-primary"></i> Satellite Imagery</a></li>
+                        <li><a class="dropdown-item" href="#" data-basemap="carto-light"><i class="fa fa-sun text-warning"></i> Light Positron</a></li>
+                        <li><a class="dropdown-item" href="#" data-basemap="carto-dark"><i class="fa fa-moon text-secondary"></i> Dark Matter</a></li>
+                        <li><a class="dropdown-item" href="#" data-basemap="topo"><i class="fa fa-mountain text-danger"></i> Topographic Contours</a></li>
+                    </ul>
+                </li>
+
+                <!-- Measurement Tool -->
+                <li class="dropdown">
+                    <button class="tool-btn dropdown-toggle" data-bs-toggle="dropdown">
+                        <i class="fa fa-ruler-combined"></i> Measure
+                    </button>
+                    <ul class="dropdown-menu shadow">
+                        <li><a class="dropdown-item" href="#" id="tool-measure-dist"><i class="fa fa-ruler text-warning"></i> Measure Distance (m / km)</a></li>
+                        <li><a class="dropdown-item" href="#" id="tool-measure-area"><i class="fa fa-draw-polygon text-info"></i> Measure Area (m² / hectares)</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item text-danger" href="#" id="tool-clear-measure"><i class="fa fa-trash-alt"></i> Clear Measurements</a></li>
+                    </ul>
+                </li>
+
+                <!-- Upload Layer -->
+                <li>
+                    <button class="tool-btn" id="btn-open-upload" title="Upload GeoTIFF, GeoJSON, or Shapefile">
+                        <i class="fa fa-cloud-upload-alt"></i> Upload Layer
+                    </button>
+                </li>
+
+                <!-- DSS Analysis -->
+                <li>
+                    <button class="tool-btn highlight" id="btn-open-dss" title="Multi-Criteria Evaluation">
+                        <i class="fa fa-sliders-h"></i> DSS Analysis
+                    </button>
+                </li>
+
+                <!-- Print Report -->
+                <li>
+                    <button class="tool-btn" id="btn-print" title="Print Map & Report">
+                        <i class="fa fa-print"></i> Print
+                    </button>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Landmark Search Bar -->
+        <div class="header-right-section">
+            <div class="landmark-search-box">
+                <i class="fa fa-search search-icon"></i>
+                <input type="text" id="input-landmark-search" placeholder="Search Dehradun landmarks..." autocomplete="off">
+                <button class="btn-clear-search" id="btn-clear-search" style="display:none;"><i class="fa fa-times"></i></button>
+                <div class="search-results-dropdown" id="search-results-dropdown"></div>
+            </div>
+
+            <!-- Sidebar Toggle Button -->
+            <button class="btn-toggle-sidebar" id="btn-toggle-sidebar" title="Toggle Sidebar">
+                <i class="fa fa-layer-group"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Workspace -->
+    <div class="portal-main-wrapper">
+        <!-- Floating Quick-Toggle Pill Bar (Single-Click Buttons on Top of Map) -->
+        <div class="quick-toggle-bar" id="quick-toggle-bar">
+            <span class="quick-toggle-label"><i class="fa fa-bolt"></i> 1-Click Toggles:</span>
+            
+            <!-- Slum Locations (Prominent) -->
+            <button class="quick-chip active chip-slum" data-layer-id="vec_slum_locations" title="Toggle Slum Locations (Malin Bastis)">
+                <i class="fa fa-campground"></i> Slum Locations <span class="badge-status on">ON</span>
+            </button>
+
+            <!-- Population Density (Prominent) -->
+            <button class="quick-chip chip-density" data-layer-id="vec_population_density" title="Toggle Ward Population Density">
+                <i class="fa fa-users"></i> Population Density <span class="badge-status off">OFF</span>
+            </button>
+
+            <!-- Flood Inundation -->
+            <button class="quick-chip active" data-layer-id="flood_inundation" title="Toggle Flood Hazard">
+                <i class="fa fa-water"></i> Flood Hazard <span class="badge-status on">ON</span>
+            </button>
+
+            <!-- Slope -->
+            <button class="quick-chip" data-layer-id="slope_analysis" title="Toggle Slope Analysis">
+                <i class="fa fa-mountain"></i> Slope <span class="badge-status off">OFF</span>
+            </button>
+
+            <!-- Rainfall -->
+            <button class="quick-chip" data-layer-id="rainfall_aoi" title="Toggle Rainfall">
+                <i class="fa fa-cloud-showers-heavy"></i> Rainfall <span class="badge-status off">OFF</span>
+            </button>
+
+            <!-- Land Cover -->
+            <button class="quick-chip" data-layer-id="lulc_fr" title="Toggle Land Cover">
+                <i class="fa fa-tree"></i> Land Cover <span class="badge-status off">OFF</span>
+            </button>
+
+            <!-- TWI Wetness -->
+            <button class="quick-chip" data-layer-id="twi_wetness" title="Toggle Topographic Wetness">
+                <i class="fa fa-tint"></i> TWI Wetness <span class="badge-status off">OFF</span>
+            </button>
+
+            <!-- Municipal Boundary -->
+            <button class="quick-chip active" data-layer-id="vec_municipal_boundary" title="Toggle Municipal Boundary">
+                <i class="fa fa-landmark"></i> City Boundary <span class="badge-status on">ON</span>
+            </button>
+
+            <!-- Storm Drains -->
+            <button class="quick-chip" data-layer-id="vec_stw_drain" title="Toggle Drainage Network">
+                <i class="fa fa-route"></i> Storm Drains <span class="badge-status off">OFF</span>
+            </button>
+        </div>
+
+        <!-- Left Sidebar (Clean Tabs: Layers, DSS Analysis, Upload, Info) -->
+        <aside class="portal-sidebar" id="portal-sidebar">
+            <!-- Sidebar Tabs -->
+            <div class="sidebar-tabs">
+                <button class="tab-btn active" data-tab="layers"><i class="fa fa-layer-group"></i> Layers</button>
+                <button class="tab-btn" data-tab="dss"><i class="fa fa-sliders-h"></i> DSS Analysis</button>
+                <button class="tab-btn" data-tab="upload"><i class="fa fa-cloud-upload-alt"></i> Upload</button>
+                <button class="tab-btn" data-tab="info"><i class="fa fa-info-circle"></i> Info</button>
+            </div>
+
+            <!-- Tab 1: Layers -->
+            <div class="tab-pane active" id="pane-layers">
+                <div class="layer-search-container">
+                    <div class="input-group input-group-sm">
+                        <span class="input-group-text bg-white"><i class="fa fa-search text-muted"></i></span>
+                        <input type="text" id="txt_search_layer" class="form-control" placeholder="Search layers...">
+                        <button class="btn btn-outline-secondary" id="btn-clear-layer-search"><i class="fa fa-times"></i></button>
+                    </div>
+                </div>
+
+                <!-- Quick Action Buttons -->
+                <div class="layer-global-actions">
+                    <button class="btn-action" id="btn-all-layers-on"><i class="fa fa-eye"></i> All On</button>
+                    <button class="btn-action" id="btn-all-layers-off"><i class="fa fa-eye-slash"></i> All Off</button>
+                    <button class="btn-action" id="btn-toggle-legend-dock"><i class="fa fa-list"></i> Legend</button>
+                    <button class="btn-action" id="btn-reset-map-view"><i class="fa fa-home"></i> Reset</button>
+                </div>
+
+                <!-- Layer Groups -->
+                <div class="layer-tree" id="layer-tree">
+                    <!-- Section 1: Demographics & Social Vulnerability (Slums & Population Density) -->
+                    <div class="layer-group">
+                        <div class="group-header" data-bs-toggle="collapse" data-bs-target="#group-vulnerability">
+                            <span class="group-title"><i class="fa fa-users text-danger"></i> Demographics & Vulnerability</span>
+                            <span class="group-count">2</span>
+                            <i class="fa fa-chevron-down group-arrow"></i>
+                        </div>
+                        <div class="collapse show" id="group-vulnerability">
+                            <div class="group-layers-list" id="list-vulnerability-layers">
+                                <!-- Populated dynamically (Slums and Population Density) -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Section 2: Uploaded Decision Support Rasters -->
+                    <div class="layer-group">
+                        <div class="group-header" data-bs-toggle="collapse" data-bs-target="#group-dss-rasters">
+                            <span class="group-title"><i class="fa fa-satellite-dish text-primary"></i> Decision Support Rasters</span>
+                            <span class="group-count" id="count-dss-rasters">9</span>
+                            <i class="fa fa-chevron-down group-arrow"></i>
+                        </div>
+                        <div class="collapse show" id="group-dss-rasters">
+                            <div class="group-layers-list" id="list-dss-rasters">
+                                <!-- Populated dynamically from raster_manifest.json -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Section 3: Administrative & Infrastructure -->
+                    <div class="layer-group">
+                        <div class="group-header" data-bs-toggle="collapse" data-bs-target="#group-admin">
+                            <span class="group-title"><i class="fa fa-landmark text-secondary"></i> Administrative & Infrastructure</span>
+                            <span class="group-count">5</span>
+                            <i class="fa fa-chevron-down group-arrow"></i>
+                        </div>
+                        <div class="collapse" id="group-admin">
+                            <div class="group-layers-list" id="list-admin-layers">
+                                <!-- Populated dynamically -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Section 4: User Uploaded Layers -->
+                    <div class="layer-group">
+                        <div class="group-header" data-bs-toggle="collapse" data-bs-target="#group-user-uploads">
+                            <span class="group-title"><i class="fa fa-folder-open text-success"></i> User Uploaded Layers</span>
+                            <span class="group-count" id="count-user-uploads">0</span>
+                            <i class="fa fa-chevron-down group-arrow"></i>
+                        </div>
+                        <div class="collapse show" id="group-user-uploads">
+                            <div class="group-layers-list" id="list-user-uploads">
+                                <div class="empty-upload-hint">
+                                    <i class="fa fa-cloud-upload-alt"></i>
+                                    <p>No user layers uploaded yet.<br>Click "Upload" or drag & drop a file.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab 2: Decision Support System (MCE Analysis) -->
+            <div class="tab-pane" id="pane-dss">
+                <div class="dss-container">
+                    <div class="dss-header-box mb-3">
+                        <h6 class="fw-bold text-primary"><i class="fa fa-sliders-h"></i> Multi-Criteria Risk Model</h6>
+                        <p class="text-muted small mb-0">Calculate flood hazard risk against high-density wards and vulnerable slum locations.</p>
+                    </div>
+
+                    <!-- Preset Selector -->
+                    <div class="mb-3">
+                        <label class="form-label small fw-bold">Scenario Preset:</label>
+                        <select class="form-select form-select-sm" id="dss-preset-select">
+                            <option value="monsoon">Monsoon Cloudburst / River Inundation</option>
+                            <option value="steep_drainage">Steep Slope Runoff & Flash Floods</option>
+                            <option value="urban_sponge">High Density Urban Congestion</option>
+                            <option value="balanced" selected>Balanced Multi-Criteria Model</option>
+                        </select>
+                    </div>
+
+                    <!-- Factor Weights -->
+                    <div class="weight-controls">
+                        <div class="weight-item">
+                            <div class="weight-label-row">
+                                <span><i class="fa fa-water text-primary"></i> Flood Inundation Area</span>
+                                <span class="weight-val" id="val-w-flood">30%</span>
+                            </div>
+                            <input type="range" class="form-range dss-slider" id="slider-w-flood" min="0" max="100" value="30">
+                        </div>
+
+                        <div class="weight-item">
+                            <div class="weight-label-row">
+                                <span><i class="fa fa-cloud-showers-heavy text-info"></i> Annual Precipitation</span>
+                                <span class="weight-val" id="val-w-rain">25%</span>
+                            </div>
+                            <input type="range" class="form-range dss-slider" id="slider-w-rain" min="0" max="100" value="25">
+                        </div>
+
+                        <div class="weight-item">
+                            <div class="weight-label-row">
+                                <span><i class="fa fa-mountain text-warning"></i> Slope Inclination</span>
+                                <span class="weight-val" id="val-w-slope">20%</span>
+                            </div>
+                            <input type="range" class="form-range dss-slider" id="slider-w-slope" min="0" max="100" value="20">
+                        </div>
+
+                        <div class="weight-item">
+                            <div class="weight-label-row">
+                                <span><i class="fa fa-tint text-primary"></i> Topographic Wetness (TWI)</span>
+                                <span class="weight-val" id="val-w-twi">15%</span>
+                            </div>
+                            <input type="range" class="form-range dss-slider" id="slider-w-twi" min="0" max="100" value="15">
+                        </div>
+
+                        <div class="weight-item">
+                            <div class="weight-label-row">
+                                <span><i class="fa fa-tree text-success"></i> Land Cover (LULC FR)</span>
+                                <span class="weight-val" id="val-w-lulc">10%</span>
+                            </div>
+                            <input type="range" class="form-range dss-slider" id="slider-w-lulc" min="0" max="100" value="10">
+                        </div>
+
+                        <div class="total-weight-box">
+                            <span>Total Factor Weight:</span>
+                            <span class="total-badge text-success fw-bold" id="total-weight-display">100%</span>
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="dss-actions-row mt-3">
+                        <button class="btn btn-primary btn-sm w-100 mb-2" id="btn-compute-dss">
+                            <i class="fa fa-cogs"></i> Compute Decision Risk Index
+                        </button>
+                        <button class="btn btn-outline-secondary btn-sm w-100" id="btn-clear-dss">
+                            <i class="fa fa-trash-alt"></i> Clear DSS Map
+                        </button>
+                    </div>
+
+                    <!-- Statistics Summary -->
+                    <div class="dss-results-card mt-3" id="dss-results-card" style="display:none;">
+                        <h6 class="fw-bold border-bottom pb-1 small"><i class="fa fa-chart-pie text-primary"></i> Vulnerability Summary</h6>
+                        <div class="risk-bar-wrapper my-2">
+                            <div class="risk-bar" id="risk-bar-high" style="width: 25%; background: #e74c3c;"></div>
+                            <div class="risk-bar" id="risk-bar-med" style="width: 45%; background: #f39c12;"></div>
+                            <div class="risk-bar" id="risk-bar-low" style="width: 30%; background: #2ecc71;"></div>
+                        </div>
+                        <div class="risk-stats-legend small">
+                            <div><span class="dot" style="background:#e74c3c;"></span> High Risk: <strong id="stat-high-pct">25%</strong> (<span id="stat-high-area">34.2</span> km²)</div>
+                            <div><span class="dot" style="background:#f39c12;"></span> Moderate: <strong id="stat-med-pct">45%</strong> (<span id="stat-med-area">61.5</span> km²)</div>
+                            <div><span class="dot" style="background:#2ecc71;"></span> Safe / Low: <strong id="stat-low-pct">30%</strong> (<span id="stat-low-area">41.0</span> km²)</div>
+                        </div>
+                        <div class="alert alert-danger p-2 mt-2 small">
+                            <i class="fa fa-exclamation-circle"></i> <strong>Vulnerable Settlements:</strong> 11 riverbed slums along Rispana & Bindal are in peak hazard zones.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab 3: Upload Layer -->
+            <div class="tab-pane" id="pane-upload">
+                <div class="upload-container">
+                    <div class="upload-header-box mb-3">
+                        <h6 class="fw-bold text-primary"><i class="fa fa-cloud-upload-alt"></i> Upload Spatial Layer</h6>
+                        <p class="text-muted small mb-0">Upload custom GeoTIFF, GeoJSON, or Shapefile datasets to visualize and toggle.</p>
+                    </div>
+
+                    <div class="drop-zone" id="drop-zone">
+                        <i class="fa fa-cloud-upload-alt fa-2x mb-2 text-primary"></i>
+                        <h6 class="fw-bold small mb-1">Drag & Drop file here</h6>
+                        <p class="text-muted small mb-2">or select from your computer</p>
+                        <input type="file" id="file-layer-upload" class="d-none" accept=".geojson,.json,.tif,.tiff,.zip,.csv">
+                        <button class="btn btn-outline-primary btn-sm" id="btn-browse-file">
+                            <i class="fa fa-folder-open"></i> Browse File
+                        </button>
+                    </div>
+
+                    <div class="format-badges mt-3">
+                        <div class="badge bg-light text-dark border"><i class="fa fa-file-code text-primary"></i> GeoJSON</div>
+                        <div class="badge bg-light text-dark border"><i class="fa fa-file-image text-danger"></i> GeoTIFF (.tif)</div>
+                        <div class="badge bg-light text-dark border"><i class="fa fa-file-archive text-warning"></i> Shapefile (.zip)</div>
+                    </div>
+
+                    <div class="upload-status-box mt-3" id="upload-status-box" style="display:none;">
+                        <div class="d-flex align-items-center mb-1">
+                            <div class="spinner-border spinner-border-sm text-primary me-2"></div>
+                            <span class="small fw-bold" id="upload-status-text">Processing...</span>
+                        </div>
+                        <div class="progress" style="height: 5px;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" id="upload-progress-bar" style="width: 50%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab 4: Location Inspector -->
+            <div class="tab-pane" id="pane-info">
+                <div class="info-container">
+                    <div class="info-header-box mb-3">
+                        <h6 class="fw-bold text-primary"><i class="fa fa-crosshairs"></i> Location Inspector</h6>
+                        <p class="text-muted small mb-0">Click any point on the map to query pixel values, ward density, and slums.</p>
+                    </div>
+
+                    <div id="inspector-placeholder" class="text-center text-muted p-4 border rounded bg-light">
+                        <i class="fa fa-mouse-pointer fa-2x mb-2 text-secondary"></i>
+                        <p class="small mb-0">Click anywhere on the map to inspect location data.</p>
+                    </div>
+
+                    <div id="inspector-content" style="display:none;">
+                        <div class="card mb-2 shadow-sm border-0 bg-primary bg-opacity-10">
+                            <div class="card-body p-2">
+                                <div class="fw-bold small text-primary"><i class="fa fa-map-pin"></i> Coordinates</div>
+                                <div class="small"><strong>Lat/Lon:</strong> <span id="insp-latlon">30.3244° N, 78.0418° E</span></div>
+                                <div class="small"><strong>UTM Zone 44N:</strong> <span id="insp-utm">215,640 m E, 3,358,720 m N</span></div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-2 shadow-sm border-0">
+                            <div class="card-header bg-white py-1 px-2 fw-bold small text-secondary">
+                                <i class="fa fa-layer-group text-primary"></i> Raster Attributes
+                            </div>
+                            <div class="card-body p-2" id="insp-raster-values">
+                                <!-- Populated dynamically -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Center Leaflet Map -->
+        <main class="portal-map-container" id="portal-map-container">
+            <div id="map" class="map-view"></div>
+
+            <!-- Measurement Floating HUD -->
+            <div class="measurement-hud" id="measurement-hud" style="display:none;">
+                <div class="hud-header">
+                    <span id="hud-mode-title"><i class="fa fa-ruler"></i> Measurement</span>
+                    <button class="btn-close-hud" id="btn-close-hud"><i class="fa fa-times"></i></button>
+                </div>
+                <div class="hud-value" id="hud-value">0.00 m</div>
+                <div class="hud-hint" id="hud-hint">Click on the map to draw. Double-click to complete.</div>
+            </div>
+
+            <!-- Bottom Floating Coordinates Bar -->
+            <div class="map-status-dock">
+                <div class="coord-item">
+                    <i class="fa fa-compass text-primary"></i>
+                    <span id="cursor-wgs84">Lat: 30.3244° N, Lon: 78.0418° E</span>
+                </div>
+                <div class="coord-divider">|</div>
+                <div class="coord-item">
+                    <i class="fa fa-globe text-secondary"></i>
+                    <span id="cursor-utm">UTM: 215,640 m E, 3,358,720 m N</span>
+                </div>
+                <div class="coord-divider">|</div>
+                <div class="coord-item">
+                    <span id="map-zoom-level">Zoom: 12</span>
+                </div>
+            </div>
+
+            <!-- Floating Map Navigation Buttons -->
+            <div class="floating-map-tools">
+                <button class="map-tool-btn" id="btn-tool-home" title="Home Extent"><i class="fa fa-home"></i></button>
+                <button class="map-tool-btn" id="btn-tool-zoomin" title="Zoom In"><i class="fa fa-plus"></i></button>
+                <button class="map-tool-btn" id="btn-tool-zoomout" title="Zoom Out"><i class="fa fa-minus"></i></button>
+                <button class="map-tool-btn" id="btn-tool-locate" title="Find My Location"><i class="fa fa-crosshairs"></i></button>
+                <button class="map-tool-btn" id="btn-tool-fullscreen" title="Fullscreen"><i class="fa fa-expand"></i></button>
+            </div>
+
+            <!-- Floating Legend Dock -->
+            <div class="floating-legend-dock" id="floating-legend-dock">
+                <div class="legend-header" id="legend-header">
+                    <span class="legend-title"><i class="fa fa-list"></i> Map Legend</span>
+                    <div class="legend-header-actions">
+                        <button class="btn-legend-min" id="btn-legend-min" title="Minimize / Restore"><i class="fa fa-chevron-down"></i></button>
+                        <button class="btn-legend-close" id="btn-legend-close" title="Close"><i class="fa fa-times"></i></button>
+                    </div>
+                </div>
+                <div class="legend-body" id="legend-body">
+                    <!-- Populated dynamically -->
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.9.0/proj4.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/geotiff@2.0.7/dist-browser/geotiff.js"></script>
+    <script src="https://unpkg.com/georaster@1.6.0/dist/georaster.browser.bundle.min.js"></script>
+    <script src="https://unpkg.com/georaster-layer-for-leaflet@3.10.0/dist/georaster-layer-for-leaflet.min.js"></script>
+    <script src="https://unpkg.com/shpjs@latest/dist/shp.js"></script>
+
+    <!-- Modules -->
+    <script src="js/dss.js"></script>
+    <script src="js/measure.js"></script>
+    <script src="js/upload.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.040278,
+          30.318889
+        ]
+      },
+      "properties": {
+        "fire_station_name": "Chief Fire Station",
+        "location": "Prince Chowk",
+        "contact": "0135-2716242/101",
+        "fso_contact": "9456597983",
+        "email": "fsoddn.ukfs@gmail.com / cfoddn.ukfs@gmail.com",
+        "timing": "24*7",
+        "website": "www.ukfireservices.com",
+        "machine": "Water Tander-8, Foam Tander - 1,Rescue Tander - 1,Fire Fighting Bike - 3,Mini Water Tander (300 Ltr HP) - 2,Hydraulic Ladder-1 (32 Mtr)",
+        "manpower": "Fire Station Office - 1, Fire station second officer - 1, Leading Fire Man - 7,Fire Station driver - 11,Fire Man - 41",
+        "station_name": "Chief Fire Station",
+        "station_jurisdiction": "",
+        "chemical_used": "",
+        "no_of_vehicles": "",
+        "ambulance_service": "",
+        "ambulance_contact_no": "",
+        "sub_vahini": "",
+        "equipment": "",
+        "services_offered": "",
+        "nearest_fire_station": "",
+        "nearest_fire_station_contact": "",
+        "nearest_police_station": "",
+        "nearest_police_station_contact": "",
+        "nearest_hospital": "",
+        "nearest_hospital_contact": "",
+        "water_sources": "",
+        "super_speciality": "",
+        "ward_no": "26",
+        "ward_name": "Dhamawala",
+        "zone_name": "Nagar Nigam Mukhyalay",
+        "zone_no": "3"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2145 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.192794,
+          30.197062
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Airport Pickup Point",
+        "distance": "0",
+        "time": "0",
+        "latitude": "30.197062099999993",
+        "longitude": "78.1927938",
+        "pis_device": "",
+        "igis_x": "807406.5099204162",
+        "igis_y": "3344932.594567012"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.063535,
+          30.353855
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "NIVH front Gate Pickup Point",
+        "distance": "0.932",
+        "time": "2",
+        "latitude": "30.353855451515578",
+        "longitude": "78.06353460723354",
+        "pis_device": "",
+        "igis_x": "794486.0868996313",
+        "igis_y": "3361977.3315733257"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.061766,
+          30.345007
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Survey of india/ Officers Mess Rajpur Road Bus Stand",
+        "distance": "0.383",
+        "time": "2",
+        "latitude": "30.345007000000003",
+        "longitude": "78.0617661",
+        "pis_device": "868817040065060",
+        "igis_x": "794342.526401962",
+        "igis_y": "3360991.510359819"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.064033,
+          30.348692
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Kandoli Bus Stop Pickup Point",
+        "distance": "0.931",
+        "time": "4",
+        "latitude": "30.348692099999994",
+        "longitude": "78.0640332",
+        "pis_device": "",
+        "igis_x": "794549.5244154378",
+        "igis_y": "3361406.0533965235"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.060725,
+          30.341687
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Ajanta Chowk Pickup Point",
+        "distance": "0.375",
+        "time": "2",
+        "latitude": "30.341687400000005",
+        "longitude": "78.0607245",
+        "pis_device": "",
+        "igis_x": "794252.2891319545",
+        "igis_y": "3360620.686915518"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.058843,
+          30.338804
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Amritdhara Pharmacy Bus Stand",
+        "distance": "0.41",
+        "time": "1",
+        "latitude": "30.338804200000002",
+        "longitude": "78.058843",
+        "pis_device": "864403045359545",
+        "igis_x": "794079.9509372765",
+        "igis_y": "3360296.077134413"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.058579,
+          30.338525
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Madhuban Hotel Rajpur Road Bus Stand",
+        "distance": "0.397",
+        "time": "2",
+        "latitude": "30.338525499999992",
+        "longitude": "78.0585791",
+        "pis_device": "864403045381374",
+        "igis_x": "794055.4016005918",
+        "igis_y": "3360264.486483787"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.055289,
+          30.33638
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Dilaram Bazar Rajpur Road Bus Stand",
+        "distance": "0.215",
+        "time": "1",
+        "latitude": "30.336380000000002",
+        "longitude": "78.055289",
+        "pis_device": "864403045361277",
+        "igis_x": "793745.3537772696",
+        "igis_y": "3360018.032065745"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.053485,
+          30.334904
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Outside Hotel Pacific Blue Rajpur Road Bus Stand",
+        "distance": "0.229",
+        "time": "2",
+        "latitude": "30.334904199999993",
+        "longitude": "78.05348530000002",
+        "pis_device": "868817040141259",
+        "igis_x": "793576.2684483924",
+        "igis_y": "3359849.7026601466"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.051953,
+          30.324954
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Survey Chowk Bus Stand",
+        "distance": "0.393",
+        "time": "2",
+        "latitude": "30.3249542",
+        "longitude": "78.0519529",
+        "pis_device": "868817040147934",
+        "igis_x": "793458.5750077812",
+        "igis_y": "3358742.3642313285"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.051808,
+          30.333761
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Opposite KFC Restaurant Rajpur Road Bus Stand",
+        "distance": "0.292",
+        "time": "2",
+        "latitude": "30.333761300000003",
+        "longitude": "78.0518082",
+        "pis_device": "868817040141762",
+        "igis_x": "793418.3616226928",
+        "igis_y": "3359718.6199290375"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.049416,
+          30.332151
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Outside Yak Petrol Pump Rajpur Road Bus Stand",
+        "distance": "0.419",
+        "time": "2",
+        "latitude": "30.332151000000003",
+        "longitude": "78.0494155",
+        "pis_device": "868817040141259",
+        "igis_x": "793193.0107498842",
+        "igis_y": "3359533.857121463"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.04681,
+          30.329145
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Outside St Joseph Academy Rajpur Road Bus Stand",
+        "distance": "0.347",
+        "time": "2",
+        "latitude": "30.329145399999998",
+        "longitude": "78.0468097",
+        "pis_device": "",
+        "igis_x": "792951.3123345434",
+        "igis_y": "3359193.822368089"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.045675,
+          30.327887
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Kwality chowk Pickup Point",
+        "distance": "0.568",
+        "time": "2",
+        "latitude": "30.327886900000003",
+        "longitude": "78.0456754",
+        "pis_device": "",
+        "igis_x": "792845.9480266428",
+        "igis_y": "3359051.3338876814"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.044827,
+          30.326455
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Outside Gandhi Park Rajpur Road Bus Stand",
+        "distance": "0.411",
+        "time": "2",
+        "latitude": "30.326454800000004",
+        "longitude": "78.0448274",
+        "pis_device": "",
+        "igis_x": "792768.6391594602",
+        "igis_y": "3358890.3356979066"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.036092,
+          30.326077
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "LIC Building Chakrata Road Pickup Point",
+        "distance": "0.604",
+        "time": "2",
+        "latitude": "30.326076999999998",
+        "longitude": "78.036092",
+        "pis_device": "",
+        "igis_x": "791929.4395173604",
+        "igis_y": "3358825.9039577404"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.031523,
+          30.328891
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Bindal Bridge /Near Shiv Shakti Mandir Chakrata Road",
+        "distance": "0.583",
+        "time": "2",
+        "latitude": "30.3288915",
+        "longitude": "78.0315225",
+        "pis_device": "868817040142414",
+        "igis_x": "791481.5196301294",
+        "igis_y": "3359126.2411068664"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.028641,
+          30.331746
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Yamuna colony chowk Pickup Point",
+        "distance": "0.42",
+        "time": "2",
+        "latitude": "30.331745999999992",
+        "longitude": "78.028641",
+        "pis_device": "",
+        "igis_x": "791195.8780334532",
+        "igis_y": "3359435.3677264526"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.026189,
+          30.333551
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Kishannagar Chowk Pickup Point",
+        "distance": "0.311",
+        "time": "2",
+        "latitude": "30.333550999999996",
+        "longitude": "78.026189",
+        "pis_device": "",
+        "igis_x": "790954.6725471843",
+        "igis_y": "3359629.224597855"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.98257,
+          30.33229
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Rangadwala Pickup Point",
+        "distance": "0.624",
+        "time": "2",
+        "latitude": "30.332289999999993",
+        "longitude": "77.98257",
+        "pis_device": "",
+        "igis_x": "786762.6957300387",
+        "igis_y": "3359378.182263422"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.989042,
+          30.332316
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "IMA Chakrata Road Bus Stand",
+        "distance": "0.874",
+        "time": "4",
+        "latitude": "30.3323159",
+        "longitude": "77.9890419",
+        "pis_device": "868817040063651",
+        "igis_x": "787385.1466366402",
+        "igis_y": "3359397.452543634"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.998134,
+          30.332628
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Opposite FRI Gate Chakrata Road Bus Stand",
+        "distance": "1.19",
+        "time": "5",
+        "latitude": "30.332627999999993",
+        "longitude": "77.998134",
+        "pis_device": "868817040060558",
+        "igis_x": "788258.7955364957",
+        "igis_y": "3359455.1583695686"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.010597,
+          30.333218
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Ballupur Chowk Pickup Point",
+        "distance": "0.679",
+        "time": "2",
+        "latitude": "30.333218",
+        "longitude": "78.010597",
+        "pis_device": "",
+        "igis_x": "789455.8691946059",
+        "igis_y": "3359552.35845964"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.017622,
+          30.333929
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Near IMA Blood Bank Chakrata Road Bus Stand",
+        "distance": "0.322",
+        "time": "2",
+        "latitude": "30.333929099999988",
+        "longitude": "78.0176215",
+        "pis_device": "868817040067215",
+        "igis_x": "790129.4528110444",
+        "igis_y": "3359649.180065549"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.020866,
+          30.333344
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Naveen Furniture Pickup Point",
+        "distance": "0.513",
+        "time": "2",
+        "latitude": "30.333344000000007",
+        "longitude": "78.020866",
+        "pis_device": "",
+        "igis_x": "790443.2672882373",
+        "igis_y": "3359592.6119049415"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.018052,
+          30.307748
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "PNB patel Nagar /Outside GIHM Saharanpur Road Bus Stand",
+        "distance": "0.185",
+        "time": "1",
+        "latitude": "30.3077484",
+        "longitude": "78.0180517",
+        "pis_device": "868817040064857",
+        "igis_x": "790248.1079584188",
+        "igis_y": "3356747.1184484623"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.013927,
+          30.30629
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Opposite Patel Nagar Police Chowki Saharanpur Road Bus Stand",
+        "distance": "0.201",
+        "time": "1",
+        "latitude": "30.3062905",
+        "longitude": "78.0139265",
+        "pis_device": "864403045381218",
+        "igis_x": "789855.4991412405",
+        "igis_y": "3356574.900067758"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.012371,
+          30.305096
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Niranjanpur Mandi Bus Stand",
+        "distance": "0.781",
+        "time": "1",
+        "latitude": "30.305095999999995",
+        "longitude": "78.0123706",
+        "pis_device": "868817040142166",
+        "igis_x": "789709.3143104323",
+        "igis_y": "3356438.466711572"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.016399,
+          30.306958
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Laal Pul Saharanpur Road Bus Stand",
+        "distance": "0.254",
+        "time": "1",
+        "latitude": "30.306958399999996",
+        "longitude": "78.016399",
+        "pis_device": "864403045368926",
+        "igis_x": "790091.4236163159",
+        "igis_y": "3356655.2862577247"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.000036,
+          30.292595
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Shimla Bypass Pickup Point",
+        "distance": "0.54",
+        "time": "1",
+        "latitude": "30.292595",
+        "longitude": "78.000036",
+        "pis_device": "",
+        "igis_x": "788559.1721908455",
+        "igis_y": "3355020.8020192445"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.004392,
+          30.297057
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Mazra Pickup Point",
+        "distance": "0.658",
+        "time": "1",
+        "latitude": "30.29705700000001",
+        "longitude": "78.004392",
+        "pis_device": "",
+        "igis_x": "788965.2449011884",
+        "igis_y": "3355526.675529643"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.007248,
+          30.29968
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Outside ITI Saharanpur Road Bus Stand",
+        "distance": "0.403",
+        "time": "1",
+        "latitude": "30.299680099999996",
+        "longitude": "78.0072476",
+        "pis_device": "868817040063370",
+        "igis_x": "789232.3145255435",
+        "igis_y": "3355824.826530396"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.996631,
+          30.288742
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "ISBT Dehradun",
+        "distance": "0",
+        "time": "0",
+        "latitude": "30.28874220000001",
+        "longitude": "77.996631",
+        "pis_device": "868817040063297",
+        "igis_x": "788242.7943820299",
+        "igis_y": "3354584.9156892407"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.023895,
+          30.288336
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Kargi chowk Pickup Point",
+        "distance": "2.64",
+        "time": "10",
+        "latitude": "30.288336100000002",
+        "longitude": "78.0238946",
+        "pis_device": "",
+        "igis_x": "790867.6504342197",
+        "igis_y": "3354609.4711447046"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.025041,
+          30.314498
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Mata wala Bagh/ Bhandari Baag Saharanpur Road Bus Stand",
+        "distance": "1",
+        "time": "1",
+        "latitude": "30.314497899999992",
+        "longitude": "78.0250409",
+        "pis_device": "868817040064410",
+        "igis_x": "790900.6101607126",
+        "igis_y": "3357513.4813797264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.029309,
+          30.317131
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Saharanpur Chowk Bus Stand",
+        "distance": "0.588",
+        "time": "2",
+        "latitude": "30.317131000000007",
+        "longitude": "78.0293086",
+        "pis_device": "868817040065573",
+        "igis_x": "791303.3990890112",
+        "igis_y": "3357816.425547982"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.033727,
+          30.316212
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Railway Station Pickup Point",
+        "distance": "0.448",
+        "time": "2",
+        "latitude": "30.316212500000002",
+        "longitude": "78.0337267",
+        "pis_device": "",
+        "igis_x": "791731.1717493313",
+        "igis_y": "3357725.9358952157"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.037746,
+          30.316
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Prince Chowk Pickup Point",
+        "distance": "0.399",
+        "time": "2",
+        "latitude": "30.315999999999995",
+        "longitude": "78.0377462",
+        "pis_device": "",
+        "igis_x": "792118.5074628307",
+        "igis_y": "3357712.723755027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.039705,
+          30.31815
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Cyber Crime police station Pickup Point",
+        "distance": "0.309",
+        "time": "2",
+        "latitude": "30.318150200000005",
+        "longitude": "78.0397051",
+        "pis_device": "",
+        "igis_x": "792300.5767698364",
+        "igis_y": "3357956.2105350504"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.041006,
+          30.320824
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Tehsil Chowk Pickup Point",
+        "distance": "0.325",
+        "time": "2",
+        "latitude": "30.320824400000003",
+        "longitude": "78.041006",
+        "pis_device": "",
+        "igis_x": "792417.7773451863",
+        "igis_y": "3358256.109816164"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.041822,
+          30.324226
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Clock Tower Pickup Point",
+        "distance": "0.292",
+        "time": "2",
+        "latitude": "30.324226299999996",
+        "longitude": "78.0418223",
+        "pis_device": "",
+        "igis_x": "792486.1868545627",
+        "igis_y": "3358635.4552725567"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.042043,
+          30.321768
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Darshanlal Chowk/DeenDayal Park Gandhi Road Bus Stand",
+        "distance": "0.143",
+        "time": "2",
+        "latitude": "30.321768499999994",
+        "longitude": "78.0420428",
+        "pis_device": "868817040062778",
+        "igis_x": "792514.7115929283",
+        "igis_y": "3358363.4772830247"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.043573,
+          30.323108
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Outside BSNL Darshan Lal Chowk Bus Stand",
+        "distance": "0.25",
+        "time": "1",
+        "latitude": "30.323108",
+        "longitude": "78.043573",
+        "pis_device": "868817040066068",
+        "igis_x": "792657.9324614808",
+        "igis_y": "3358515.9660658925"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.043772,
+          30.323305
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Outside CPWD Darshan Lal Chowk Bus Stand",
+        "distance": "0.169",
+        "time": "1",
+        "latitude": "30.323304799999995",
+        "longitude": "78.0437715",
+        "pis_device": "868817040064170",
+        "igis_x": "792676.4424186232",
+        "igis_y": "3358538.3020102307"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0458,
+          30.324193
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Opposite BJP Office Lansdowne Chowk Bus Stand",
+        "distance": "0.791",
+        "time": "2",
+        "latitude": "30.324192999999998",
+        "longitude": "78.0457997",
+        "pis_device": "868817040064808",
+        "igis_x": "792868.9103605037",
+        "igis_y": "3358642.0351987653"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.046246,
+          30.323508
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Doon Library Lancedowne Chowk Pick Up Point",
+        "distance": "",
+        "time": "",
+        "latitude": "30.323508",
+        "longitude": "78.046246",
+        "pis_device": "",
+        "igis_x": "792913.8762390105",
+        "igis_y": "3358567.237513581"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.05079,
+          30.321682
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Outside CGM School EC Road Bus Stand",
+        "distance": "2.05216",
+        "time": "10",
+        "latitude": "30.3216816",
+        "longitude": "78.0507896",
+        "pis_device": "868817040141416",
+        "igis_x": "793356.4316720327",
+        "igis_y": "3358376.4498695326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.051631,
+          30.324145
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Outside Survey of India EC Road Bus Stand",
+        "distance": "0.61",
+        "time": "5",
+        "latitude": "30.3241402",
+        "longitude": "78.0516365",
+        "pis_device": "868817040146688",
+        "igis_x": "793430.041270341",
+        "igis_y": "3358651.850478806"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.052518,
+          30.298444
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Outside LIC Building Nehru Colony Bus Stand",
+        "distance": "0.474",
+        "time": "3",
+        "latitude": "30.2984444",
+        "longitude": "78.052518",
+        "pis_device": "868817040147843",
+        "igis_x": "793592.0580962666",
+        "igis_y": "3355804.1274070214"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.048023,
+          30.303451
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Dharampur Chowk Haridwar Road Bus Stand",
+        "distance": "0.726",
+        "time": "5",
+        "latitude": "30.303451299999992",
+        "longitude": "78.0480228",
+        "pis_device": "868817040065177",
+        "igis_x": "793144.59001368",
+        "igis_y": "3356347.7174055027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.056301,
+          30.295707
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Rispana Bridge Haridwar Road Bus Stand",
+        "distance": "1.39",
+        "time": "10",
+        "latitude": "30.295706799999994",
+        "longitude": "78.056301",
+        "pis_device": "868817040063768",
+        "igis_x": "793964.2558290581",
+        "igis_y": "3355510.351613095"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.058179,
+          30.324481
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Raipur Chungi Pickup Point",
+        "distance": "0.61",
+        "time": "5",
+        "latitude": "30.32448099999999",
+        "longitude": "78.058179",
+        "pis_device": "",
+        "igis_x": "794058.9374858751",
+        "igis_y": "3358706.030649686"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.063586,
+          30.323933
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Sahastradhara Crossing Bus Stand",
+        "distance": "0.545",
+        "time": "5",
+        "latitude": "30.323932",
+        "longitude": "78.063583",
+        "pis_device": "868817040144063",
+        "igis_x": "794580.7634310339",
+        "igis_y": "3358659.35687704"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.096076,
+          30.303765
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Hathikhana Chowk Pickup Point",
+        "distance": "0.949",
+        "time": "4",
+        "latitude": "30.303764999999995",
+        "longitude": "78.096076",
+        "pis_device": "",
+        "igis_x": "797767.3788404946",
+        "igis_y": "3356507.7176904613"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.098594,
+          30.306343
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Raipur Pickup Point",
+        "distance": "0.377",
+        "time": "2",
+        "latitude": "30.306343",
+        "longitude": "78.098594",
+        "pis_device": "",
+        "igis_x": "798001.8567232722",
+        "igis_y": "3356800.2162119634"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.08771,
+          30.299944
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Kidduwala Pickup Point",
+        "distance": "0.746",
+        "time": "4",
+        "latitude": "30.299944",
+        "longitude": "78.08771",
+        "pis_device": "",
+        "igis_x": "796973.9197999185",
+        "igis_y": "3356062.055576652"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.081051,
+          30.316925
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Ring Road Diversion Pickup Point",
+        "distance": "0.39",
+        "time": "2",
+        "latitude": "30.316925",
+        "longitude": "78.081051",
+        "pis_device": "",
+        "igis_x": "796282.0043857084",
+        "igis_y": "3357927.7009942136"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.078879,
+          30.319745
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "NWT college Pickup Point",
+        "distance": "0.487",
+        "time": "2",
+        "latitude": "30.319745000000008",
+        "longitude": "78.078879",
+        "pis_device": "",
+        "igis_x": "796064.5486497255",
+        "igis_y": "3358234.7421175493"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.076767,
+          30.312392
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Pearl Avenue Hotel Pickup Point",
+        "distance": "0.896",
+        "time": "4",
+        "latitude": "30.312391999999996",
+        "longitude": "78.076767",
+        "pis_device": "",
+        "igis_x": "795883.4861288699",
+        "igis_y": "3357413.835072449"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.076541,
+          30.30766
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Suchna ka Adhikaar Bhawan Pickup Point",
+        "distance": "0.53",
+        "time": "2",
+        "latitude": "30.307660000000002",
+        "longitude": "78.076541",
+        "pis_device": "",
+        "igis_x": "795875.9759528702",
+        "igis_y": "3356888.5028774575"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.075185,
+          30.303056
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Kishan Bhawan Pickup Point",
+        "distance": "0.528",
+        "time": "2",
+        "latitude": "30.303055999999994",
+        "longitude": "78.075185",
+        "pis_device": "",
+        "igis_x": "795759.346128829",
+        "igis_y": "3356374.4173098416"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.074669,
+          30.29962
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Che number Puliya Pickup Point",
+        "distance": "0.384",
+        "time": "2",
+        "latitude": "30.299619999999997",
+        "longitude": "78.074669",
+        "pis_device": "",
+        "igis_x": "795720.0222173452",
+        "igis_y": "3355992.0462903506"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.080328,
+          30.298881
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Dobhal Chowk Pickup Point",
+        "distance": "0.567",
+        "time": "2",
+        "latitude": "30.298881",
+        "longitude": "78.080328",
+        "pis_device": "",
+        "igis_x": "796266.7857613368",
+        "igis_y": "3355924.8677271283"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.078044,
+          30.272689
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Mokhampur Pickup Point",
+        "distance": "12.4",
+        "time": "20",
+        "latitude": "30.27268899999999",
+        "longitude": "78.078044",
+        "pis_device": "",
+        "igis_x": "796125.7725644663",
+        "igis_y": "3353014.417726863"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.065839,
+          30.286374
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Jogiwala Pickup Point",
+        "distance": "3.32",
+        "time": "10",
+        "latitude": "30.286374",
+        "longitude": "78.065839",
+        "pis_device": "",
+        "igis_x": "794910.0409742624",
+        "igis_y": "3354500.183754175"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.074252,
+          30.321201
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "kali Temple Pickup Point",
+        "distance": "0.661",
+        "time": "2",
+        "latitude": "30.321200699999995",
+        "longitude": "78.0742524",
+        "pis_device": "",
+        "igis_x": "795615.0676590499",
+        "igis_y": "3358384.090772499"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.068254,
+          30.322711
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "DRDO Pickup Point",
+        "distance": "0.444",
+        "time": "2",
+        "latitude": "30.322711000000005",
+        "longitude": "78.068254",
+        "pis_device": "",
+        "igis_x": "795033.4665400792",
+        "igis_y": "3358535.9394493713"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.064666,
+          30.323621
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Sahastradhara Crossing Pick Up Point",
+        "distance": "",
+        "time": "",
+        "latitude": "30.323621",
+        "longitude": "78.064668",
+        "pis_device": "",
+        "igis_x": "794685.593666116",
+        "igis_y": "3358627.527666109"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.066769,
+          30.35259
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "NIVH Back Gate Pickup Point",
+        "distance": "0.504",
+        "time": "2",
+        "latitude": "30.352590000000006",
+        "longitude": "78.066769",
+        "pis_device": "",
+        "igis_x": "794800.942422065",
+        "igis_y": "3361845.4199811434"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.069781,
+          30.357682
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Bala sundari Mandir Pickup Point",
+        "distance": "0.635",
+        "time": "2",
+        "latitude": "30.357681700000008",
+        "longitude": "78.0697806",
+        "pis_device": "",
+        "igis_x": "795075.273783034",
+        "igis_y": "3362417.8965345854"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.071414,
+          30.360071
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Durga Vihar Pickup Point",
+        "distance": "0.316",
+        "time": "1",
+        "latitude": "30.36007100000001",
+        "longitude": "78.071414",
+        "pis_device": "",
+        "igis_x": "795225.1689782173",
+        "igis_y": "3362687.1109560872"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.084682,
+          30.35587
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "IT Park Sahastradhara Road",
+        "distance": "4.34724",
+        "time": "10",
+        "latitude": "30.355869999999992",
+        "longitude": "78.084682",
+        "pis_device": "868817040141705",
+        "igis_x": "796513.7867874173",
+        "igis_y": "3362255.9271720196"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.076871,
+          30.366201
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Polykid School Pickup Point",
+        "distance": "0.427",
+        "time": "2",
+        "latitude": "30.366201000000004",
+        "longitude": "78.076871",
+        "pis_device": "",
+        "igis_x": "795731.4750529553",
+        "igis_y": "3363381.129666643"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.077528,
+          30.371408
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Mussorie Diversion Rajpur Road Bus Stand",
+        "distance": "0.407",
+        "time": "2",
+        "latitude": "30.371407600000005",
+        "longitude": "78.0775281",
+        "pis_device": "868817040064014",
+        "igis_x": "795778.9675828414",
+        "igis_y": "3363960.222629779"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.084324,
+          30.362188
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Rajpur Road Enclave Pickup Point",
+        "distance": "1.023",
+        "time": "5",
+        "latitude": "30.362188299999996",
+        "longitude": "78.0843244",
+        "pis_device": "",
+        "igis_x": "796460.3145728502",
+        "igis_y": "3362955.6476242812"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.086813,
+          30.379591
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Near Sai Mandir Rajpur Road Bus Stand",
+        "distance": "1.2694",
+        "time": "2",
+        "latitude": "30.379591099999995",
+        "longitude": "78.0868125",
+        "pis_device": "868817040065664",
+        "igis_x": "796646.9617955742",
+        "igis_y": "3364892.0253270715"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.073878,
+          30.363366
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Happy Enclave Pickup Point",
+        "distance": "0.437",
+        "time": "3",
+        "latitude": "30.363366000000003",
+        "longitude": "78.073878",
+        "pis_device": "",
+        "igis_x": "795452.2031058511",
+        "igis_y": "3363058.9315368524"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.074321,
+          30.368925
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Opposite Sagar Ratna Rajpur Road Bus Stand",
+        "distance": "0.137",
+        "time": "2",
+        "latitude": "30.3689252",
+        "longitude": "78.0743207",
+        "pis_device": "864403045380715",
+        "igis_x": "795478.0361550234",
+        "igis_y": "3363676.5627707373"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.07313,
+          30.368271
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Inder Baba Marg Rajpur Road Bus Stand",
+        "distance": "0.355",
+        "time": "2",
+        "latitude": "30.368271099999987",
+        "longitude": "78.0731297",
+        "pis_device": "868817040065144",
+        "igis_x": "795365.4819313284",
+        "igis_y": "3363600.9186763857"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.069967,
+          30.364502
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Pacific Mall / Outside Scholars Home Bus Stand",
+        "distance": "0.264",
+        "time": "2",
+        "latitude": "30.364501899999993",
+        "longitude": "78.069967",
+        "pis_device": "868817040062463",
+        "igis_x": "795072.6969423634",
+        "igis_y": "3363174.6919198856"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.06915,
+          30.363901
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Jakhan Pickup Point",
+        "distance": "1.33",
+        "time": "2",
+        "latitude": "30.363900999999995",
+        "longitude": "78.06915",
+        "pis_device": "",
+        "igis_x": "794995.9393307056",
+        "igis_y": "3363105.926887916"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.108032,
+          30.37722
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Pacific Golf Pickup Point",
+        "distance": "0.481",
+        "time": "5",
+        "latitude": "30.377219999999998",
+        "longitude": "78.108032",
+        "pis_device": "",
+        "igis_x": "798694.386035636",
+        "igis_y": "3364684.9163725963"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.104188,
+          30.377593
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Kulhan Village Pickup Point",
+        "distance": "0.572",
+        "time": "5",
+        "latitude": "30.377592999999997",
+        "longitude": "78.104188",
+        "pis_device": "",
+        "igis_x": "798323.6498319579",
+        "igis_y": "3364716.1375559294"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.100194,
+          30.373865
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "kirshali village Pickup Point",
+        "distance": "0.451",
+        "time": "5",
+        "latitude": "30.373864999999995",
+        "longitude": "78.100194",
+        "pis_device": "",
+        "igis_x": "797950.9502295564",
+        "igis_y": "3364292.1986325835"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.093014,
+          30.390052
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Rajpur Market Bus Stand",
+        "distance": "0.595",
+        "time": "2",
+        "latitude": "30.390051700000015",
+        "longitude": "78.0930143",
+        "pis_device": "868817040064220",
+        "igis_x": "797211.5424101216",
+        "igis_y": "3366068.3222002755"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.090203,
+          30.385318
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Tehri House/ GRD institute/Pleasant Valley Rajpur Road Bus Stand",
+        "distance": "0.712",
+        "time": "2",
+        "latitude": "30.385317700000005",
+        "longitude": "78.0902028",
+        "pis_device": "868817040064337",
+        "igis_x": "796955.5897088253",
+        "igis_y": "3365535.965049999"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.09431,
+          30.367107
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Gujrada Mansingh Road Pickup Point",
+        "distance": "1.6",
+        "time": "10",
+        "latitude": "30.367106999999994",
+        "longitude": "78.09431",
+        "pis_device": "",
+        "igis_x": "797405.6676358819",
+        "igis_y": "3363527.297835167"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.09717,
+          30.370762
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Tibetan colony Pickup Point",
+        "distance": "0.489",
+        "time": "5",
+        "latitude": "30.370762",
+        "longitude": "78.09717",
+        "pis_device": "",
+        "igis_x": "797669.5968791503",
+        "igis_y": "3363940.135023078"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.116402,
+          30.382326
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Sahastradhara Pickup Point",
+        "distance": "2.17",
+        "time": "5",
+        "latitude": "30.382326",
+        "longitude": "78.116402",
+        "pis_device": "",
+        "igis_x": "799483.5754054736",
+        "igis_y": "3365273.2751571983"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.124294,
+          30.17594
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Doiwala Pickup Point",
+        "distance": "7.22",
+        "time": "15",
+        "latitude": "30.17594",
+        "longitude": "78.124294",
+        "pis_device": "",
+        "igis_x": "800872.2547825113",
+        "igis_y": "3342407.1464786394"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.843665,
+          30.362402
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Amber Enterprices Pickup Point",
+        "distance": "0.376",
+        "time": "3",
+        "latitude": "30.362401999999996",
+        "longitude": "77.843665",
+        "pis_device": "",
+        "igis_x": "773318.174729656",
+        "igis_y": "3362373.680428853"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.846823,
+          30.360391
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Sidcul Gate 2 Pickup Point",
+        "distance": "0.41",
+        "time": "2",
+        "latitude": "30.360391",
+        "longitude": "77.846823",
+        "pis_device": "",
+        "igis_x": "773627.43277",
+        "igis_y": "3362158.3258645525"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.850364,
+          30.358343
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Sidcul Gate 1 Pickup Point",
+        "distance": "0.43",
+        "time": "2",
+        "latitude": "30.358343",
+        "longitude": "77.85036400000001",
+        "pis_device": "",
+        "igis_x": "773973.6350446661",
+        "igis_y": "3361939.803310573"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.854112,
+          30.356204
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Shiv Mandir Selaqui Pickup Point",
+        "distance": "1.19",
+        "time": "8",
+        "latitude": "30.35620400000001",
+        "longitude": "77.854112",
+        "pis_device": "",
+        "igis_x": "774340.0110835871",
+        "igis_y": "3361711.7020520046"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.871793,
+          30.347276
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Dhulkot Road Pickup Point",
+        "distance": "2.79",
+        "time": "8",
+        "latitude": "30.347275999999994",
+        "longitude": "77.871793",
+        "pis_device": "",
+        "igis_x": "776065.3190615335",
+        "igis_y": "3360764.7124862242"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.864962,
+          30.351097
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Shivalik Academy Pickup Point",
+        "distance": "0.784",
+        "time": "4",
+        "latitude": "30.351097",
+        "longitude": "77.864962",
+        "pis_device": "",
+        "igis_x": "775397.671942495",
+        "igis_y": "3361171.7634763126"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.939495,
+          30.345189
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Uttarakhand Technical University Pickup Point",
+        "distance": "0.795",
+        "time": "4",
+        "latitude": "30.345189000000005",
+        "longitude": "77.939495",
+        "pis_device": "",
+        "igis_x": "782582.294993828",
+        "igis_y": "3360700.264287002"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.947583,
+          30.344514
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Uttarakhand Rajya mahila Aayog Pickup Point",
+        "distance": "0.535",
+        "time": "2",
+        "latitude": "30.344514",
+        "longitude": "77.947583",
+        "pis_device": "",
+        "igis_x": "783362.1029657123",
+        "igis_y": "3360645.623279367"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.953033,
+          30.343366
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Nandaki Chowki Pickup Point",
+        "distance": "0.378",
+        "time": "2",
+        "latitude": "30.343365999999996",
+        "longitude": "77.953033",
+        "pis_device": "",
+        "igis_x": "783889.57771227",
+        "igis_y": "3360531.973184052"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.954985,
+          30.341001
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Uttaranchal University Pickup Point",
+        "distance": "1.289",
+        "time": "4",
+        "latitude": "30.34100099999999",
+        "longitude": "77.954985",
+        "pis_device": "",
+        "igis_x": "784084.1536260196",
+        "igis_y": "3360274.6205699025"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.964035,
+          30.336037
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Premnagar Pickup Point",
+        "distance": "0.671",
+        "time": "2",
+        "latitude": "30.336037000000005",
+        "longitude": "77.964035",
+        "pis_device": "",
+        "igis_x": "784968.9742028017",
+        "igis_y": "3359746.909500731"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.971046,
+          30.336361
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Doon Presedency School Pickup Point",
+        "distance": "1.218",
+        "time": "4",
+        "latitude": "30.336361000000004",
+        "longitude": "77.971046",
+        "pis_device": "",
+        "igis_x": "785642.3833275076",
+        "igis_y": "3359800.4934997144"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.93585,
+          30.34505
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Sudhowala Pickup Point",
+        "distance": "0.349",
+        "time": "2",
+        "latitude": "30.34505",
+        "longitude": "77.93585",
+        "pis_device": "",
+        "igis_x": "782232.1384986083",
+        "igis_y": "3360675.7626485997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.926727,
+          30.344401
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Hill grove school Pickup Point",
+        "distance": "0.879",
+        "time": "4",
+        "latitude": "30.344400999999994",
+        "longitude": "77.926727",
+        "pis_device": "",
+        "igis_x": "781356.5990370198",
+        "igis_y": "3360581.1002794816"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.918889,
+          30.344203
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Jhajra Hanuman Mandir Pickup Point",
+        "distance": "0.753",
+        "time": "4",
+        "latitude": "30.344202999999993",
+        "longitude": "77.918889",
+        "pis_device": "",
+        "igis_x": "780603.3481634082",
+        "igis_y": "3360539.7011167854"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.914093,
+          30.344238
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "Doon Global school Pickup Point",
+        "distance": "0.46",
+        "time": "2",
+        "latitude": "30.344237999999997",
+        "longitude": "77.914093",
+        "pis_device": "",
+        "igis_x": "780141.9953759371",
+        "igis_y": "3360531.710333014"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.898624,
+          30.345892
+        ]
+      },
+      "properties": {
+        "bus_stop_name": "shivalik Institute of Ayurveda & Reserch Pickup Point",
+        "distance": "1.5",
+        "time": "4",
+        "latitude": "30.345892",
+        "longitude": "77.898624",
+        "pis_device": "",
+        "igis_x": "778649.5873389237",
+        "igis_y": "3360676.9545733165"
+      }
+    }
+  ]
+}

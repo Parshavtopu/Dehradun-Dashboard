@@ -1,0 +1,1051 @@
+/* ==========================================================================
+   Dehradun GIS Portal - Decision Support System (DSS) Stylesheet
+   Clean & Simplified Design
+   ========================================================================== */
+
+:root {
+    --portal-navy: #0f172a;
+    --portal-navy-dark: #020617;
+    --portal-navy-light: #1e293b;
+    --portal-blue: #0284c7;
+    --portal-cyan: #38bdf8;
+    --portal-gold: #f59e0b;
+    --portal-gold-hover: #d97706;
+    --portal-bg-light: #f8fafc;
+    --portal-border: #e2e8f0;
+    --portal-text-dark: #0f172a;
+    --portal-text-muted: #64748b;
+    --sidebar-width: 360px;
+    --header-height: 52px;
+    --quick-bar-height: 42px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: var(--portal-text-dark);
+    background-color: #f1f5f9;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* ==========================================================================
+   Header Section (Dehradun GIS Format)
+   ========================================================================== */
+.portal-header {
+    height: var(--header-height);
+    background: linear-gradient(135deg, var(--portal-navy-dark) 0%, var(--portal-navy) 100%);
+    border-bottom: 3px solid var(--portal-gold);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    z-index: 1050;
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.brand-section {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.portal-emblem {
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.4));
+    transition: transform 0.3s ease;
+}
+
+.portal-emblem:hover {
+    transform: rotate(15deg) scale(1.05);
+}
+
+.brand-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.portal-main-title {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    color: #ffffff;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+.portal-sub-title {
+    font-size: 0.72rem;
+    color: var(--portal-cyan);
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+/* Header Navigation Tools */
+.header-tools-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-tools-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 6px;
+}
+
+.tool-btn {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: #e2e8f0;
+    font-size: 0.82rem;
+    font-weight: 500;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+.tool-btn:hover, .tool-btn:focus {
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.tool-btn.highlight {
+    background: linear-gradient(135deg, #0077b6, #00b4d8);
+    border-color: #90e0ef;
+    color: #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 180, 216, 0.3);
+}
+
+.tool-btn.highlight:hover {
+    background: linear-gradient(135deg, #0096c7, #48cae4);
+    box-shadow: 0 3px 8px rgba(0, 180, 216, 0.5);
+}
+
+/* Header Right Section */
+.header-right-section {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Landmark Search */
+.landmark-search-box {
+    position: relative;
+    width: 240px;
+}
+
+.landmark-search-box input {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    padding: 5px 28px 5px 30px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    outline: none;
+    transition: all 0.2s ease;
+}
+
+.landmark-search-box input:focus {
+    background: #ffffff;
+    color: var(--portal-text-dark);
+    box-shadow: 0 0 0 3px rgba(0, 180, 216, 0.4);
+    width: 280px;
+}
+
+.landmark-search-box input::placeholder {
+    color: #94a3b8;
+}
+
+.landmark-search-box .search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.75rem;
+    color: #94a3b8;
+    pointer-events: none;
+}
+
+.landmark-search-box input:focus ~ .search-icon {
+    color: var(--portal-blue);
+}
+
+.btn-clear-search {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #64748b;
+    font-size: 0.75rem;
+    cursor: pointer;
+}
+
+.search-results-dropdown {
+    position: absolute;
+    top: 105%;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    max-height: 280px;
+    overflow-y: auto;
+    z-index: 2000;
+    display: none;
+    border: 1px solid var(--portal-border);
+}
+
+.search-result-item {
+    padding: 8px 12px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    border-bottom: 1px solid #f1f5f9;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--portal-text-dark);
+}
+
+.search-result-item:hover {
+    background: #e0f2fe;
+    color: var(--portal-blue);
+}
+
+.search-result-item i {
+    color: #00b4d8;
+    font-size: 0.75rem;
+}
+
+/* User Badge */
+.user-badge {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(245, 166, 35, 0.15);
+    border: 1px solid rgba(245, 166, 35, 0.4);
+    color: #ffd166;
+    padding: 4px 10px;
+    border-radius: 14px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.btn-toggle-sidebar {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* ==========================================================================
+   Main Wrapper & Layout
+   ========================================================================== */
+.portal-main-wrapper {
+    display: flex;
+    height: calc(100vh - var(--header-height));
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+}
+
+/* ==========================================================================
+   Floating Quick-Toggle Pill Bar (Top of Map)
+   ========================================================================== */
+.quick-toggle-bar {
+    position: absolute;
+    top: 10px;
+    left: calc(var(--sidebar-width) + 16px);
+    right: 16px;
+    z-index: 1000;
+    background: rgba(12, 35, 64, 0.88);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 6px 14px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    overflow-x: auto;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+    transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.quick-toggle-bar::-webkit-scrollbar {
+    height: 3px;
+}
+
+.quick-toggle-bar::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+}
+
+.quick-toggle-label {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 0.82rem;
+    color: var(--portal-gold);
+    white-space: nowrap;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.quick-chip {
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    color: #e2e8f0;
+    padding: 4px 10px;
+    border-radius: 16px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: all 0.2s ease;
+}
+
+.quick-chip:hover {
+    background: rgba(255, 255, 255, 0.22);
+    color: #ffffff;
+    border-color: rgba(255, 255, 255, 0.4);
+    transform: translateY(-1px);
+}
+
+.quick-chip.active {
+    background: linear-gradient(135deg, #0284c7, #0369a1);
+    color: #ffffff;
+    border-color: #38bdf8;
+    box-shadow: 0 2px 6px rgba(14, 165, 233, 0.4);
+}
+
+.quick-chip.chip-slum.active {
+    background: linear-gradient(135deg, #dc2626, #b91c1c);
+    border-color: #fca5a5;
+    box-shadow: 0 2px 8px rgba(220, 38, 38, 0.5);
+}
+
+.quick-chip.chip-density.active {
+    background: linear-gradient(135deg, #d97706, #b45309);
+    border-color: #fde68a;
+    box-shadow: 0 2px 8px rgba(217, 119, 6, 0.5);
+}
+
+.quick-chip .badge-status {
+    font-size: 0.65rem;
+    padding: 1px 5px;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.quick-chip .badge-status.on {
+    background: #10b981;
+    color: #ffffff;
+}
+
+.quick-chip .badge-status.off {
+    background: rgba(255, 255, 255, 0.2);
+    color: #94a3b8;
+}
+
+/* ==========================================================================
+   Sidebar Section (Layer Tree & DSS Controls)
+   ========================================================================== */
+.portal-sidebar {
+    width: var(--sidebar-width);
+    height: 100%;
+    background: #ffffff;
+    border-right: 1px solid var(--portal-border);
+    display: flex;
+    flex-direction: column;
+    z-index: 1020;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    flex-shrink: 0;
+}
+
+.portal-sidebar.collapsed {
+    transform: translateX(-100%);
+}
+
+/* Sidebar Tab Navigation */
+.sidebar-tabs {
+    display: flex;
+    background: var(--portal-navy-dark);
+    border-bottom: 2px solid var(--portal-blue);
+}
+
+.tab-btn {
+    flex: 1;
+    background: transparent;
+    border: none;
+    color: #94a3b8;
+    padding: 10px 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    transition: all 0.2s ease;
+    border-bottom: 3px solid transparent;
+}
+
+.tab-btn i {
+    font-size: 0.85rem;
+}
+
+.tab-btn:hover {
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.tab-btn.active {
+    color: #ffffff;
+    background: rgba(0, 180, 216, 0.15);
+    border-bottom-color: var(--portal-cyan);
+}
+
+/* Tab Content Panes */
+.tab-pane {
+    display: none;
+    flex: 1;
+    overflow-y: auto;
+    padding: 12px;
+}
+
+.tab-pane.active {
+    display: block;
+}
+
+/* Global Actions in Layer Tab */
+.layer-search-container {
+    margin-bottom: 8px;
+}
+
+.layer-global-actions {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--portal-border);
+}
+
+.btn-action {
+    flex: 1;
+    background: #f1f5f9;
+    border: 1px solid #cbd5e1;
+    color: var(--portal-text-dark);
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 5px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    transition: all 0.2s ease;
+}
+
+.btn-action:hover {
+    background: #e2e8f0;
+    border-color: #94a3b8;
+}
+
+/* Accordion Layer Tree */
+.layer-tree {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.layer-group {
+    border: 1px solid var(--portal-border);
+    border-radius: 6px;
+    overflow: hidden;
+    background: #ffffff;
+}
+
+.group-header {
+    background: #f8fafc;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--portal-text-dark);
+    border-bottom: 1px solid transparent;
+    user-select: none;
+}
+
+.group-header:hover {
+    background: #f1f5f9;
+}
+
+.group-title {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.group-count {
+    background: #e2e8f0;
+    color: #475569;
+    padding: 2px 7px;
+    border-radius: 10px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    margin-right: 8px;
+}
+
+.group-arrow {
+    font-size: 0.7rem;
+    color: #94a3b8;
+    transition: transform 0.2s ease;
+}
+
+.group-header[aria-expanded="false"] .group-arrow {
+    transform: rotate(-90deg);
+}
+
+/* Layer Row Item Card */
+.group-layers-list {
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.layer-item-card {
+    background: #ffffff;
+    border: 1px solid var(--portal-border);
+    border-radius: 5px;
+    padding: 8px 10px;
+    transition: all 0.2s ease;
+}
+
+.layer-item-card:hover {
+    border-color: #93c5fd;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.layer-item-card.is-active {
+    border-left: 3px solid var(--portal-blue);
+    background: #f0f9ff;
+}
+
+.layer-row-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.layer-left-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: 1;
+    min-width: 0;
+}
+
+.layer-toggle-btn {
+    background: #e2e8f0;
+    border: none;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #64748b;
+    font-size: 0.75rem;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+}
+
+.layer-toggle-btn:hover {
+    background: #cbd5e1;
+    color: #334155;
+}
+
+.layer-toggle-btn.active {
+    background: var(--portal-blue);
+    color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 119, 182, 0.4);
+}
+
+.layer-name-title {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--portal-text-dark);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.layer-unit-tag {
+    font-size: 0.65rem;
+    color: #64748b;
+    font-weight: 400;
+}
+
+.layer-actions-group {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.btn-layer-icon {
+    background: transparent;
+    border: none;
+    color: #94a3b8;
+    width: 22px;
+    height: 22px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.15s ease;
+}
+
+.btn-layer-icon:hover {
+    color: var(--portal-blue);
+    background: #e2e8f0;
+}
+
+/* Layer Card Controls (Opacity & Legend Preview) */
+.layer-row-controls {
+    margin-top: 6px;
+    padding-top: 6px;
+    border-top: 1px dashed #e2e8f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.opacity-control-box {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex: 1;
+}
+
+.opacity-control-box span {
+    font-size: 0.7rem;
+    color: var(--portal-text-muted);
+}
+
+.layer-opacity-slider {
+    flex: 1;
+    height: 4px;
+}
+
+.legend-swatch-thumb {
+    width: 48px;
+    height: 10px;
+    border-radius: 2px;
+    border: 1px solid #cbd5e1;
+}
+
+/* ==========================================================================
+   Map Container
+   ========================================================================== */
+.portal-map-container {
+    flex: 1;
+    height: 100%;
+    position: relative;
+    background: #e2e8f0;
+}
+
+.map-view {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+/* Floating Status Dock (Coordinates & Scale) */
+.map-status-dock {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    z-index: 1000;
+    background: rgba(12, 35, 64, 0.85);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 4px 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.72rem;
+    color: #e2e8f0;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.coord-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.coord-divider {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+/* Floating Map Tools (Bottom-Right) */
+.floating-map-tools {
+    position: absolute;
+    bottom: 24px;
+    right: 16px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.map-tool-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 6px;
+    background: #ffffff;
+    border: 1px solid var(--portal-border);
+    color: var(--portal-text-dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+}
+
+.map-tool-btn:hover {
+    background: #f8fafc;
+    color: var(--portal-blue);
+    transform: scale(1.05);
+}
+
+/* ==========================================================================
+   Floating Interactive Legend Dock
+   ========================================================================== */
+.floating-legend-dock {
+    position: absolute;
+    bottom: 50px;
+    right: 60px;
+    z-index: 1000;
+    background: #ffffff;
+    border: 1px solid var(--portal-border);
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    width: 260px;
+    max-height: 420px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.legend-header {
+    background: var(--portal-navy);
+    color: #ffffff;
+    padding: 7px 12px;
+    font-size: 0.78rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: grab;
+}
+
+.legend-title {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.legend-header-actions button {
+    background: none;
+    border: none;
+    color: #94a3b8;
+    cursor: pointer;
+    padding: 2px;
+    font-size: 0.75rem;
+}
+
+.legend-header-actions button:hover {
+    color: #ffffff;
+}
+
+.legend-body {
+    padding: 10px;
+    overflow-y: auto;
+    max-height: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.legend-layer-block {
+    border-bottom: 1px dashed #e2e8f0;
+    padding-bottom: 8px;
+}
+
+.legend-layer-block:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.legend-layer-title {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--portal-text-dark);
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.legend-item-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.7rem;
+    color: #334155;
+    margin-bottom: 3px;
+}
+
+.legend-color-box {
+    width: 14px;
+    height: 14px;
+    border-radius: 2px;
+    border: 1px solid rgba(0,0,0,0.15);
+    flex-shrink: 0;
+}
+
+/* ==========================================================================
+   Measurement Floating HUD
+   ========================================================================== */
+.measurement-hud {
+    position: absolute;
+    top: 65px;
+    left: calc(var(--sidebar-width) + 20px);
+    z-index: 1010;
+    background: rgba(12, 35, 64, 0.92);
+    backdrop-filter: blur(8px);
+    border: 1px solid var(--portal-gold);
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 10px 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    min-width: 240px;
+}
+
+.hud-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: var(--portal-gold);
+    margin-bottom: 4px;
+}
+
+.btn-close-hud {
+    background: none;
+    border: none;
+    color: #94a3b8;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+.btn-close-hud:hover {
+    color: #ffffff;
+}
+
+.hud-value {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #38bdf8;
+}
+
+.hud-hint {
+    font-size: 0.68rem;
+    color: #94a3b8;
+    margin-top: 2px;
+}
+
+/* ==========================================================================
+   Upload Tab Drop Zone
+   ========================================================================== */
+.drop-zone {
+    border: 2px dashed #00b4d8;
+    background: #f0fdfa;
+    border-radius: 8px;
+    padding: 24px 16px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.drop-zone:hover, .drop-zone.dragover {
+    background: #ccfbf1;
+    border-color: #0d9488;
+}
+
+.format-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.format-badges .badge {
+    font-size: 0.68rem;
+    font-weight: 500;
+    padding: 5px 8px;
+}
+
+/* ==========================================================================
+   DSS Multi-Criteria Evaluation Styles
+   ========================================================================== */
+.dss-header-box h5 {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 1.05rem;
+}
+
+.weight-item {
+    margin-bottom: 10px;
+    background: #f8fafc;
+    border: 1px solid var(--portal-border);
+    border-radius: 6px;
+    padding: 8px 10px;
+}
+
+.weight-label-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.weight-val {
+    color: var(--portal-blue);
+    font-weight: 700;
+}
+
+.total-weight-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 10px;
+    background: #e2e8f0;
+    border-radius: 5px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.risk-bar-wrapper {
+    height: 12px;
+    border-radius: 6px;
+    overflow: hidden;
+    display: flex;
+    background: #e2e8f0;
+}
+
+.risk-stats-legend {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.risk-stats-legend .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+/* Empty hint */
+.empty-upload-hint {
+    text-align: center;
+    padding: 24px 12px;
+    color: #94a3b8;
+}
+
+.empty-upload-hint i {
+    font-size: 2rem;
+    margin-bottom: 8px;
+    color: #cbd5e1;
+}
+
+.empty-upload-hint p {
+    font-size: 0.75rem;
+    margin: 0;
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 992px) {
+    .btn-toggle-sidebar {
+        display: flex;
+    }
+
+    .portal-sidebar {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        box-shadow: 4px 0 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .quick-toggle-bar {
+        left: 16px;
+    }
+
+    .measurement-hud {
+        left: 16px;
+    }
+}
+
