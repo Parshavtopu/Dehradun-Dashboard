@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dehradun GIS - Layer Studio & Admin Hub</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rajdhani:wght@600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Leaflet 1.9.4 -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    
+    <!-- Studio Styles -->
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="studio-header">
+        <div class="studio-brand">
+            <svg class="portal-emblem" viewBox="0 0 100 100" width="38" height="38">
+                <circle cx="50" cy="50" r="46" fill="#0f172a" stroke="#0284c7" stroke-width="3"/>
+                <path d="M50 14 L84 76 L16 76 Z" fill="none" stroke="#38bdf8" stroke-width="3"/>
+                <circle cx="50" cy="50" r="12" fill="#0284c7"/>
+                <path d="M50 38 L50 62 M38 50 L62 50" stroke="#ffffff" stroke-width="2.5"/>
+            </svg>
+            <div>
+                <div class="studio-title">DEHRADUN GIS • LAYER STUDIO</div>
+                <div class="studio-subtitle">Data Management, Visual Styler & Live Sync</div>
+            </div>
+        </div>
+
+        <div class="studio-actions">
+            <!-- 1-Click Launch Dashboard -->
+            <button class="btn-studio-action btn-launch-live" id="btn-launch-dashboard" title="Open Main GIS Dashboard">
+                <i class="fa fa-external-link-alt"></i> Launch Dashboard
+            </button>
+            
+            <!-- 1-Click Share Link -->
+            <button class="btn-studio-action btn-share-link" id="btn-share-link" title="Copy Shareable Live Website URL">
+                <i class="fa fa-share-alt"></i> Share Link
+            </button>
+
+            <!-- 1-Click Save & Sync to Dashboard -->
+            <button class="btn-studio-action btn-sync-dashboard" id="btn-save-sync" title="Push all changes directly to the main dashboard">
+                <i class="fa fa-bolt"></i> Save & Sync to Dashboard
+            </button>
+
+            <!-- 1-Click Deploy / Git Push -->
+            <button class="btn-studio-action btn-git-push" id="btn-git-deploy" title="Deploy changes to live GitHub Pages">
+                <i class="fa fa-cloud-upload-alt"></i> Deploy to GitHub
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Workspace -->
+    <div class="studio-container">
+        
+        <!-- Left / Center Column: Data Inbox & Layer Management -->
+        <main class="studio-main-col">
+            
+            <!-- Incoming Files Staging Section -->
+            <section class="incoming-card">
+                <div class="incoming-header">
+                    <div class="incoming-title">
+                        <i class="fa fa-folder-open text-primary"></i> Incoming Data Staging Folder
+                        <span class="folder-path-pill"><i class="fa fa-folder"></i> data/incoming/</span>
+                    </div>
+                    <button class="btn btn-sm btn-outline-primary" id="btn-refresh-incoming">
+                        <i class="fa fa-sync-alt"></i> Refresh Folder
+                    </button>
+                </div>
+                <p class="small text-muted mb-2">
+                    Drop files into <code>Dehradun Dashboard/data/incoming/</code>. They will immediately appear below ready to import into the dashboard:
+                </p>
+                <div class="incoming-files-grid" id="incoming-files-list">
+                    <!-- Populated dynamically -->
+                </div>
+            </section>
+
+            <!-- Layer Management Tabs -->
+            <section class="layers-mgmt-card">
+                <div class="layers-mgmt-tabs">
+                    <button class="mgmt-tab-btn active" data-tab="vectors">
+                        <i class="fa fa-draw-polygon text-info"></i> Vector Layers
+                        <span class="badge-tab-count" id="count-vectors-tab">0</span>
+                    </button>
+                    <button class="mgmt-tab-btn" data-tab="rasters">
+                        <i class="fa fa-satellite-dish text-primary"></i> Raster Layers
+                        <span class="badge-tab-count" id="count-rasters-tab">0</span>
+                    </button>
+                    <button class="mgmt-tab-btn" data-tab="add-layer">
+                        <i class="fa fa-plus-circle text-success"></i> Add New Layer
+                    </button>
+                </div>
+
+                <div class="layers-tab-content">
+                    
+                    <!-- 1. Vector Layers Tab -->
+                    <div class="tab-pane active" id="pane-vectors">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="small text-muted">Manage vector boundaries, networks, and points. Click <strong>Edit Visuals</strong> to customize appearance.</span>
+                            <button class="btn btn-sm btn-outline-secondary" id="btn-reset-default-vectors" title="Reset to original vector manifest">
+                                <i class="fa fa-undo"></i> Reset Default Vectors
+                            </button>
+                        </div>
+                        <div class="layer-studio-list" id="list-vector-layers">
+                            <!-- Populated dynamically -->
+                        </div>
+                    </div>
+
+                    <!-- 2. Raster Layers Tab -->
+                    <div class="tab-pane d-none" id="pane-rasters">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="small text-muted">Manage hydrological models, slope, and flood risk rasters.</span>
+                            <button class="btn btn-sm btn-outline-secondary" id="btn-reset-default-rasters" title="Reset to original raster manifest">
+                                <i class="fa fa-undo"></i> Reset Default Rasters
+                            </button>
+                        </div>
+                        <div class="layer-studio-list" id="list-raster-layers">
+                            <!-- Populated dynamically -->
+                        </div>
+                    </div>
+
+                    <!-- 3. Add Layer Form Tab -->
+                    <div class="tab-pane d-none" id="pane-add-layer">
+                        <form id="form-add-layer" class="p-2">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label class="form-label small fw-bold">Layer Type</label>
+                                    <select class="form-select form-select-sm" id="input-new-type">
+                                        <option value="vector">Vector Layer (GeoJSON / Shapefile / CSV)</option>
+                                        <option value="raster">Raster Layer (GeoTIFF / PNG Overlay)</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label small fw-bold">Layer Name / Title</label>
+                                    <input type="text" class="form-control form-control-sm" id="input-new-name" placeholder="e.g. Evacuation Shelters & Relief Hubs" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label small fw-bold">Category</label>
+                                    <select class="form-select form-select-sm" id="input-new-category">
+                                        <option value="Demographics & Vulnerability">Demographics & Vulnerability</option>
+                                        <option value="Hydrology & Drainage">Hydrology & Drainage</option>
+                                        <option value="Hazard & Risk">Hazard & Risk</option>
+                                        <option value="Administrative & Geology">Administrative & Geology</option>
+                                        <option value="Built Environment & Utilities">Built Environment & Utilities</option>
+                                        <option value="User Uploaded Layers">User Uploaded Layers</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label small fw-bold">File Path / URL</label>
+                                    <input type="text" class="form-control form-control-sm" id="input-new-url" placeholder="data/incoming/sample_shelters.geojson" required>
+                                </div>
+                                <div class="col-md-12">
+                                    <label class="form-label small fw-bold">Description</label>
+                                    <textarea class="form-control form-control-sm" id="input-new-desc" rows="2" placeholder="Brief summary of what this layer represents..."></textarea>
+                                </div>
+                                <div class="col-md-4">
+                                    <label class="form-label small fw-bold">Primary Visual Color</label>
+                                    <input type="color" class="form-control form-control-color w-100" id="input-new-color" value="#0284c7">
+                                </div>
+                                <div class="col-md-4">
+                                    <label class="form-label small fw-bold">Default Active on Load</label>
+                                    <div class="form-check form-switch mt-2">
+                                        <input class="form-check-input" type="checkbox" id="input-new-active" checked>
+                                        <label class="form-check-label small" for="input-new-active">Turn ON by default</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 d-flex align-items-end">
+                                    <button type="submit" class="btn btn-primary btn-sm w-100 py-2 fw-bold">
+                                        <i class="fa fa-plus-circle"></i> Add Layer to Dashboard
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Right Column: Interactive Map Preview & Visual Styler -->
+        <aside class="studio-preview-col">
+            
+            <!-- Live Preview Map -->
+            <div class="preview-map-box">
+                <div class="preview-map-badge">
+                    <i class="fa fa-eye text-primary"></i> <span id="lbl-preview-layer-name">Select a layer to preview</span>
+                </div>
+                <div id="preview-map"></div>
+            </div>
+
+            <!-- Visual Styler Panel -->
+            <div class="styler-box" id="styler-container">
+                <div class="styler-header">
+                    <div class="styler-title">
+                        <i class="fa fa-palette text-warning"></i> Visual Styler
+                    </div>
+                    <span class="badge bg-primary" id="lbl-styler-layer-id">No Layer Selected</span>
+                </div>
+
+                <div id="styler-controls-body">
+                    <p class="text-muted small">Select any layer from the list on the left to customize its visual styles, colors, line weights, opacity, and legend.</p>
+                </div>
+            </div>
+
+        </aside>
+
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="studio-toast" id="studio-toast">
+        <i class="fa fa-check-circle text-success" id="toast-icon"></i>
+        <span id="toast-message">Action successful!</span>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="js/admin.js"></script>
+</body>
+</html>

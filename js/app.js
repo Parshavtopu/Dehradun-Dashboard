@@ -93,15 +93,39 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function loadManifests() {
+        let removedIds = new Set();
+        try {
+            const savedRemoved = localStorage.getItem('dehradun_removed_layers');
+            if (savedRemoved) removedIds = new Set(JSON.parse(savedRemoved));
+        } catch (e) {}
+
+        let customLayers = [];
+        try {
+            const savedCustom = localStorage.getItem('dehradun_custom_layers');
+            if (savedCustom) customLayers = JSON.parse(savedCustom);
+        } catch (e) {}
+
+        let styleOverrides = {};
+        try {
+            const savedStyles = localStorage.getItem('dehradun_layer_styles');
+            if (savedStyles) styleOverrides = JSON.parse(savedStyles);
+        } catch (e) {}
+
         // Fetch Raster Manifest
         fetch('data/raster_manifest.json')
             .then(res => res.json())
             .then(rasters => {
-                App.rasterManifest = rasters;
-                initRasterLayers(rasters);
+                let finalRasters = rasters.filter(r => !removedIds.has(r.id));
+                customLayers.filter(c => c.type === 'raster' && !removedIds.has(c.id)).forEach(c => finalRasters.push(c));
+                finalRasters.forEach(r => {
+                    if (styleOverrides[r.id]) Object.assign(r, styleOverrides[r.id]);
+                });
+
+                App.rasterManifest = finalRasters;
+                initRasterLayers(finalRasters);
 
                 // Initialize DSS Module with raster data
-                DSSModule.init(App.map, rasters);
+                DSSModule.init(App.map, finalRasters);
             })
             .catch(err => console.error('Error loading raster manifest:', err));
 
@@ -109,8 +133,14 @@ document.addEventListener('DOMContentLoaded', function () {
         fetch('data/vector_manifest.json')
             .then(res => res.json())
             .then(vectors => {
-                App.vectorManifest = vectors;
-                initVectorLayers(vectors);
+                let finalVectors = vectors.filter(v => !removedIds.has(v.id));
+                customLayers.filter(c => c.type !== 'raster' && !removedIds.has(c.id)).forEach(c => finalVectors.push(c));
+                finalVectors.forEach(v => {
+                    if (styleOverrides[v.id]) Object.assign(v, styleOverrides[v.id]);
+                });
+
+                App.vectorManifest = finalVectors;
+                initVectorLayers(finalVectors);
             })
             .catch(err => console.error('Error loading vector manifest:', err));
 
@@ -122,6 +152,46 @@ document.addEventListener('DOMContentLoaded', function () {
                 setupLandmarkSearch(landmarks);
             })
             .catch(err => console.error('Error loading landmarks:', err));
+
+        setupStudioSyncChannel();
+    }
+
+    let isStudioSyncSetup = false;
+    function setupStudioSyncChannel() {
+        if (isStudioSyncSetup) return;
+        isStudioSyncSetup = true;
+
+        const reloadHandler = () => {
+            // Remove active layers from map
+            for (let id in App.layers) {
+                if (App.layers[id] && App.layers[id].layerObj) {
+                    try { App.map.removeLayer(App.layers[id].layerObj); } catch (e) {}
+                }
+            }
+            App.layers = {};
+            // Clear UI lists
+            ['list-vulnerability-layers', 'list-hydro-layers', 'list-admin-layers', 'list-urban-layers', 'list-dss-rasters', 'list-user-uploads'].forEach(cid => {
+                const el = document.getElementById(cid);
+                if (el) el.innerHTML = '';
+            });
+            // Re-load manifests
+            loadManifests();
+        };
+
+        if (typeof BroadcastChannel !== 'undefined') {
+            const syncChannel = new BroadcastChannel('dehradun_sync_channel');
+            syncChannel.onmessage = (e) => {
+                if (e.data && (e.data.action === 'reload_layers' || e.data.type === 'sync_layers')) {
+                    reloadHandler();
+                }
+            };
+        }
+
+        window.addEventListener('storage', (e) => {
+            if (e.key && e.key.startsWith('dehradun_')) {
+                reloadHandler();
+            }
+        });
     }
 
     // 1. Initialize Raster Layers
@@ -842,6 +912,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
         document.getElementById('btn-reset-map-view')?.addEventListener('click', () => {
             App.map.setView([30.3244, 78.0418], 12);
+        });
+
+        // 1-Click Share Dashboard Link
+        document.getElementById('btn-share-dashboard')?.addEventListener('click', () => {
+            const url = 'https://parshavtopu.github.io/Dehradun-Dashboard/';
+            navigator.clipboard.writeText(url).then(() => {
+                alert(`🔗 Live Dashboard URL copied to clipboard!\n\n${url}`);
+            }).catch(() => {
+                prompt('Shareable Dashboard URL:', url);
+            });
         });
 
         // Floating Map Controls (Bottom-Right)

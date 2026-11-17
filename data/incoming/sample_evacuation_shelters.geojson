@@ -1,0 +1,61 @@
+{
+  "type": "FeatureCollection",
+  "name": "Dehradun Evacuation Shelters & Relief Hubs",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Parade Ground Relief Camp",
+        "capacity": 2500,
+        "type": "Primary Emergency Shelter",
+        "contact": "0135-2710334",
+        "amenities": "Medical, Food Supply, High Ground"
+      },
+      "geometry": { "type": "Point", "coordinates": [78.0435, 30.3242] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ranger Ground Evacuation Site",
+        "capacity": 1800,
+        "type": "Secondary Relief Camp",
+        "contact": "0135-2651122",
+        "amenities": "Water Filtration, Generator Backup"
+      },
+      "geometry": { "type": "Point", "coordinates": [78.0378, 30.3205] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pavilion Ground Shelter",
+        "capacity": 3000,
+        "type": "Major Assembly & Air Drop Zone",
+        "contact": "0135-2655555",
+        "amenities": "Helipad Access, Field Hospital"
+      },
+      "geometry": { "type": "Point", "coordinates": [78.0410, 30.3288] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ONGC Community Relief Center",
+        "capacity": 1200,
+        "type": "Western Sector Relief Hub",
+        "contact": "0135-2750011",
+        "amenities": "Indoor Hall, Food Ration"
+      },
+      "geometry": { "type": "Point", "coordinates": [78.0085, 30.3412] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Raipur Sports Stadium Safe Haven",
+        "capacity": 4000,
+        "type": "Eastern District Mega Camp",
+        "contact": "0135-2789123",
+        "amenities": "Full Emergency Services, Logistics Center"
+      },
+      "geometry": { "type": "Point", "coordinates": [78.0890, 30.3120] }
+    }
+  ]
+}

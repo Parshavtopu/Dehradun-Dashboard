@@ -1,4 +1,4 @@
-[
+ï»¿[
     {
         "url":  "data/vectors/slum_locations.geojson",
         "id":  "vec_slum_locations",
@@ -25,30 +25,30 @@
         "id":  "vec_population_density",
         "isChoropleth":  true,
         "category":  "Demographics \u0026 Vulnerability",
-        "description":  "Gross population density across all 100 municipal wards in persons per km².",
+        "description":  "Gross population density across all 100 municipal wards in persons per kmÂ².",
         "name":  "Ward Population Density",
         "activeDefault":  false,
         "densityProperty":  "population_density",
         "legend":  [
                        {
                            "color":  "#ffffb2",
-                           "label":  "\u003c 5,000 / km² (Peripheral)"
+                           "label":  "\u003c 5,000 / kmÂ² (Peripheral)"
                        },
                        {
                            "color":  "#fecc5c",
-                           "label":  "5,000 - 15,000 / km² (Moderate)"
+                           "label":  "5,000 - 15,000 / kmÂ² (Moderate)"
                        },
                        {
                            "color":  "#fd8d3c",
-                           "label":  "15,000 - 30,000 / km² (High)"
+                           "label":  "15,000 - 30,000 / kmÂ² (High)"
                        },
                        {
                            "color":  "#f03b20",
-                           "label":  "30,000 - 50,000 / km² (Very High)"
+                           "label":  "30,000 - 50,000 / kmÂ² (Very High)"
                        },
                        {
                            "color":  "#bd0026",
-                           "label":  "\u003e 50,000 / km² (Core Urban)"
+                           "label":  "\u003e 50,000 / kmÂ² (Core Urban)"
                        }
                    ]
     },
