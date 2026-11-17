@@ -885,4 +885,11 @@
         }, 3500);
     }
 
+    window.AdminStudio = {
+        getPreviewMap: () => previewMap,
+        getVectorLayers: () => vectorLayers,
+        getRasterLayers: () => rasterLayers,
+        getSelectedLayer: () => selectedLayer
+    };
+
 })();

@@ -20,6 +20,8 @@ document.addEventListener('DOMContentLoaded', function () {
         landmarks: [],
         activeMode: 'identify' // 'identify' | 'pan'
     };
+    window.App = App;
+    let isStudioSyncSetup = false;
 
     // Initialize Map
     initMap();
@@ -156,7 +158,6 @@ document.addEventListener('DOMContentLoaded', function () {
         setupStudioSyncChannel();
     }
 
-    let isStudioSyncSetup = false;
     function setupStudioSyncChannel() {
         if (isStudioSyncSetup) return;
         isStudioSyncSetup = true;
