@@ -648,37 +648,109 @@ body {
     background: #e2e8f0;
 }
 
+/* ==========================================================================
+   Toggle Layer Panel - Enhanced Opacity Sliders in 1-Click Toggle Section
+   ========================================================================== */
+
 /* Layer Card Controls (Opacity & Legend Preview) */
 .layer-row-controls {
-    margin-top: 6px;
-    padding-top: 6px;
+    margin-top: 7px;
+    padding-top: 7px;
     border-top: 1px dashed #e2e8f0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 8px;
+    gap: 9px;
 }
 
 .opacity-control-box {
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 8px;
     flex: 1;
 }
 
-.opacity-control-box span {
-    font-size: 0.7rem;
-    color: var(--portal-text-muted);
+.opacity-control-box .opacity-label {
+    font-size: 0.75rem;
+    color: #64748b;
+    display: flex;
+    align-items: center;
 }
 
+.opacity-val-badge {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: #0369a1;
+    background: #e0f2fe;
+    padding: 2px 6px;
+    border-radius: 4px;
+    min-width: 36px;
+    text-align: center;
+    user-select: none;
+}
+
+/* Slightly Bigger Slider in 1-Click Toggle Section */
 .layer-opacity-slider {
     flex: 1;
-    height: 4px;
+    height: 9px;
+    background: #e2e8f0;
+    border-radius: 6px;
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none;
+    transition: all 0.15s ease;
+    cursor: pointer;
+    margin: 0;
+}
+
+.layer-opacity-slider:hover {
+    background: #cbd5e1;
+}
+
+/* Custom WebKit Slider Thumb (Slightly Bigger, 18px) */
+.layer-opacity-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: var(--portal-blue);
+    border: 2.5px solid #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.15s ease, background 0.15s ease, box-shadow 0.15s ease;
+}
+
+.layer-opacity-slider::-webkit-slider-thumb:hover {
+    transform: scale(1.18);
+    box-shadow: 0 2px 8px rgba(0, 119, 182, 0.45);
+}
+
+.layer-opacity-slider:active::-webkit-slider-thumb {
+    transform: scale(1.22);
+    background: var(--portal-navy);
+}
+
+/* Custom Firefox Slider Thumb (Slightly Bigger, 18px) */
+.layer-opacity-slider::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: var(--portal-blue);
+    border: 2.5px solid #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.15s ease, background 0.15s ease, box-shadow 0.15s ease;
+}
+
+.layer-opacity-slider::-moz-range-thumb:hover {
+    transform: scale(1.18);
+    box-shadow: 0 2px 8px rgba(0, 119, 182, 0.45);
 }
 
 .legend-swatch-thumb {
     width: 48px;
-    height: 10px;
+    height: 12px;
     border-radius: 2px;
     border: 1px solid #cbd5e1;
 }

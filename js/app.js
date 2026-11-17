@@ -484,8 +484,9 @@ document.addEventListener('DOMContentLoaded', function () {
             </div>
             <div class="layer-row-controls">
                 <div class="opacity-control-box">
-                    <span>Opacity:</span>
-                    <input type="range" class="form-range layer-opacity-slider" id="slider-opacity-${id}" min="0" max="100" value="85">
+                    <span class="opacity-label" title="Opacity"><i class="fa fa-adjust"></i></span>
+                    <input type="range" class="form-range layer-opacity-slider" id="slider-opacity-${id}" min="0" max="100" value="85" title="Opacity: 85%">
+                    <span class="opacity-val-badge" id="val-opacity-${id}">85%</span>
                 </div>
                 ${legendThumbHtml}
             </div>
@@ -503,10 +504,14 @@ document.addEventListener('DOMContentLoaded', function () {
             zoomToLayer(id);
         });
 
-        // Opacity Slider
+        // Opacity Slider with live percentage badge
         const slider = card.querySelector(`#slider-opacity-${id}`);
+        const valBadge = card.querySelector(`#val-opacity-${id}`);
         slider.addEventListener('input', (e) => {
-            setLayerOpacity(id, e.target.value / 100.0);
+            const opVal = parseInt(e.target.value);
+            if (valBadge) valBadge.textContent = `${opVal}%`;
+            slider.setAttribute('title', `Opacity: ${opVal}%`);
+            setLayerOpacity(id, opVal / 100.0);
         });
 
         return card;
@@ -595,15 +600,18 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function setLayerOpacity(id, opacity) {
         const item = App.layers[id];
-        if (!item || !item.layerObj) return;
+        if (!item) return;
+        item.opacity = opacity;
 
-        if (item.layerObj.setOpacity) {
-            item.layerObj.setOpacity(opacity);
-        } else if (item.layerObj.setStyle) {
-            item.layerObj.setStyle({
-                opacity: opacity,
-                fillOpacity: opacity * 0.75
-            });
+        if (item.layerObj) {
+            if (item.layerObj.setOpacity) {
+                item.layerObj.setOpacity(opacity);
+            } else if (item.layerObj.setStyle) {
+                item.layerObj.setStyle({
+                    opacity: opacity,
+                    fillOpacity: opacity * 0.75
+                });
+            }
         }
     }
 
@@ -702,7 +710,17 @@ document.addEventListener('DOMContentLoaded', function () {
                     sampledCount++;
                     let displayVal = `${sampleVal} ${item.meta.unit || ''}`;
 
-                    if (id === 'flood_inundation') {
+                    if (id === 'flood_risk_model') {
+                        const riskLabels = {
+                            1: '<span class="badge bg-success">Class 1: Very Low Hazard</span>',
+                            2: '<span class="badge" style="background:#a8e6cf; color:#1b4332;">Class 2: Low Hazard</span>',
+                            3: '<span class="badge" style="background:#ffd3b6; color:#7f4f24;">Class 3: Moderate Hazard</span>',
+                            4: '<span class="badge" style="background:#ffaaa5; color:#6b2d2d;">Class 4: High Hazard</span>',
+                            5: '<span class="badge" style="background:#ff8b94; color:#5c1d24;">Class 5: Very High Hazard</span>',
+                            6: '<span class="badge bg-danger">Class 6: Extreme Inundation</span>'
+                        };
+                        displayVal = riskLabels[parseInt(sampleVal)] || `Class ${sampleVal}`;
+                    } else if (id === 'flood_inundation') {
                         if (sampleVal >= 2) displayVal = '<span class="badge bg-danger">High Inundation Risk</span>';
                         else if (sampleVal === 1) displayVal = '<span class="badge bg-primary">Moderate Risk</span>';
                         else displayVal = '<span class="badge bg-success">Safe / Low Risk</span>';

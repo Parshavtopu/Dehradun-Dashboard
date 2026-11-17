@@ -367,8 +367,9 @@ const UploadModule = (function () {
                 </div>
                 <div class="layer-row-controls">
                     <div class="opacity-control-box">
-                        <span>Opacity:</span>
-                        <input type="range" class="form-range layer-opacity-slider" id="slider-opacity-${layerId}" min="0" max="100" value="80">
+                        <span class="opacity-label" title="Opacity"><i class="fa fa-adjust"></i></span>
+                        <input type="range" class="form-range layer-opacity-slider" id="slider-opacity-${layerId}" min="0" max="100" value="80" title="Opacity: 80%">
+                        <span class="opacity-val-badge" id="val-opacity-${layerId}">80%</span>
                     </div>
                 </div>
             `;
@@ -396,10 +397,14 @@ const UploadModule = (function () {
                 removeUploadedLayer(layerId);
             });
 
-            // Opacity logic
+            // Opacity logic with live percentage badge
             const slider = card.querySelector(`#slider-opacity-${layerId}`);
+            const valBadge = card.querySelector(`#val-opacity-${layerId}`);
             slider.addEventListener('input', (e) => {
-                const op = e.target.value / 100.0;
+                const opVal = parseInt(e.target.value);
+                if (valBadge) valBadge.textContent = `${opVal}%`;
+                slider.setAttribute('title', `Opacity: ${opVal}%`);
+                const op = opVal / 100.0;
                 if (layer.setOpacity) layer.setOpacity(op);
                 else if (layer.setStyle) layer.setStyle({ fillOpacity: op * 0.4, opacity: op });
             });
