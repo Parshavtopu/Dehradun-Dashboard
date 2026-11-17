@@ -704,27 +704,160 @@
             showToast('⚡ Synced with Main Dashboard! Changes are live.', 'success');
         });
 
+        // 1-Click Export Catalog JSON (Works offline and on github.io)
+        document.getElementById('btn-export-catalog')?.addEventListener('click', () => {
+            const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(vectorLayers, null, 2));
+            const dlAnchorElem = document.createElement('a');
+            dlAnchorElem.setAttribute("href", dataStr);
+            dlAnchorElem.setAttribute("download", "vector_manifest_updated.json");
+            dlAnchorElem.click();
+            showToast('📥 Exported vector_manifest_updated.json', 'success');
+        });
+
         // 1-Click Deploy to GitHub
         document.getElementById('btn-git-deploy')?.addEventListener('click', async () => {
             showToast('Initiating GitHub deployment...', 'info');
+            
+            // Try local server git push endpoint first
+            let localSuccess = false;
             try {
                 const res = await fetch('/api/git-push', { method: 'POST' });
                 if (res.ok) {
-                    const data = await res.json();
+                    localSuccess = true;
                     showToast('🚀 Successfully pushed to GitHub Pages! Live site will update shortly.', 'success');
-                } else {
-                    showToast('Local server not running. Git push command queued.', 'warning');
+                    return;
                 }
-            } catch (e) {
-                showToast(`Pushed latest changes to GitHub! Live at: ${GITHUB_URL}`, 'success');
+            } catch (e) {}
+
+            // If running on github.io or local server not responding, check GitHub Personal Token
+            const token = localStorage.getItem('dehradun_gh_token');
+            if (token) {
+                try {
+                    showToast('Deploying directly via GitHub Cloud API...', 'info');
+                    // Get current sha for vector_manifest.json
+                    const getRes = await fetch('https://api.github.com/repos/Parshavtopu/Dehradun-Dashboard/contents/data/vector_manifest.json', {
+                        headers: { 'Authorization': `token ${token}` }
+                    });
+                    const getData = await getRes.json();
+                    const sha = getData.sha;
+                    const contentBase64 = btoa(unescape(encodeURIComponent(JSON.stringify(vectorLayers, null, 2))));
+
+                    const putRes = await fetch('https://api.github.com/repos/Parshavtopu/Dehradun-Dashboard/contents/data/vector_manifest.json', {
+                        method: 'PUT',
+                        headers: {
+                            'Authorization': `token ${token}`,
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({
+                            message: 'Update layer catalog via GitHub.io Studio',
+                            content: contentBase64,
+                            sha: sha
+                        })
+                    });
+
+                    if (putRes.ok) {
+                        showToast('🚀 Committed directly to GitHub repository from github.io!', 'success');
+                    } else {
+                        showToast('GitHub API commit error. Please check token permissions.', 'danger');
+                    }
+                } catch (err) {
+                    console.error('GitHub API error:', err);
+                    showToast('Failed to deploy via GitHub API.', 'danger');
+                }
+            } else {
+                // Open token modal
+                const modal = new bootstrap.Modal(document.getElementById('modal-github-settings'));
+                modal.show();
             }
         });
+
+        // Save GitHub Token
+        document.getElementById('btn-save-gh-token')?.addEventListener('click', () => {
+            const token = document.getElementById('input-gh-token')?.value.trim();
+            if (token) {
+                localStorage.setItem('dehradun_gh_token', token);
+                bootstrap.Modal.getInstance(document.getElementById('modal-github-settings'))?.hide();
+                showToast('GitHub Token saved securely in browser storage!', 'success');
+            }
+        });
+
+        // Dropzone & File Input for github.io
+        const dropzone = document.getElementById('studio-dropzone');
+        const fileInput = document.getElementById('studio-file-input');
+
+        if (dropzone && fileInput) {
+            dropzone.addEventListener('dragover', (e) => {
+                e.preventDefault();
+                dropzone.classList.add('dragover');
+            });
+            dropzone.addEventListener('dragleave', () => {
+                dropzone.classList.remove('dragover');
+            });
+            dropzone.addEventListener('drop', (e) => {
+                e.preventDefault();
+                dropzone.classList.remove('dragover');
+                if (e.dataTransfer.files && e.dataTransfer.files.length > 0) {
+                    handleStudioUploadedFiles(e.dataTransfer.files);
+                }
+            });
+            fileInput.addEventListener('change', (e) => {
+                if (e.target.files && e.target.files.length > 0) {
+                    handleStudioUploadedFiles(e.target.files);
+                }
+            });
+        }
 
         // Refresh Incoming
         document.getElementById('btn-refresh-incoming')?.addEventListener('click', () => {
             loadIncomingFiles();
             showToast('Refreshed incoming folder.');
         });
+    }
+
+    // Handle Uploaded Files on github.io
+    function handleStudioUploadedFiles(files) {
+        Array.from(files).forEach(file => {
+            const sizeKb = Math.round(file.size / 1024);
+            const objectUrl = URL.createObjectURL(file);
+            
+            const fileItem = {
+                name: file.name,
+                path: objectUrl,
+                size: `${sizeKb} KB (Cloud Upload)`
+            };
+
+            const container = document.getElementById('incoming-files-list');
+            if (container) {
+                const item = document.createElement('div');
+                item.className = 'incoming-file-item border-primary';
+                item.innerHTML = `
+                    <div class="incoming-file-info">
+                        <i class="fa fa-cloud-upload-alt text-success" style="font-size: 1.2rem;"></i>
+                        <div>
+                            <div class="incoming-file-name" title="${file.name}">${file.name}</div>
+                            <div class="incoming-file-type text-success font-weight-bold">${fileItem.size}</div>
+                        </div>
+                    </div>
+                    <button class="btn-import-file" data-path="${objectUrl}" data-name="${file.name}">
+                        <i class="fa fa-plus"></i> Import
+                    </button>
+                `;
+
+                item.querySelector('.btn-import-file').addEventListener('click', () => {
+                    const rawName = file.name;
+                    const cleanName = rawName.replace(/\.[^/.]+$/, '').replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+
+                    document.querySelector('.mgmt-tab-btn[data-tab="add-layer"]')?.click();
+                    document.getElementById('input-new-name').value = cleanName;
+                    document.getElementById('input-new-url').value = objectUrl;
+                    document.getElementById('input-new-desc').value = `Direct cloud upload: ${rawName}`;
+                    showToast(`Imported ${rawName} into Add Layer form!`);
+                });
+
+                container.insertBefore(item, container.firstChild);
+            }
+        });
+        showToast(`Loaded ${files.length} file(s) into Incoming section!`, 'success');
     }
 
     // 14. Toast Notification
