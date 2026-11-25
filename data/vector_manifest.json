@@ -1,264 +1,268 @@
-﻿[
-    {
-        "url":  "data/vectors/slum_locations.geojson",
-        "id":  "vec_slum_locations",
-        "pointRadius":  7,
-        "category":  "Demographics \u0026 Vulnerability",
-        "description":  "Recognized informal settlements (Malin Bastis) situated along high flood-risk riverbeds (Rispana \u0026 Bindal) and transport corridors.",
-        "icon":  "fa-campground",
-        "name":  "Slum Locations (Malin Bastis)",
-        "activeDefault":  true,
-        "pointColor":  "#e74c3c",
-        "legend":  [
-                       {
-                           "color":  "#e74c3c",
-                           "label":  "Critical Flood Hazard Slum"
-                       },
-                       {
-                           "color":  "#f39c12",
-                           "label":  "High Vulnerability Slum"
-                       }
-                   ]
-    },
-    {
-        "url":  "data/vectors/ward_population.geojson",
-        "id":  "vec_population_density",
-        "isChoropleth":  true,
-        "category":  "Demographics \u0026 Vulnerability",
-        "description":  "Gross population density across all 100 municipal wards in persons per km².",
-        "name":  "Ward Population Density",
-        "activeDefault":  false,
-        "densityProperty":  "population_density",
-        "legend":  [
-                       {
-                           "color":  "#ffffb2",
-                           "label":  "\u003c 5,000 / km² (Peripheral)"
-                       },
-                       {
-                           "color":  "#fecc5c",
-                           "label":  "5,000 - 15,000 / km² (Moderate)"
-                       },
-                       {
-                           "color":  "#fd8d3c",
-                           "label":  "15,000 - 30,000 / km² (High)"
-                       },
-                       {
-                           "color":  "#f03b20",
-                           "label":  "30,000 - 50,000 / km² (Very High)"
-                       },
-                       {
-                           "color":  "#bd0026",
-                           "label":  "\u003e 50,000 / km² (Core Urban)"
-                       }
-                   ]
-    },
-    {
-        "url":  "data/vectors/boundary_municipal.geojson",
-        "fillColor":  "transparent",
-        "id":  "vec_municipal_boundary",
-        "weight":  2.5,
-        "color":  "#2c3e50",
-        "category":  "Administrative \u0026 Boundaries",
-        "fillOpacity":  0,
-        "dashArray":  "6, 4",
-        "name":  "Municipal Boundary (Nagar Nigam)",
-        "activeDefault":  true,
-        "description":  "Statutory municipal administrative boundary of Dehradun Nagar Nigam.",
-        "legend":  [
-                       {
-                           "color":  "#2c3e50",
-                           "label":  "Municipal Administrative Boundary"
-                       }
-                   ]
-    },
-    {
-        "url":  "data/vectors/dehradun_aoi.geojson",
-        "fillColor":  "transparent",
-        "id":  "vec_study_area_aoi",
-        "weight":  2.5,
-        "color":  "#d97706",
-        "category":  "Administrative \u0026 Boundaries",
-        "fillOpacity":  0,
-        "dashArray":  "5, 5",
-        "name":  "Dehradun Study Area Extent (AOI)",
-        "activeDefault":  true,
-        "description":  "Watershed study area extent and boundary covering Greater Dehradun.",
-        "legend":  [
-                       {
-                           "color":  "#d97706",
-                           "label":  "Study Area AOI Extent"
-                       }
-                   ]
-    },
-    {
-        "url":  "data/vectors/lineaments.geojson",
-        "id":  "vec_lineaments",
-        "weight":  3.5,
-        "color":  "#8e44ad",
-        "category":  "Geology \u0026 Tectonics",
-        "description":  "Subsurface geological structural fault lines and major tectonic fracture traces across the Doon Valley.",
-        "dashArray":  "6, 4",
-        "name":  "Geological Fault Lineaments",
-        "activeDefault":  false,
-        "legend":  [
-                       {
-                           "color":  "#8e44ad",
-                           "label":  "Major Fault / Fracture Trace"
-                       }
-                   ]
-    },
-    {
-        "url":  "data/vectors/streams.geojson",
-        "id":  "vec_streams",
-        "weight":  2,
-        "color":  "#0284c7",
-        "category":  "Hydrology \u0026 Drainage",
-        "description":  "Stream drainage channels, tributaries, and river watercourses (Rispana, Bindal, Song, Tons).",
-        "name":  "Stream \u0026 River Drainage Network",
-        "activeDefault":  false,
-        "legend":  [
-                       {
-                           "color":  "#0284c7",
-                           "label":  "Natural Stream Drainage Network"
-                       }
-                   ]
-    },
-    {
-        "url":  "data/vectors/waterbodies.geojson",
-        "fillColor":  "#38bdf8",
-        "id":  "vec_waterbodies",
-        "weight":  2.5,
-        "color":  "#0369a1",
-        "category":  "Hydrology \u0026 Drainage",
-        "fillOpacity":  0.6,
-        "name":  "Water Bodies \u0026 Reservoirs",
-        "activeDefault":  false,
-        "description":  "Lakes, surface water retention reservoirs, wetlands, and riparian ponds.",
-        "legend":  [
-                       {
-                           "color":  "#0284c7",
-                           "label":  "Surface Water Bodies \u0026 Reservoirs"
-                       }
-                   ]
-    },
-    {
-        "url":  "data/vectors/buildings.geojson",
-        "fillColor":  "#94a3b8",
-        "id":  "vec_buildings",
-        "weight":  1,
-        "color":  "#475569",
-        "category":  "Built Environment",
-        "fillOpacity":  0.65,
-        "name":  "Building Footprints (81,497 Structures)",
-        "activeDefault":  false,
-        "description":  "Digitized building footprint polygons for urban exposure and flood vulnerability assessment.",
-        "legend":  [
-                       {
-                           "color":  "#64748b",
-                           "label":  "Built Structure Footprint"
-                       }
-                   ]
-    },
-    {
-        "url":  "data/vectors/stw_drain.geojson",
-        "id":  "vec_stw_drain",
-        "weight":  2,
-        "color":  "#4f46e5",
-        "category":  "Hydrology \u0026 Drainage",
-        "description":  "Primary natural and masonry drainage nullahs across the city.",
-        "dashArray":  "3, 3",
-        "name":  "Storm Water Drainage Network",
-        "activeDefault":  false,
-        "legend":  [
-                       {
-                           "color":  "#4f46e5",
-                           "label":  "Storm Water Drainage Nullahs"
-                       }
-                   ]
-    },
-    {
-        "url":  "data/vectors/city_bus_stop.geojson",
-        "id":  "vec_city_bus_stop",
-        "pointRadius":  5,
-        "category":  "Transportation \u0026 Mobility",
-        "description":  "Designated municipal public transit bus stops and passenger shelters.",
-        "icon":  "fa-bus",
-        "name":  "City Bus Stops \u0026 Transit Hubs",
-        "activeDefault":  false,
-        "pointColor":  "#f59e0b",
-        "legend":  [
-                       {
-                           "color":  "#f59e0b",
-                           "label":  "City Bus Stop"
-                       }
-                   ]
-    },
-    {
-        "url":  "data/vectors/swm_container.geojson",
-        "id":  "vec_swm_container",
-        "pointRadius":  5,
-        "category":  "Civic Infrastructure",
-        "description":  "Municipal solid waste collection bins and community compactor containers.",
-        "icon":  "fa-trash-alt",
-        "name":  "Solid Waste Management Containers",
-        "activeDefault":  false,
-        "pointColor":  "#10b981",
-        "legend":  [
-                       {
-                           "color":  "#10b981",
-                           "label":  "SWM Waste Bin"
-                       }
-                   ]
-    },
-    {
-        "url":  "data/vectors/fire_station.geojson",
-        "id":  "vec_fire_station",
-        "pointRadius":  7,
-        "category":  "Emergency \u0026 Safety",
-        "description":  "Operational emergency response fire brigade stations.",
-        "icon":  "fa-fire-extinguisher",
-        "name":  "Emergency Fire Stations",
-        "activeDefault":  false,
-        "pointColor":  "#dc2626",
-        "legend":  [
-                       {
-                           "color":  "#dc2626",
-                           "label":  "Emergency Fire Station"
-                       }
-                   ]
-    },
-    {
-        "url":  "data/vectors/scada_tubewell.geojson",
-        "id":  "vec_scada_tubewell",
-        "pointRadius":  5,
-        "category":  "Smart Utilities",
-        "description":  "Automated telemetry water tubewells and potable water supply installations.",
-        "icon":  "fa-tint",
-        "name":  "SCADA Water Tubewells",
-        "activeDefault":  false,
-        "pointColor":  "#06b6d4",
-        "legend":  [
-                       {
-                           "color":  "#06b6d4",
-                           "label":  "SCADA Tubewell Station"
-                       }
-                   ]
-    },
-    {
-        "url":  "data/vectors/environmental_sensor.geojson",
-        "id":  "vec_environmental_sensor",
-        "pointRadius":  5,
-        "category":  "Smart Utilities",
-        "description":  "Real-time ambient air quality and meteorological monitoring stations.",
-        "icon":  "fa-leaf",
-        "name":  "Environmental Monitoring Sensors",
-        "activeDefault":  false,
-        "pointColor":  "#059669",
-        "legend":  [
-                       {
-                           "color":  "#059669",
-                           "label":  "Air \u0026 Weather Sensor Station"
-                       }
-                   ]
-    }
+[
+  {
+    "url": "data/vectors/slum_locations.geojson",
+    "id": "vec_slum_locations",
+    "pointRadius": 4,
+    "category": "Demographics & Vulnerability",
+    "description": "Recognized informal settlements (Malin Bastis) situated along high flood-risk riverbeds (Rispana & Bindal) and transport corridors.",
+    "icon": "fa-campground",
+    "name": "Slum Locations ",
+    "activeDefault": true,
+    "pointColor": "#9b59b6",
+    "legend": [
+      {
+        "color": "#e74c3c",
+        "label": "Critical Flood Hazard Slum"
+      },
+      {
+        "color": "#f39c12",
+        "label": "High Vulnerability Slum"
+      }
+    ],
+    "color": "#9b59b6",
+    "fillColor": "#9b59b6",
+    "fillOpacity": 0.51,
+    "weight": 1
+  },
+  {
+    "url": "data/vectors/ward_population.geojson",
+    "id": "vec_population_density",
+    "isChoropleth": true,
+    "category": "Demographics & Vulnerability",
+    "description": "Gross population density across all 100 municipal wards in persons per km².",
+    "name": "Ward Population Density",
+    "activeDefault": false,
+    "densityProperty": "population_density",
+    "legend": [
+      {
+        "color": "#ffffb2",
+        "label": "< 5,000 / km² (Peripheral)"
+      },
+      {
+        "color": "#fecc5c",
+        "label": "5,000 - 15,000 / km² (Moderate)"
+      },
+      {
+        "color": "#fd8d3c",
+        "label": "15,000 - 30,000 / km² (High)"
+      },
+      {
+        "color": "#f03b20",
+        "label": "30,000 - 50,000 / km² (Very High)"
+      },
+      {
+        "color": "#bd0026",
+        "label": "> 50,000 / km² (Core Urban)"
+      }
+    ]
+  },
+  {
+    "url": "data/vectors/boundary_municipal.geojson",
+    "fillColor": "transparent",
+    "id": "vec_municipal_boundary",
+    "weight": 2.5,
+    "color": "#2c3e50",
+    "category": "Administrative & Boundaries",
+    "fillOpacity": 0,
+    "dashArray": "6, 4",
+    "name": "Municipal Boundary (Nagar Nigam)",
+    "activeDefault": true,
+    "description": "Statutory municipal administrative boundary of Dehradun Nagar Nigam.",
+    "legend": [
+      {
+        "color": "#2c3e50",
+        "label": "Municipal Administrative Boundary"
+      }
+    ]
+  },
+  {
+    "url": "data/vectors/dehradun_aoi.geojson",
+    "fillColor": "transparent",
+    "id": "vec_study_area_aoi",
+    "weight": 2.5,
+    "color": "#d97706",
+    "category": "Administrative & Boundaries",
+    "fillOpacity": 0,
+    "dashArray": "5, 5",
+    "name": "Dehradun Study Area Extent (AOI)",
+    "activeDefault": true,
+    "description": "Watershed study area extent and boundary covering Greater Dehradun.",
+    "legend": [
+      {
+        "color": "#d97706",
+        "label": "Study Area AOI Extent"
+      }
+    ]
+  },
+  {
+    "url": "data/vectors/lineaments.geojson",
+    "id": "vec_lineaments",
+    "weight": 3.5,
+    "color": "#8e44ad",
+    "category": "Geology & Tectonics",
+    "description": "Subsurface geological structural fault lines and major tectonic fracture traces across the Doon Valley.",
+    "dashArray": "6, 4",
+    "name": "Geological Fault Lineaments",
+    "activeDefault": false,
+    "legend": [
+      {
+        "color": "#8e44ad",
+        "label": "Major Fault / Fracture Trace"
+      }
+    ]
+  },
+  {
+    "url": "data/vectors/streams.geojson",
+    "id": "vec_streams",
+    "weight": 2,
+    "color": "#0284c7",
+    "category": "Hydrology & Drainage",
+    "description": "Stream drainage channels, tributaries, and river watercourses (Rispana, Bindal, Song, Tons).",
+    "name": "Stream & River Drainage Network",
+    "activeDefault": false,
+    "legend": [
+      {
+        "color": "#0284c7",
+        "label": "Natural Stream Drainage Network"
+      }
+    ]
+  },
+  {
+    "url": "data/vectors/waterbodies.geojson",
+    "fillColor": "#38bdf8",
+    "id": "vec_waterbodies",
+    "weight": 2.5,
+    "color": "#0369a1",
+    "category": "Hydrology & Drainage",
+    "fillOpacity": 0.6,
+    "name": "Water Bodies & Reservoirs",
+    "activeDefault": false,
+    "description": "Lakes, surface water retention reservoirs, wetlands, and riparian ponds.",
+    "legend": [
+      {
+        "color": "#0284c7",
+        "label": "Surface Water Bodies & Reservoirs"
+      }
+    ]
+  },
+  {
+    "url": "data/vectors/buildings.geojson",
+    "fillColor": "#94a3b8",
+    "id": "vec_buildings",
+    "weight": 1,
+    "color": "#475569",
+    "category": "Built Environment",
+    "fillOpacity": 0.65,
+    "name": "Building Footprints (81,497 Structures)",
+    "activeDefault": false,
+    "description": "Digitized building footprint polygons for urban exposure and flood vulnerability assessment.",
+    "legend": [
+      {
+        "color": "#64748b",
+        "label": "Built Structure Footprint"
+      }
+    ]
+  },
+  {
+    "url": "data/vectors/stw_drain.geojson",
+    "id": "vec_stw_drain",
+    "weight": 2,
+    "color": "#4f46e5",
+    "category": "Hydrology & Drainage",
+    "description": "Primary natural and masonry drainage nullahs across the city.",
+    "dashArray": "3, 3",
+    "name": "Storm Water Drainage Network",
+    "activeDefault": false,
+    "legend": [
+      {
+        "color": "#4f46e5",
+        "label": "Storm Water Drainage Nullahs"
+      }
+    ]
+  },
+  {
+    "url": "data/vectors/city_bus_stop.geojson",
+    "id": "vec_city_bus_stop",
+    "pointRadius": 5,
+    "category": "Transportation & Mobility",
+    "description": "Designated municipal public transit bus stops and passenger shelters.",
+    "icon": "fa-bus",
+    "name": "City Bus Stops & Transit Hubs",
+    "activeDefault": false,
+    "pointColor": "#f59e0b",
+    "legend": [
+      {
+        "color": "#f59e0b",
+        "label": "City Bus Stop"
+      }
+    ]
+  },
+  {
+    "url": "data/vectors/swm_container.geojson",
+    "id": "vec_swm_container",
+    "pointRadius": 5,
+    "category": "Civic Infrastructure",
+    "description": "Municipal solid waste collection bins and community compactor containers.",
+    "icon": "fa-trash-alt",
+    "name": "Solid Waste Management Containers",
+    "activeDefault": false,
+    "pointColor": "#10b981",
+    "legend": [
+      {
+        "color": "#10b981",
+        "label": "SWM Waste Bin"
+      }
+    ]
+  },
+  {
+    "url": "data/vectors/fire_station.geojson",
+    "id": "vec_fire_station",
+    "pointRadius": 7,
+    "category": "Emergency & Safety",
+    "description": "Operational emergency response fire brigade stations.",
+    "icon": "fa-fire-extinguisher",
+    "name": "Emergency Fire Stations",
+    "activeDefault": false,
+    "pointColor": "#dc2626",
+    "legend": [
+      {
+        "color": "#dc2626",
+        "label": "Emergency Fire Station"
+      }
+    ]
+  },
+  {
+    "url": "data/vectors/scada_tubewell.geojson",
+    "id": "vec_scada_tubewell",
+    "pointRadius": 5,
+    "category": "Smart Utilities",
+    "description": "Automated telemetry water tubewells and potable water supply installations.",
+    "icon": "fa-tint",
+    "name": "SCADA Water Tubewells",
+    "activeDefault": false,
+    "pointColor": "#06b6d4",
+    "legend": [
+      {
+        "color": "#06b6d4",
+        "label": "SCADA Tubewell Station"
+      }
+    ]
+  },
+  {
+    "url": "data/vectors/environmental_sensor.geojson",
+    "id": "vec_environmental_sensor",
+    "pointRadius": 5,
+    "category": "Smart Utilities",
+    "description": "Real-time ambient air quality and meteorological monitoring stations.",
+    "icon": "fa-leaf",
+    "name": "Environmental Monitoring Sensors",
+    "activeDefault": false,
+    "pointColor": "#059669",
+    "legend": [
+      {
+        "color": "#059669",
+        "label": "Air & Weather Sensor Station"
+      }
+    ]
+  }
 ]
